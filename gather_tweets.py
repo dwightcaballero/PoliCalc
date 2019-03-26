@@ -1,9 +1,19 @@
 import TwitterSearch as ts
 import twitter_credentials as tc
 import json
+from datetime import date
+
+
+def save_tweets(json_data, file_name):
+    with open(file_name, 'w') as json_file:
+        json.dump(json_data, json_file, indent=4, sort_keys=True)
+
+
+key1 = 'duterte'
+key2 = 'drug'
 
 tso = ts.TwitterSearchOrder()
-tso.set_keywords(['Duterte', 'Poverty'])
+tso.set_keywords([key1, key2])
 tso.arguments.update({'tweet_mode': 'extended'})
 
 api = ts.TwitterSearch(
@@ -13,6 +23,8 @@ api = ts.TwitterSearch(
     access_token_secret=tc.access_token_secret
 )
 
+json_data = {}
+json_data["data"] = []
 for tweet in api.search_tweets_iterable(tso):
     if tweet['user']['verified']:
         try:
@@ -68,17 +80,16 @@ for tweet in api.search_tweets_iterable(tso):
         json_temp_text = json_temp_text.decode('utf-8')
         json_temp_text = json_temp_text.replace('\n', "").replace('\"', "").strip()
 
-        json_data = {
+        json_data['data'].append({
             'tweet_text': json_temp_text,
             'tweet_id': tweet['id'],
             'tweet_created': tweet['created_at'],
             'tweet_loc': tweet['coordinates'],
             'user_id': tweet['user']['id'],
-            'user_creajson_temp_text = ted': tweet['user']['created_at'],
+            'user_created': tweet['user']['created_at'],
             'user_verified': tweet['user']['verified'],
             'user_loc': tweet['user']['location']
-        }
+        })
 
-        with open('tweets.json', 'a') as json_file:
-            json_file.write(json.dumps(json_data, indent=4, sort_keys=True))
-            json_file.write('\n')
+file_name = key1+'_'+key2+'('+str(date.today())+').json'
+save_tweets(json_data, file_name)
