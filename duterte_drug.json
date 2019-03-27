@@ -1,6 +1,526 @@
 {
     "data": [
         {
+            "tweet_created": "Wed Mar 27 13:20:34 +0000 2019",
+            "tweet_id": 1110894381416906753,
+            "tweet_loc": null,
+            "tweet_text": "Youth leaders protest drug war on eve of Duterte's birthday |",
+            "user_created": "Mon Sep 15 16:27:24 +0000 2014",
+            "user_id": 2811559122,
+            "user_loc": "",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 12:38:10 +0000 2019",
+            "tweet_id": 1110883710277054466,
+            "tweet_loc": null,
+            "tweet_text": "Probe drug allegations involving ex-adviser of President Duterte: Philippine lawmakers",
+            "user_created": "Thu May 07 09:14:43 +0000 2009",
+            "user_id": 38400130,
+            "user_loc": "Singapore",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 12:35:00 +0000 2019",
+            "tweet_id": 1110882912893722625,
+            "tweet_loc": null,
+            "tweet_text": "De Lima to Duterte: Stop diverting Yangs drug links",
+            "user_created": "Tue May 12 07:14:09 +0000 2009",
+            "user_id": 39453212,
+            "user_loc": "Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 12:33:23 +0000 2019",
+            "tweet_id": 1110882505949798400,
+            "tweet_loc": null,
+            "tweet_text": "Pang. Rodrigo Duterte, hinamon ni Sen.  na paimbistigahan ang umano'y drug links ni Michael Yang. | via",
+            "user_created": "Thu Jan 12 08:18:11 +0000 2012",
+            "user_id": 461853598,
+            "user_loc": "Republic of the Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 12:20:15 +0000 2019",
+            "tweet_id": 1110879201328926720,
+            "tweet_loc": null,
+            "tweet_text": "Probe drug claims against ex-adviser of Philippines' Duterte: Lawmakers",
+            "user_created": "Thu May 07 09:14:43 +0000 2009",
+            "user_id": 38400130,
+            "user_loc": "Singapore",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 11:20:35 +0000 2019",
+            "tweet_id": 1110864186513358849,
+            "tweet_loc": null,
+            "tweet_text": "Ex-Police Official Accuses Two  Chinese Associates of Drug Crimes via",
+            "user_created": "Fri Aug 31 16:10:16 +0000 2012",
+            "user_id": 794165202,
+            "user_loc": "Hong Kong",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 11:03:03 +0000 2019",
+            "tweet_id": 1110859774986342402,
+            "tweet_loc": null,
+            "tweet_text": "PDEA Chief Aaron Aquino confirms he received the intelligence report against presidential adviser Michael Yang and submitted it to Malacaang",
+            "user_created": "Thu Jul 07 06:34:10 +0000 2011",
+            "user_id": 330826792,
+            "user_loc": "Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 11:02:42 +0000 2019",
+            "tweet_id": 1110859683793788928,
+            "tweet_loc": null,
+            "tweet_text": "PNP Chief Albayalde: Pulis na binaril sa EDSA San Juan, dating nasa drug watchlist ni Pang. Duterte | ulat ni",
+            "user_created": "Fri Jun 11 05:56:03 +0000 2010",
+            "user_id": 154426751,
+            "user_loc": "Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 10:19:10 +0000 2019",
+            "tweet_id": 1110848728397541378,
+            "tweet_loc": null,
+            "tweet_text": "Duterte hits back at former anti-drug agent Acierto |",
+            "user_created": "Mon Sep 15 16:27:24 +0000 2014",
+            "user_id": 2811559122,
+            "user_loc": "",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 10:09:31 +0000 2019",
+            "tweet_id": 1110846302965755905,
+            "tweet_loc": null,
+            "tweet_text": "My country is a mess. -thousands of innocents killed, including women &amp; children in an ineffective but bloody war on drugs. Ineffective because no less than Duterte, who promised that the drug problem will be solved in 3 to 6 months admitted it has gotten even worse;",
+            "user_created": "Mon Mar 27 14:58:16 +0000 2017",
+            "user_id": 846375823535816706,
+            "user_loc": "National Capital Region, Repub",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 09:17:17 +0000 2019",
+            "tweet_id": 1110833156440100864,
+            "tweet_loc": null,
+            "tweet_text": "The impression of President Rodrigo Duterte and the public that the drug situation in the country is worsening is just normal, the PDEA said. |",
+            "user_created": "Wed Jul 16 00:36:41 +0000 2008",
+            "user_id": 15448383,
+            "user_loc": "Makati City",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 09:10:01 +0000 2019",
+            "tweet_id": 1110831327052513280,
+            "tweet_loc": null,
+            "tweet_text": "Duterte to bury Michael Yang alive; clears businessman of drug involvement",
+            "user_created": "Thu Jul 10 07:55:26 +0000 2008",
+            "user_id": 15375209,
+            "user_loc": "Manila, Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 07:44:00 +0000 2019",
+            "tweet_id": 1110809682715697153,
+            "tweet_loc": null,
+            "tweet_text": "Q2: Who is the dismissed cop who has come forward, claiming that the Duterte government ignored an intelligence report on presidential adviser Michael Yang's drug links?",
+            "user_created": "Thu Jul 07 06:34:10 +0000 2011",
+            "user_id": 330826792,
+            "user_loc": "Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 07:36:57 +0000 2019",
+            "tweet_id": 1110807907157700608,
+            "tweet_loc": null,
+            "tweet_text": "Duterte: Drug crisis is worseningPanelo: Gumagaling mga kalabanSalbakuta: Stupeeeeeeedddddd!",
+            "user_created": "Mon Mar 27 14:58:16 +0000 2017",
+            "user_id": 846375823535816706,
+            "user_loc": "National Capital Region, Repub",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 07:36:49 +0000 2019",
+            "tweet_id": 1110807872865095680,
+            "tweet_loc": null,
+            "tweet_text": "He said that there is no evidence which proves that Yang is involved in the illegal drug trade.",
+            "user_created": "Sat Jun 16 04:40:42 +0000 2012",
+            "user_id": 609694714,
+            "user_loc": "Metro Manila, Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 07:15:00 +0000 2019",
+            "tweet_id": 1110802382168821760,
+            "tweet_loc": null,
+            "tweet_text": "Cop gunned down in EDSA-Connecticut was on Duterte drug watch list Albayalde",
+            "user_created": "Tue May 12 07:14:09 +0000 2009",
+            "user_id": 39453212,
+            "user_loc": "Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 07:00:00 +0000 2019",
+            "tweet_id": 1110798607614013440,
+            "tweet_loc": null,
+            "tweet_text": "PDEA chief: 'Michael Yang' in drug database not Duterte ex-adviser",
+            "user_created": "Mon Jan 23 16:37:30 +0000 2012",
+            "user_id": 472122299,
+            "user_loc": "Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 05:00:59 +0000 2019",
+            "tweet_id": 1110768655732826112,
+            "tweet_loc": null,
+            "tweet_text": "PDEA chief Aquino said he asked his regional director in the Davao region 11 to probe drug allegations against Yang but found no evidence. |",
+            "user_created": "Wed Jul 16 00:36:41 +0000 2008",
+            "user_id": 15448383,
+            "user_loc": "Makati City",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 04:49:57 +0000 2019",
+            "tweet_id": 1110765881938763776,
+            "tweet_loc": null,
+            "tweet_text": "Change your strategy then. Stop killing and start catching the drug lords/shipper &gt; PNP agrees with Duterte that Philippine drug situation has worsened",
+            "user_created": "Sat Aug 28 04:16:55 +0000 2010",
+            "user_id": 183894985,
+            "user_loc": "Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 04:47:27 +0000 2019",
+            "tweet_id": 1110765251996192769,
+            "tweet_loc": null,
+            "tweet_text": "And just like that, Dutertes friends are off the hook.",
+            "user_created": "Mon Feb 02 12:07:47 +0000 2015",
+            "user_id": 3012040251,
+            "user_loc": "Manila, Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 04:40:00 +0000 2019",
+            "tweet_id": 1110763374944518149,
+            "tweet_loc": null,
+            "tweet_text": "Authorities on Wednesday disclosed that a total of 5,281 suspected drug personalities have been killed in the governments war on drugs since President Rodrigo Duterte assumed office in 2016.",
+            "user_created": "Tue May 12 07:14:09 +0000 2009",
+            "user_id": 39453212,
+            "user_loc": "Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 04:12:00 +0000 2019",
+            "tweet_id": 1110756328505368579,
+            "tweet_loc": null,
+            "tweet_text": "PDEA clears ex-Duterte aide of drug involvement amid expos",
+            "user_created": "Sat Aug 16 10:09:33 +0000 2008",
+            "user_id": 15872418,
+            "user_loc": "Manila, Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 04:06:36 +0000 2019",
+            "tweet_id": 1110754972025511936,
+            "tweet_loc": null,
+            "tweet_text": "PDEA clears ex-Duterte aide of drug involvement amid expos",
+            "user_created": "Thu Jun 04 21:26:24 +0000 2009",
+            "user_id": 44728980,
+            "user_loc": "Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 03:48:26 +0000 2019",
+            "tweet_id": 1110750399047176192,
+            "tweet_loc": null,
+            "tweet_text": "PDEA chief: 'Michael Yang' in drug database not Duterte ex-adviser",
+            "user_created": "Thu Jul 09 02:48:17 +0000 2009",
+            "user_id": 55118669,
+            "user_loc": "Manila, Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 02:50:16 +0000 2019",
+            "tweet_id": 1110735761429520384,
+            "tweet_loc": null,
+            "tweet_text": "Senators and senatorial aspirants are calling on the Duterte administration to investigate former presidential economic adviser Michael Yang before dismissing his alleged drug ties.",
+            "user_created": "Mon Sep 15 16:27:24 +0000 2014",
+            "user_id": 2811559122,
+            "user_loc": "",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 02:46:34 +0000 2019",
+            "tweet_id": 1110734829727834112,
+            "tweet_loc": null,
+            "tweet_text": "Change your strategy then. Stop killing and start catching the drug lords/shipper &gt; PNP agrees with Duterte that Philippine drug situation has worsened",
+            "user_created": "Mon Apr 09 01:49:03 +0000 2007",
+            "user_id": 3840981,
+            "user_loc": "Makati City, Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 02:45:04 +0000 2019",
+            "tweet_id": 1110734452739706880,
+            "tweet_loc": null,
+            "tweet_text": "Philippine President Rodrigo Duterte on Tuesday accused a dismissed police colonel, who had publicly criticized him and his deadly anti-drug campaign, of criminal involvement and said he wanted to know why the former officer is still alive",
+            "user_created": "Thu Aug 27 02:15:51 +0000 2009",
+            "user_id": 69172612,
+            "user_loc": "Saudi Arabia",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 02:25:20 +0000 2019",
+            "tweet_id": 1110729487673491456,
+            "tweet_loc": null,
+            "tweet_text": "Senate President  sees President Dutertes admission of a stronger illegal drug trade in the country as an expression of frustration perhaps, not weakness | via",
+            "user_created": "Sat Aug 16 10:09:33 +0000 2008",
+            "user_id": 15872418,
+            "user_loc": "Manila, Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 02:03:00 +0000 2019",
+            "tweet_id": 1110723864667947009,
+            "tweet_loc": null,
+            "tweet_text": "On The President's Orders offers a searing, on-the-ground look at President Rodrigo Duterte's bloody campaign against suspected drug users and dealers in the Philippines.It premieres at , and a broadcast version is coming to FRONTLINE.",
+            "user_created": "Wed Aug 27 19:42:59 +0000 2008",
+            "user_id": 16016427,
+            "user_loc": "",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 01:49:35 +0000 2019",
+            "tweet_id": 1110720491226955776,
+            "tweet_loc": null,
+            "tweet_text": "You are a f idiot, President Rodrigo Duterte told dismissed former deputy director for administration of the PNP Drug Enforcement Group Eduardo Acierto. |",
+            "user_created": "Fri Mar 20 05:29:24 +0000 2009",
+            "user_id": 25466651,
+            "user_loc": "Manila",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 01:46:13 +0000 2019",
+            "tweet_id": 1110719641582657536,
+            "tweet_loc": null,
+            "tweet_text": "Panelo: Unless there's proof of drug links, Michael Yang has Duterte's trust",
+            "user_created": "Fri Mar 20 05:29:24 +0000 2009",
+            "user_id": 25466651,
+            "user_loc": "Manila",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 01:39:50 +0000 2019",
+            "tweet_id": 1110718033998151682,
+            "tweet_loc": null,
+            "tweet_text": "Duterte: Philippines drug situation has worsened",
+            "user_created": "Fri Mar 20 05:29:24 +0000 2009",
+            "user_id": 25466651,
+            "user_loc": "Manila",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 01:25:49 +0000 2019",
+            "tweet_id": 1110714506286514176,
+            "tweet_loc": null,
+            "tweet_text": "Kung galit ka talaga sa ilegal na droga at sa drug users at pushers, patunayan mo yan ngayon Mr. Duterte, at paimbestigahan si Yang. Hindi yung puro mahihirap at walang kalaban-laban ang pinagdidiskitahan mo. 5/5 READ the full text, here:",
+            "user_created": "Thu May 14 02:33:37 +0000 2015",
+            "user_id": 3194895259,
+            "user_loc": "",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 01:25:48 +0000 2019",
+            "tweet_id": 1110714504701079552,
+            "tweet_loc": null,
+            "tweet_text": "Tila napakadali kay Mr. Duterte na balewalain ang intel report ni Acierto kasi mukhang nakikinabang siya sa drug war na ginawa ng negosyo ng mga taong halang ang bituka. [4/5]",
+            "user_created": "Thu May 14 02:33:37 +0000 2015",
+            "user_id": 3194895259,
+            "user_loc": "",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 01:25:48 +0000 2019",
+            "tweet_id": 1110714503216271360,
+            "tweet_loc": null,
+            "tweet_text": "Ito nga kaya ay dahil si Pangulong Duterte mismo ang Number 1 drug lord o protector ng mga drug lords sa bansa? [3/5]",
+            "user_created": "Thu May 14 02:33:37 +0000 2015",
+            "user_id": 3194895259,
+            "user_loc": "",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 01:25:47 +0000 2019",
+            "tweet_id": 1110714501400190978,
+            "tweet_loc": null,
+            "tweet_text": "Almost three years since he launched his anti-narcotics campaign, Duterte still failed to apprehend big-time drug users and pushers who continue to profit from illegal activities, while he persistently targets the poor. [2/5]",
+            "user_created": "Thu May 14 02:33:37 +0000 2015",
+            "user_id": 3194895259,
+            "user_loc": "",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 01:05:42 +0000 2019",
+            "tweet_id": 1110709447377076225,
+            "tweet_loc": null,
+            "tweet_text": "PDEA chief Aaron Aquino reveals they investigated the report of former Senior Supt. Eduardo Acierto linking President Duterte's economic adviser to illegal drugs, but the agency found another Michael Yang, who is an alleged drug pusher in Pangasinan.",
+            "user_created": "Thu Jun 04 21:26:24 +0000 2009",
+            "user_id": 44728980,
+            "user_loc": "Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Wed Mar 27 00:55:57 +0000 2019",
+            "tweet_id": 1110706992669057025,
+            "tweet_loc": null,
+            "tweet_text": "Beware of this. Theyre laying the groundwork for more killings to distract us from China and Acierto issues. PNP agrees with Duterte that Philippine drug situation has worsened | Inquirer News",
+            "user_created": "Sat Aug 28 04:16:55 +0000 2010",
+            "user_id": 183894985,
+            "user_loc": "Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Tue Mar 26 23:57:59 +0000 2019",
+            "tweet_id": 1110692402438770689,
+            "tweet_loc": null,
+            "tweet_text": "Duterte: Philippines drug situation has worsened",
+            "user_created": "Fri May 11 16:13:49 +0000 2007",
+            "user_id": 5966412,
+            "user_loc": "WeChat ID: dave-lucas",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Tue Mar 26 23:55:27 +0000 2019",
+            "tweet_id": 1110691768603824128,
+            "tweet_loc": null,
+            "tweet_text": "Duterte: Philippines drug situation has worsened",
+            "user_created": "Mon Jan 23 16:37:30 +0000 2012",
+            "user_id": 472122299,
+            "user_loc": "Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Tue Mar 26 23:00:00 +0000 2019",
+            "tweet_id": 1110677813747769353,
+            "tweet_loc": null,
+            "tweet_text": "Senatorial candidates under the Otso Diretso opposition coalition urged the Office of the Ombudsman to hold its own investigation on the claims that former presidential adviser Michael Yang was involved in the illegal drug trade.",
+            "user_created": "Tue May 12 07:14:09 +0000 2009",
+            "user_id": 39453212,
+            "user_loc": "Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Tue Mar 26 21:36:42 +0000 2019",
+            "tweet_id": 1110656848569360385,
+            "tweet_loc": null,
+            "tweet_text": "Duterte: Philippines drug situation has worsened",
+            "user_created": "Thu Jul 09 02:48:17 +0000 2009",
+            "user_id": 55118669,
+            "user_loc": "Manila, Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Tue Mar 26 20:30:00 +0000 2019",
+            "tweet_id": 1110640062608351232,
+            "tweet_loc": null,
+            "tweet_text": "Ganti lang: Palasyo sa drug rap vs ex-Duterte adviser",
+            "user_created": "Sat Aug 16 10:09:33 +0000 2008",
+            "user_id": 15872418,
+            "user_loc": "Manila, Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Tue Mar 26 20:00:29 +0000 2019",
+            "tweet_id": 1110632636492537856,
+            "tweet_loc": null,
+            "tweet_text": "PNP takes statement of Duterte on worsening drug problem a challenge",
+            "user_created": "Thu Jul 10 07:55:26 +0000 2008",
+            "user_id": 15375209,
+            "user_loc": "Manila, Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Tue Mar 26 19:00:00 +0000 2019",
+            "tweet_id": 1110617414763507713,
+            "tweet_loc": null,
+            "tweet_text": "Ganti lang: Palasyo sa drug rap vs ex-Duterte adviser",
+            "user_created": "Tue Nov 24 02:03:16 +0000 2009",
+            "user_id": 92174767,
+            "user_loc": "ABS-CBN, Diliman, Quezon City",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Tue Mar 26 19:00:00 +0000 2019",
+            "tweet_id": 1110617414444744712,
+            "tweet_loc": null,
+            "tweet_text": "Panelo: Unless there's proof of drug links, Michael Yang has Duterte's trust",
+            "user_created": "Mon Jan 23 16:37:30 +0000 2012",
+            "user_id": 472122299,
+            "user_loc": "Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Tue Mar 26 16:43:47 +0000 2019",
+            "tweet_id": 1110583133114720256,
+            "tweet_loc": null,
+            "tweet_text": "On The President's Orders, a searing, on-the-ground look at President Rodrigo Duterte's bloody campaign against suspected drug users and dealers in the Philippines, premieres this week at . A broadcast version is coming soon to FRONTLINE.",
+            "user_created": "Wed Aug 27 19:42:59 +0000 2008",
+            "user_id": 16016427,
+            "user_loc": "",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Tue Mar 26 14:52:48 +0000 2019",
+            "tweet_id": 1110555205471473664,
+            "tweet_loc": null,
+            "tweet_text": "On The President's Orders, a searing, on-the-ground look at President Rodrigo Duterte's bloody campaign against suspected drug users and dealers in the Philippines, premieres this week at . A broadcast version is coming soon to FRONTLINE. TRAILER:",
+            "user_created": "Wed Aug 27 19:42:59 +0000 2008",
+            "user_id": 16016427,
+            "user_loc": "",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Tue Mar 26 14:45:00 +0000 2019",
+            "tweet_id": 1110553240935063553,
+            "tweet_loc": null,
+            "tweet_text": "Duterte will kill Yang if drug links proven, says spokesman",
+            "user_created": "Tue May 12 07:14:09 +0000 2009",
+            "user_id": 39453212,
+            "user_loc": "Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Tue Mar 26 14:30:00 +0000 2019",
+            "tweet_id": 1110549468221452288,
+            "tweet_loc": null,
+            "tweet_text": "President Rodrigo Duterte admits that the country's drug problem had worsened, and even warned that the Philippines could be the next Mexico which is supposedly controlled by drug cartels.",
+            "user_created": "Mon Sep 15 16:27:24 +0000 2014",
+            "user_id": 2811559122,
+            "user_loc": "",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Tue Mar 26 14:01:50 +0000 2019",
+            "tweet_id": 1110542377263886337,
+            "tweet_loc": null,
+            "tweet_text": "Make sure to read from Rapplers series of investigations on the drug war.",
+            "user_created": "Thu Jul 07 06:34:10 +0000 2011",
+            "user_id": 330826792,
+            "user_loc": "Philippines",
+            "user_verified": true
+        },
+        {
+            "tweet_created": "Tue Mar 26 13:59:07 +0000 2019",
+            "tweet_id": 1110541696243097600,
+            "tweet_loc": null,
+            "tweet_text": "President Rodrigo Duterte on former police officer Eduardo Acierto who accused Michael Yang, his Chinese adviser, of involvement in the illegal drug trade: Huwag kayong maniwala.... Tanungin ko kaya ang military [at] ang pulis. Bakit buhay pa ang p****g i***g yan?",
+            "user_created": "Fri Jul 03 00:57:35 +0000 2009",
+            "user_id": 53245871,
+            "user_loc": "Philippines",
+            "user_verified": true
+        },
+        {
             "tweet_created": "Tue Mar 26 13:36:37 +0000 2019",
             "tweet_id": 1110536033081401349,
             "tweet_loc": null,
@@ -867,156 +1387,6 @@
             "tweet_text": "While the worlds media has shifted its gaze, local journalists continue to cover the daily slaughter of Duterte's War on Drugs. Watch , correspondent for , interview a photojournalist abt the drug war's human toll.",
             "user_created": "Thu May 14 02:33:37 +0000 2015",
             "user_id": 3194895259,
-            "user_loc": "",
-            "user_verified": true
-        },
-        {
-            "tweet_created": "Mon Mar 25 01:50:21 +0000 2019",
-            "tweet_id": 1109995907175464960,
-            "tweet_loc": null,
-            "tweet_text": "Not trueHe gives a shit about free speech when it affects him.He gives a shit about due process when it comes to his drug lord friends.More accurate to say Duterte doesnt give a shit about the human rights of *other people.*",
-            "user_created": "Mon Apr 09 01:49:03 +0000 2007",
-            "user_id": 3840981,
-            "user_loc": "Makati City, Philippines",
-            "user_verified": true
-        },
-        {
-            "tweet_created": "Mon Mar 25 01:20:36 +0000 2019",
-            "tweet_id": 1109988418803519488,
-            "tweet_loc": null,
-            "tweet_text": "Not trueHe gives a shit about free speech when it affects him.He gives a shit about due process when it comes to his drug lord friends.More accurate to say Duterte doesnt give a shit about the human rights of *other people.*",
-            "user_created": "Mon Mar 27 14:58:16 +0000 2017",
-            "user_id": 846375823535816706,
-            "user_loc": "National Capital Region, Repub",
-            "user_verified": true
-        },
-        {
-            "tweet_created": "Sun Mar 24 19:14:36 +0000 2019",
-            "tweet_id": 1109896314593124352,
-            "tweet_loc": null,
-            "tweet_text": "Its been almost three years since Rodrigo Duterte took power in the Philippines and his notorious war against drugs has been raging ever since. has been speaking to one photojournalist about the drug wars human toll.",
-            "user_created": "Mon Apr 28 14:29:37 +0000 2008",
-            "user_id": 14569869,
-            "user_loc": "United Kingdom",
-            "user_verified": true
-        },
-        {
-            "tweet_created": "Sat Mar 23 18:16:26 +0000 2019",
-            "tweet_id": 1109519285800570880,
-            "tweet_loc": null,
-            "tweet_text": "SCOOP: Before his presidency, Duterte ruled Davao City, where Filipino police were consistently accused of enabling death squad killings. Despite this record IBM sold them video surveillance tech. Police sources say it aided in their notorious drug war",
-            "user_created": "Wed Jun 24 14:48:00 +0000 2009",
-            "user_id": 50324367,
-            "user_loc": "Hong Kong",
-            "user_verified": true
-        },
-        {
-            "tweet_created": "Sat Mar 23 13:34:53 +0000 2019",
-            "tweet_id": 1109448433121849344,
-            "tweet_loc": null,
-            "tweet_text": "SCOOP: Before his presidency, Duterte ruled Davao City, where Filipino police were consistently accused of enabling death squad killings. Despite this record IBM sold them video surveillance tech. Police sources say it aided in their notorious drug war",
-            "user_created": "Sun May 02 10:59:25 +0000 2010",
-            "user_id": 139362186,
-            "user_loc": "London",
-            "user_verified": true
-        },
-        {
-            "tweet_created": "Fri Mar 22 22:00:20 +0000 2019",
-            "tweet_id": 1109213244659372032,
-            "tweet_loc": null,
-            "tweet_text": "SCOOP: Before his presidency, Duterte ruled Davao City, where Filipino police were consistently accused of enabling death squad killings. Despite this record IBM sold them video surveillance tech. Police sources say it aided in their notorious drug war",
-            "user_created": "Sun Nov 30 11:20:35 +0000 2014",
-            "user_id": 2914657442,
-            "user_loc": "Canberra (formely Taipei)",
-            "user_verified": true
-        },
-        {
-            "tweet_created": "Fri Mar 22 19:24:55 +0000 2019",
-            "tweet_id": 1109174134930440193,
-            "tweet_loc": null,
-            "tweet_text": "SCOOP: Before his presidency, Duterte ruled Davao City, where Filipino police were consistently accused of enabling death squad killings. Despite this record IBM sold them video surveillance tech. Police sources say it aided in their notorious drug war",
-            "user_created": "Fri Jan 22 18:28:45 +0000 2010",
-            "user_id": 107485396,
-            "user_loc": "New York",
-            "user_verified": true
-        },
-        {
-            "tweet_created": "Fri Mar 22 18:54:01 +0000 2019",
-            "tweet_id": 1109166355817730048,
-            "tweet_loc": null,
-            "tweet_text": "SCOOP: Before his presidency, Duterte ruled Davao City, where Filipino police were consistently accused of enabling death squad killings. Despite this record IBM sold them video surveillance tech. Police sources say it aided in their notorious drug war",
-            "user_created": "Tue Jun 05 14:47:23 +0000 2007",
-            "user_id": 6595682,
-            "user_loc": "San Carlos, CA",
-            "user_verified": true
-        },
-        {
-            "tweet_created": "Fri Mar 22 15:13:39 +0000 2019",
-            "tweet_id": 1109110899812503552,
-            "tweet_loc": null,
-            "tweet_text": "Philippine President Rodrigo Duterte makes his own rules. His war on drugs has killed thousands of alleged drug users and dealers. We travel to his hometown and investigate how he became the leader he is today. LISTEN:",
-            "user_created": "Wed Aug 27 19:42:59 +0000 2008",
-            "user_id": 16016427,
-            "user_loc": "",
-            "user_verified": true
-        },
-        {
-            "tweet_created": "Fri Mar 22 14:13:18 +0000 2019",
-            "tweet_id": 1109095712971612160,
-            "tweet_loc": null,
-            "tweet_text": "Make sure to read from Rapplers series of investigations on the drug war.",
-            "user_created": "Thu Jul 07 06:34:10 +0000 2011",
-            "user_id": 330826792,
-            "user_loc": "Philippines",
-            "user_verified": true
-        },
-        {
-            "tweet_created": "Fri Mar 22 12:50:00 +0000 2019",
-            "tweet_id": 1109074750511480833,
-            "tweet_loc": null,
-            "tweet_text": "Duterte confident of winning against terror groups, drug traffickers",
-            "user_created": "Thu Jul 10 07:55:26 +0000 2008",
-            "user_id": 15375209,
-            "user_loc": "Manila, Philippines",
-            "user_verified": true
-        },
-        {
-            "tweet_created": "Fri Mar 22 11:48:16 +0000 2019",
-            "tweet_id": 1109059215216107521,
-            "tweet_loc": null,
-            "tweet_text": "Drug watchlist: Over 6,000 persons validated, 60,000 to go",
-            "user_created": "Mon Sep 15 16:27:24 +0000 2014",
-            "user_id": 2811559122,
-            "user_loc": "",
-            "user_verified": true
-        },
-        {
-            "tweet_created": "Fri Mar 22 10:23:48 +0000 2019",
-            "tweet_id": 1109037958198222848,
-            "tweet_loc": null,
-            "tweet_text": "Del Rosario: We did not think of bringing President Duterte to ICC because he is already there, citing complaint against him over the drug war | via",
-            "user_created": "Sat Aug 16 10:09:33 +0000 2008",
-            "user_id": 15872418,
-            "user_loc": "Manila, Philippines",
-            "user_verified": true
-        },
-        {
-            "tweet_created": "Fri Mar 22 10:23:40 +0000 2019",
-            "tweet_id": 1109037921426771968,
-            "tweet_loc": null,
-            "tweet_text": "Del Rosario: We did not think of bringing President Duterte to ICC because he is already there, citing complaint against him over the drug war | via",
-            "user_created": "Thu Jun 04 21:26:24 +0000 2009",
-            "user_id": 44728980,
-            "user_loc": "Philippines",
-            "user_verified": true
-        },
-        {
-            "tweet_created": "Fri Mar 22 10:23:27 +0000 2019",
-            "tweet_id": 1109037870210179072,
-            "tweet_loc": null,
-            "tweet_text": "Del Rosario says they didn't think of including President Rodrigo Duterte as one of the respondents in the ICC communication because the President is 'already there.' Duterte is facing a preliminary examination on his drug war.",
-            "user_created": "Mon Sep 15 16:27:24 +0000 2014",
-            "user_id": 2811559122,
             "user_loc": "",
             "user_verified": true
         }
