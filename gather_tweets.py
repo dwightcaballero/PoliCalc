@@ -1,68 +1,46 @@
 import TwitterSearch as ts
 import twitter_credentials as tc
+import preprocessor as pr
+from googletrans import Translator
 import json
 
 
 class modify_tweet:
 
-    def clean_tweet_text(self, tweet):
-        try:
-            json_temp_text = tweet['retweeted_status']['full_text']
-            retweet = True
-        except KeyError:
-            json_temp_text = tweet['full_text']
-            retweet = False
+    trans = Translator()
 
-        if retweet:
-            if 'media' in tweet['retweeted_status']['entities']:
-                for i in range(len(tweet['retweeted_status']['entities']['media'])):
-                    json_temp_text = json_temp_text.replace(
-                        tweet['retweeted_status']['entities']['media'][i]['url'], '')
-            if tweet['retweeted_status']['entities']['hashtags']:
-                for i in range(len(tweet['retweeted_status']['entities']['hashtags'])):
-                    json_temp_text = json_temp_text.replace(
-                        '#' + tweet['retweeted_status']['entities']['hashtags'][i]['text'], '')
-            if tweet['retweeted_status']['entities']['user_mentions']:
-                for i in range(len(tweet['retweeted_status']['entities']['user_mentions'])):
-                    json_temp_text = json_temp_text.replace(
-                        '@' + tweet['retweeted_status']['entities']['user_mentions'][i]['screen_name'], '')
-            if tweet['retweeted_status']['entities']['urls']:
-                for i in range(len(tweet['retweeted_status']['entities']['urls'])):
-                    json_temp_text = json_temp_text.replace(
-                        tweet['retweeted_status']['entities']['urls'][i]['url'], '')
+    def clean_tweet(self, tweet):
 
+        pr.set_options(pr.OPT.URL, pr.OPT.MENTION, pr.OPT.HASHTAG,
+                       pr.OPT.EMOJI, pr.OPT.SMILEY)
+
+        tweet = pr.clean(tweet).replace('&amp', "").replace('\"', "").split(
+            '|')[0].strip().encode('ascii', 'ignore').decode('utf-8')
+
+        return tweet
+
+    def translate_tweet(self, tweet):
+
+        tweet_lang = self.trans.detect(tweet)
+
+        if tweet_lang.lang == 'tl' or tweet_lang.lang == 'ceb':
+            tweet = self.trans.translate(tweet)
+            return tweet.text
+        elif tweet_lang.lang == 'en':
+            return tweet
         else:
-            if 'media' in tweet['entities']:
-                for i in range(len(tweet['entities']['media'])):
-                    json_temp_text = json_temp_text.replace(
-                        tweet['entities']['media'][i]['url'], '')
-            if tweet['entities']['hashtags']:
-                for i in range(len(tweet['entities']['hashtags'])):
-                    json_temp_text = json_temp_text.replace(
-                        '#' + tweet['entities']['hashtags'][i]['text'], '')
-            if tweet['entities']['user_mentions']:
-                for i in range(len(tweet['entities']['user_mentions'])):
-                    json_temp_text = json_temp_text.replace(
-                        '@' + tweet['entities']['user_mentions'][i]['screen_name'], '')
-            if tweet['entities']['urls']:
-                for i in range(len(tweet['entities']['urls'])):
-                    json_temp_text = json_temp_text.replace(tweet['entities']['urls'][i]['url'], '')
+            return None
 
-        json_temp_text = json_temp_text.encode('ascii', 'ignore')
-        json_temp_text = json_temp_text.decode('utf-8')
-        json_temp_text = json_temp_text.replace('\n', "").replace('\"', "").strip()
-        return json_temp_text
+    def save_tweet(self, json_data):
 
-    def save_tweets(self, json_data, file_name):
-        with open(file_name, 'w') as json_file:
+        with open('gathered_tweets.json', 'w') as json_file:
             json.dump(json_data, json_file, indent=4, sort_keys=True)
 
 
 class gather_tweet:
-    mt = modify_tweet()
 
-    key1 = 'duterte'
-    key2 = 'drug'
+    key1 = 'Rodrigo Duterte'
+    key2 = 'Drug war'
 
     tso = ts.TwitterSearchOrder()
     tso.set_keywords([key1, key2])
@@ -78,20 +56,53 @@ class gather_tweet:
     json_data = {}
     json_data["data"] = []
 
+    mt = modify_tweet()
+
     for tweet in api.search_tweets_iterable(tso):
-        if tweet['user']['verified']:
-            tweet_text = mt.clean_tweet_text(tweet)
+        # print(json.dumps(tweet, indent=4, sort_keys=True))
+        try:
+            tweet_text = tweet['retweeted_status']['full_text']
+            is_retweet = True
+        except KeyError:
+            tweet_text = tweet['full_text']
+            is_retweet = False
 
-            json_data['data'].append({
-                'tweet_text': tweet_text,
-                'tweet_id': tweet['id'],
-                'tweet_created': tweet['created_at'],
-                'tweet_loc': tweet['coordinates'],
-                'user_id': tweet['user']['id'],
-                'user_created': tweet['user']['created_at'],
-                'user_verified': tweet['user']['verified'],
-                'user_loc': tweet['user']['location']
-            })
+        if tweet['is_quote_status']:
+            if is_retweet:
+                quote_text = tweet['retweeted_status']['quoted_status']['full_text']
+            else:
+                quote_text = tweet['quoted_status']['full_text']
+        else:
+            quote_text = None
 
-    file_name = key1 + '_' + key2 + '.json'
-    mt.save_tweets(json_data, file_name)
+        tweet_text2 = mt.clean_tweet(tweet_text)
+        tweet_text2 = mt.translate_tweet(tweet_text2)
+
+        if tweet_text2 is None:
+            continue
+
+        if quote_text is not None:
+            quote_text2 = mt.clean_tweet(quote_text)
+            quote_text2 = mt.translate_tweet(quote_text2)
+        else:
+            quote_text2 = None
+
+        json_data['data'].append({
+            'tweet_text': tweet_text,
+            'tweet_text2': tweet_text2,
+            'is_retweet': is_retweet,
+            'quote_text': quote_text,
+            'quote_text2': quote_text2,
+            'tweet_id': tweet['id'],
+            'rt_count': tweet['retweet_count'],
+            'tweet_created': tweet['created_at'],
+            'tweet_loc': tweet['coordinates'],
+            'user_id': tweet['user']['id'],
+            'user_created': tweet['user']['created_at'],
+            'user_verified': tweet['user']['verified'],
+            'user_follower': tweet['user']['followers_count'],
+            'user_total_tweet': tweet['user']['statuses_count'],
+            'user_loc': tweet['user']['location']
+        })
+
+    mt.save_tweet(json_data)
