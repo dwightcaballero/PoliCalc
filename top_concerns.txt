@@ -1,0 +1,17 @@
+law enforcement: 40
+salary increase: 33
+peace order: 16
+fight corruption: 6
+fight criminality: 5
+create job: 3
+control inflation: 0
+reduce poverty: 0
+preserve environment: 0
+reduce tax: 0
+protect ofw: 0
+population control: 0
+fight terrorism: 0
+defend territory: 0
+change constitution: 0
+
+March 30, 2019 - April 06, 2019 | 08:44 AM

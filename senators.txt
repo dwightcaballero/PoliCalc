@@ -1,27 +1,26 @@
-Vicente C. Sotto III
-Aquilino 'Koko' Pimentel III
-Ralph G. Recto
-Juan Miguel "Migz" F. Zubiri
-Vicente C. Sotto III
-Franklin M. Drilon
-Atty. Myra Marie D. Villarica
-Lutgardo B. Barbo
-Juan Edgardo "Sonny" M. Angara
-Paolo Benigno "Bam" Aquino IV
-Maria Lourdes Nancy S. Binay
-Alan Peter Compañero S. Cayetano *
-Leila de Lima
-Joseph Victor "JV" G. Ejercito
-Francis "Chiz" G. Escudero
-Sherwin "Win" T. Gatchalian
-Richard J. Gordon
-Gregorio B. Honasan II
-Risa Hontiveros
-Panfilo "Ping" M. Lacson
-Loren B. Legarda
-Emmanuel "Manny" D. Pacquiao
-Francis "Kiko" Pangilinan
-Grace L. Poe
-Antonio "Sonny" F. Trillanes IV
-Emmanuel Joel J. Villanueva
-Cynthia A. Villar
+Sotto
+Pimentel
+Recto
+Zubiri
+Drilon
+Villarica
+Barbo
+Angara
+Aquino
+Binay
+Cayetano
+de Lima
+Ejercito
+Escudero
+Gatchalian
+Gordon
+Honasan
+Hontiveros
+Lacson
+Legarda
+Pacquiao
+Pangilinan
+Poe
+Trillanes
+Villanueva
+Villar
