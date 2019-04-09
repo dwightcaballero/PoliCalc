@@ -4,6 +4,7 @@ from googletrans import Translator
 import json
 import auth_twitter
 import datetime
+import time
 
 
 class modify_tweets:
@@ -39,14 +40,22 @@ class modify_tweets:
 
 class gather_tweets:
 
+    def avoid_rate_limit(self, ts):  # accepts ONE argument: an instance of TwitterSearch
+        queries, tweets_seen = ts.get_statistics()
+        if queries > 0 and (queries % 5) == 0:  # trigger delay every 5th query
+            time.sleep(15)  # sleep for 60 seconds
+
     def __init__(self):
 
+        print('Gathering tweets...')
         with open('senators.txt', 'r') as senators:
 
             mt = modify_tweets()
             api = auth_twitter.authenticate().get_api()
             tso = ts.TwitterSearchOrder()
             tso.arguments.update({'tweet_mode': 'extended'})
+            id_list = []
+            tweet_list = []
             json_data = {}
 
             for sen in senators:
@@ -62,65 +71,76 @@ class gather_tweets:
                         if limit > 3:
                             continue
 
-                        concern = con.split(':')[0]
-                        json_data[senator][concern] = []
-                        print('\t[C] ' + concern)
-                        tso.set_keywords([senator, concern])
+                        con_en = con.split(',')[0]
+                        con_tl = con.split(', ')[1]
+                        con_cb = con.split(', ')[2].split(':')[0]
+                        con_list = [con_en, con_tl, con_cb]
+                        print('\t[C] ' + con_en)
+                        for concern in con_list:
+                            json_data[senator][con_en] = []
+                            tso.set_keywords([senator, concern])
 
-                        with open('city_coordinates.json') as loc_json:
+                            with open('city_coordinates.json') as loc_json:
 
-                            loc = json.load(loc_json)
-                            for i in range(len(loc)):
-                                tso.set_geocode(loc['location'][i]['lat'],
-                                                loc['location'][i]['long'], 25, False)
+                                loc = json.load(loc_json)
+                                for i in range(len(loc['location'])):
+                                    tso.set_geocode(loc['location'][i]['lat'],
+                                                    loc['location'][i]['long'], 10)
 
-                                for tweet in api.search_tweets_iterable(tso):
-                                    try:
-                                        tweet_text = tweet['retweeted_status']['full_text']
-                                        is_retweet = True
-                                    except KeyError:
-                                        tweet_text = tweet['full_text']
-                                        is_retweet = False
-
-                                    if tweet['is_quote_status']:
-                                        if is_retweet:
-                                            quote_text = tweet['retweeted_status']['quoted_status']['full_text']
+                                    for tweet in api.search_tweets_iterable(tso, callback=self.avoid_rate_limit):
+                                        if tweet['id_str'] in id_list and tweet['full_text'] in tweet_list:
+                                            pass
                                         else:
-                                            quote_text = tweet['quoted_status']['full_text']
-                                    else:
-                                        quote_text = None
+                                            id_list.append(tweet['id_str'])
+                                            tweet_list.append(tweet['full_text'])
 
-                                    tweet_text2 = mt.clean_tweet(tweet_text)
-                                    tweet_text2 = mt.translate_tweet(tweet_text2)
+                                            try:
+                                                tweet_text = tweet['retweeted_status']['full_text']
+                                                is_retweet = True
+                                            except KeyError:
+                                                tweet_text = tweet['full_text']
+                                                is_retweet = False
 
-                                    if tweet_text2 is None:
-                                        continue
+                                            if tweet['is_quote_status']:
+                                                if is_retweet:
+                                                    quote_text = tweet['retweeted_status']['quoted_status']['full_text']
+                                                else:
+                                                    quote_text = tweet['quoted_status']['full_text']
+                                            else:
+                                                quote_text = None
 
-                                    if quote_text is not None:
-                                        quote_text2 = mt.clean_tweet(quote_text)
-                                        quote_text2 = mt.translate_tweet(quote_text2)
-                                    else:
-                                        quote_text2 = None
+                                            tweet_text2 = mt.clean_tweet(tweet_text)
+                                            tweet_text2 = mt.translate_tweet(tweet_text2)
 
-                                    json_data[senator][concern].append({
-                                        'tweet_text': tweet_text,
-                                        'tweet_text2': tweet_text2,
-                                        'is_retweet': is_retweet,
-                                        'quote_text': quote_text,
-                                        'quote_text2': quote_text2,
-                                        'tweet_id': tweet['id'],
-                                        'rt_count': tweet['retweet_count'],
-                                        'tweet_created': tweet['created_at'],
-                                        'tweet_loc': tweet['coordinates'],
-                                        'user_id': tweet['user']['id'],
-                                        'user_created': tweet['user']['created_at'],
-                                        'user_verified': tweet['user']['verified'],
-                                        'user_follower': tweet['user']['followers_count'],
-                                        'user_total_tweet': tweet['user']['statuses_count'],
-                                        'user_loc': tweet['user']['location']
-                                    })
+                                            if tweet_text2 is None:
+                                                continue
+
+                                            if quote_text is not None:
+                                                quote_text2 = mt.clean_tweet(quote_text)
+                                                quote_text2 = mt.translate_tweet(quote_text2)
+                                            else:
+                                                quote_text2 = None
+
+                                            json_data[senator][con_en].append({
+                                                'tweet_text': tweet_text,
+                                                'tweet_text2': tweet_text2,
+                                                'is_retweet': is_retweet,
+                                                'quote_text': quote_text,
+                                                'quote_text2': quote_text2,
+                                                'tweet_id': tweet['id'],
+                                                'rt_count': tweet['retweet_count'],
+                                                'tweet_created': tweet['created_at'],
+                                                'tweet_loc': tweet['coordinates'],
+                                                'user_id': tweet['user']['id'],
+                                                'user_created': tweet['user']['created_at'],
+                                                'user_verified': tweet['user']['verified'],
+                                                'user_follower': tweet['user']['followers_count'],
+                                                'user_total_tweet': tweet['user']['statuses_count'],
+                                                'user_loc': tweet['user']['location']
+                                            })
 
         mt.save_tweet(json_data)
+        print('Finished gathering tweets...')
 
 
 class gather_concerns:
@@ -128,33 +148,21 @@ class gather_concerns:
     def __init__(self):
 
         print('Analyzing most talked national concerns in Twitter...')
+        con_total = {}
+
         with open('concerns.txt', 'r') as concerns:
 
-            con_total = {}
-            tso = ts.TwitterSearchOrder()
-            api = auth_twitter.authenticate().get_api()
-
             for con in concerns:
-
-                concern = con.split('\n')[0]
-                tso.set_keywords([concern])
-
-                con_count = 0
-                with open('city_coordinates.json') as loc_json:
-
-                    loc = json.load(loc_json)
-                    for i in range(len(loc)):
-                        tso.set_geocode(loc['location'][i]['lat'],
-                                        loc['location'][i]['long'], 25, False)
-
-                        for tweet in api.search_tweets_iterable(tso):
-                            con_count += 1
-
-                    con_total[concern] = con_count
+                con_en = con.split(',')[0]
+                con_tl = con.split(', ')[1]
+                con_cb = con.split(', ')[2].split('\n')[0]
+                con_list = [con_en, con_tl, con_cb]
+                con_total[con_en + ', ' + con_tl + ', ' + con_cb] = self.count_response(con_list)
+                print(con_en, con_total[con_en + ', ' + con_tl + ', ' + con_cb])
 
             top_list = sorted(con_total.items(), key=lambda kv: kv[1], reverse=True)
 
-            with open('top_concerns.txt', 'w') as top:
+            with open('top_concerns.txt', 'a') as top:
                 for i in range(len(top_list)):
                     top.write(top_list[i][0] + ': ' + str(top_list[i][1]) + '\n')
 
@@ -166,3 +174,38 @@ class gather_concerns:
                 top.write(week_ago + ' - ' + gathered_at)
 
         print('Finished gathering the most talked national concerns in Twitter...')
+
+    def count_response(self, con_list):
+
+        tso = ts.TwitterSearchOrder()
+        tso.arguments.update({'tweet_mode': 'extended'})
+        api = auth_twitter.authenticate().get_api()
+        con_count = 0
+        id_list = []
+        tweet_list = []
+
+        for con in con_list:
+            tso.set_keywords([con])
+
+            with open('city_coordinates.json') as loc_json:
+
+                loc = json.load(loc_json)
+
+                for i in range(len(loc['location'])):
+                    tso.set_geocode(loc['location'][i]['lat'],
+                                    loc['location'][i]['long'], 10)
+
+                    for tweet in api.search_tweets_iterable(tso, callback=self.avoid_rate_limit):
+                        if tweet['id_str'] in id_list and tweet['full_text'] in tweet_list:
+                            pass
+                        else:
+                            id_list.append(tweet['id_str'])
+                            tweet_list.append(tweet['full_text'])
+                            con_count += 1
+
+        return con_count
+
+    def avoid_rate_limit(self, ts):  # accepts ONE argument: an instance of TwitterSearch
+        queries, tweets_seen = ts.get_statistics()
+        if queries > 0 and (queries % 5) == 0:  # trigger delay every 5th query
+            time.sleep(15)  # sleep for 60 seconds
