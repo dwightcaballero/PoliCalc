@@ -1,16 +1,16 @@
-law enforcement, pagpapatupad batas, pagpatuman balaod: 47
+poverty, kahirapan, kakabos: 721
+corruption, katiwalian, korapsyon: 550
+inflation, implasyon, inflation: 453
+criminality, krimen, kriminalidad: 277
+territory, teritoryo, teritoryo: 263
+terrorism, terorismo, terorismo: 123
+law enforcement, pagpapatupad batas, pagpatuman balaod: 41
 salary increase, pagtaas suweldo, pagtaas sweldo: 25
-fight corruption, labanan katiwalian, pakigbatok korapsyon: 7
-peace order, kapayapaan kaayusan, kalinaw kahusay: 6
-control inflation, kontrolin implasyon, pagkontrol inflation: 0
-reduce poverty, bawasan kahirapan, pagpakunhod kakabos: 0
-create job, lumikha trabaho, paghimo trabaho: 0
-fight criminality, labanan krimen, pagpakig-away kriminalidad: 0
+peace order, kapayapaan kaayusan, kalinaw kahusay: 7
+create job, lumikha trabaho, paghimo trabaho: 1
 protect environment, protektahan kapaligiran, pagpanalipod palibot: 0
 reduce tax, bawasan buwis, pagpakunhod buhis: 0
 protect ofw, protektahan ofw, pagpanalipod ofw: 0
 population control, kontrol populasyon, kontrol populasyon: 0
-fight terrorism, labanan terorismo, away terorismo: 0
-defend territory, protektahan teritoryo, depensahan teritoryo: 0
 change constitution, baguhin saligang batas, usbon konstitusyon: 0
-April 03, 2019 - April 10, 2019 | 03:10 AM
+April 04, 2019 - April 11, 2019 | 10:57 AM

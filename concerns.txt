@@ -1,15 +1,15 @@
-control inflation, kontrolin implasyon, pagkontrol inflation
+inflation, implasyon, inflation
 salary increase, pagtaas suweldo, pagtaas sweldo
-reduce poverty, bawasan kahirapan, pagpakunhod kakabos
+poverty, kahirapan, kakabos
 create job, lumikha trabaho, paghimo trabaho
-fight corruption, labanan katiwalian, pakigbatok korapsyon
-fight criminality, labanan krimen, pagpakig-away kriminalidad
+corruption, katiwalian, korapsyon
+criminality, krimen, kriminalidad
 peace order, kapayapaan kaayusan, kalinaw kahusay
 protect environment, protektahan kapaligiran, pagpanalipod palibot
 reduce tax, bawasan buwis, pagpakunhod buhis
 law enforcement, pagpapatupad batas, pagpatuman balaod
 protect ofw, protektahan ofw, pagpanalipod ofw
 population control, kontrol populasyon, kontrol populasyon
-fight terrorism, labanan terorismo, away terorismo
-defend territory, protektahan teritoryo, depensahan teritoryo
+terrorism, terorismo, terorismo
+territory, teritoryo, teritoryo
 change constitution, baguhin saligang batas, usbon konstitusyon

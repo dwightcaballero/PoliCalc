@@ -85,7 +85,7 @@ class gather_tweets:
                                 loc = json.load(loc_json)
                                 for i in range(len(loc['location'])):
                                     tso.set_geocode(loc['location'][i]['lat'],
-                                                    loc['location'][i]['long'], 10)
+                                                    loc['location'][i]['long'], 15, False)
 
                                     for tweet in api.search_tweets_iterable(tso, callback=self.avoid_rate_limit):
                                         if tweet['id_str'] in id_list and tweet['full_text'] in tweet_list:
@@ -162,7 +162,7 @@ class gather_concerns:
 
             top_list = sorted(con_total.items(), key=lambda kv: kv[1], reverse=True)
 
-            with open('top_concerns.txt', 'a') as top:
+            with open('top_concerns.txt', 'w') as top:
                 for i in range(len(top_list)):
                     top.write(top_list[i][0] + ': ' + str(top_list[i][1]) + '\n')
 
@@ -192,10 +192,11 @@ class gather_concerns:
 
                 for i in range(len(loc['location'])):
                     tso.set_geocode(loc['location'][i]['lat'],
-                                    loc['location'][i]['long'], 10)
+                                    loc['location'][i]['long'], 15, False)
 
                     for tweet in api.search_tweets_iterable(tso, callback=self.avoid_rate_limit):
-                        temp_res = json.dumps(tweet['id_str']) + json.dumps(tweet['full_text'])
+                        cleaned_tweet = modify_tweets().clean_tweet(tweet['full_text'])
+                        temp_res = tweet['id_str'] + ': ' + cleaned_tweet
                         if temp_res not in respo_list:
                             respo_list.append(temp_res)
                             con_count += 1
