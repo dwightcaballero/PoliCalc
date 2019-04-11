@@ -43,7 +43,7 @@ class gather_tweets:
     def avoid_rate_limit(self, ts):  # accepts ONE argument: an instance of TwitterSearch
         queries, tweets_seen = ts.get_statistics()
         if queries > 0 and (queries % 5) == 0:  # trigger delay every 5th query
-            time.sleep(15)  # sleep for 60 seconds
+            time.sleep(30)  # sleep for 60 seconds
 
     def __init__(self):
 
@@ -181,8 +181,7 @@ class gather_concerns:
         tso.arguments.update({'tweet_mode': 'extended'})
         api = auth_twitter.authenticate().get_api()
         con_count = 0
-        id_list = []
-        tweet_list = []
+        respo_list = []
 
         for con in con_list:
             tso.set_keywords([con])
@@ -196,16 +195,19 @@ class gather_concerns:
                                     loc['location'][i]['long'], 10)
 
                     for tweet in api.search_tweets_iterable(tso, callback=self.avoid_rate_limit):
-                        if tweet['id_str'] in id_list and tweet['full_text'] in tweet_list:
-                            pass
-                        else:
-                            id_list.append(tweet['id_str'])
-                            tweet_list.append(tweet['full_text'])
+                        temp_res = json.dumps(tweet['id_str']) + json.dumps(tweet['full_text'])
+                        if temp_res not in respo_list:
+                            respo_list.append(temp_res)
                             con_count += 1
+
+        with open('response.txt', 'a') as res:
+            res.write(con_list[0] + ': ' + str(con_count) + '\n')
+            for i in respo_list:
+                res.write(i + '\n')
 
         return con_count
 
     def avoid_rate_limit(self, ts):  # accepts ONE argument: an instance of TwitterSearch
         queries, tweets_seen = ts.get_statistics()
         if queries > 0 and (queries % 5) == 0:  # trigger delay every 5th query
-            time.sleep(15)  # sleep for 60 seconds
+            time.sleep(30)  # sleep for 60 seconds
