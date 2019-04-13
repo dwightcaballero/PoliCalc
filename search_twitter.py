@@ -139,8 +139,8 @@ class gather_tweets:
                                                 'user_loc': tweet['user']['location']
                                             })
 
-        mt.save_tweet(json_data)
-        print('Finished gathering tweets...')
+            mt.save_tweet(json_data)
+            print('Finished gathering tweets...')
 
 
 class gather_concerns:
