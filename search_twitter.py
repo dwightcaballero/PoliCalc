@@ -81,7 +81,7 @@ class gather_tweets:
                                 loc = json.load(loc_json)
                                 for i in range(len(loc['location'])):
                                     tso.set_geocode(loc['location'][i]['lat'],
-                                                    loc['location'][i]['long'], 10, False)
+                                                    loc['location'][i]['long'], 5, False)
 
                                     for tweet in api.search_tweets_iterable(tso, callback=self.avoid_rate_limit):
                                         if tweet['id_str'] in id_list and tweet['full_text'] in tweet_list:
@@ -135,8 +135,8 @@ class gather_tweets:
                                                 'user_loc': tweet['user']['location']
                                             })
 
-        mt.save_tweet(json_data)
-        print('Finished gathering tweets...')
+            mt.save_tweet(json_data)
+            print('Finished gathering tweets...')
 
 
 class gather_concerns:
@@ -145,14 +145,15 @@ class gather_concerns:
 
         print('Analyzing most talked national concerns in Twitter...')
         con_total = {}
+        final_concerns = []
 
         with open('survey_concerns.txt', 'r') as concerns:
 
-            with open('final_concerns.txt', 'w') as final:
-
-                final_concerns = [concerns.readline(), concerns.readline(), concerns.readline()]
-
+            limit = 0
             for con in concerns:
+                if limit < 3:
+                    final_concerns.append(con.split('\n')[0])
+                    limit += 1
                 con_en = con.split(',')[0]
                 con_tl = con.split(', ')[1]
                 con_cb = con.split(', ')[2].split('\n')[0]
@@ -179,8 +180,10 @@ class gather_concerns:
 
                 top.write(week_ago + ' - ' + gathered_at)
 
-                for i in range(len(final_concerns)):
-                    final.write(final_concerns[i] + '\n')
+        with open('final_concerns.txt', 'a') as final:
+
+            for final in final_concerns:
+                final.write(final + '\n')
 
         print('Finished gathering the most talked national concerns in Twitter...')
 
@@ -201,7 +204,7 @@ class gather_concerns:
                 loc = json.load(loc_json)
                 for i in range(len(loc['location'])):
                     tso.set_geocode(loc['location'][i]['lat'],
-                                    loc['location'][i]['long'], 10, False)
+                                    loc['location'][i]['long'], 5, False)
 
                     for tweet in api.search_tweets_iterable(tso, callback=self.avoid_rate_limit):
                         try:
@@ -210,7 +213,7 @@ class gather_concerns:
                             tweet_text = tweet['full_text']
 
                         cleaned_tweet = modify_tweets().clean_tweet(tweet_text)
-                        temp_res = cleaned_tweet + ' - ' + tweet['id_str']
+                        temp_res = cleaned_tweet + ' --- ' + tweet['id_str']
                         if temp_res not in respo_list:
                             respo_list.append(temp_res)
                             respo_loc.append(loc['location'][i]['city'])
