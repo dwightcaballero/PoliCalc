@@ -67,13 +67,19 @@ class gather_tweets:
 
                     for con in concerns:
                         con_en = con.split(',')[0]
-                        con_tl = con.split(', ')[1]
-                        con_cb = con.split(', ')[2].split('\n')[0]
-                        con_list = [con_en, con_tl, con_cb]
-                        print('\t[C] ' + con_en)
+                        try:
+                            con_tl = con.split(', ')[1]
+                            con_cb = con.split(', ')[2].split('\n')[0]
+                            con_list = [con_en, con_tl, con_cb]
+                            con_label = con_en + ', ' + con_tl + ', ' + con_cb
+                        except IndexError:
+                            con_tl = con.split(', ')[1].split('\n')[0]
+                            con_cb = None
+                            con_list = [con_en, con_tl]
+                            con_label = con_en + ', ' + con_tl
 
                         for concern in con_list:
-                            json_data[senator][con_en] = []
+                            json_data[senator][concern] = []
                             tso.set_keywords([senator, concern])
 
                             with open('city_coordinates.json') as loc_json:
