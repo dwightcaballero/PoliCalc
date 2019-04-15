@@ -143,7 +143,7 @@ class gather_concerns:
 
     def __init__(self):
 
-        print('Analyzing most talked national concerns in Twitter...')
+        print('Gathering National Concerns in Twitter...')
         con_total = {}
         final_concerns = []
 
@@ -151,20 +151,32 @@ class gather_concerns:
 
             limit = 0
             for con in concerns:
+
+                print('Gathering tweets for ' + con.split('\n')[0] + '...')
                 if limit < 3:
                     final_concerns.append(con.split('\n')[0])
                     limit += 1
-                con_en = con.split(',')[0]
-                con_tl = con.split(', ')[1]
-                con_cb = con.split(', ')[2].split('\n')[0]
-                con_list = [con_en, con_tl, con_cb]
-                con_total[con_en + ', ' + con_tl + ', ' + con_cb] = self.count_response(con_list)
-                print(con_en, con_total[con_en + ', ' + con_tl + ', ' + con_cb])
 
+                con_en = con.split(',')[0]
+                try:
+                    con_tl = con.split(', ')[1]
+                    con_cb = con.split(', ')[2].split('\n')[0]
+                    con_list = [con_en, con_tl, con_cb]
+                    con_label = con_en + ', ' + con_tl + ', ' + con_cb
+                except IndexError:
+                    con_tl = con.split(', ')[1].split('\n')[0]
+                    con_cb = None
+                    con_list = [con_en, con_tl]
+                    con_label = con_en + ', ' + con_tl
+
+                con_total[con_label] = self.count_response(con_list)
+
+            print('Sorting result to get the top 3 most talked national concern in Twitter...')
             top_list = sorted(con_total.items(), key=lambda kv: kv[1], reverse=True)
 
             with open('twitter_concerns.txt', 'w') as top:
 
+                print('Saving the result to \"twitter_concerns.txt\" ...')
                 limit = 0
                 for i in range(len(top_list)):
                     if limit < 3:
@@ -182,10 +194,11 @@ class gather_concerns:
 
         with open('final_concerns.txt', 'a') as final:
 
-            for final in final_concerns:
-                final.write(final + '\n')
+            print('Saving the top 6 final concerns to \"final_concerns.txt\" ...')
+            for final_con in final_concerns:
+                final.write(final_con + '\n')
 
-        print('Finished gathering the most talked national concerns in Twitter...')
+        print('Finished gathering National Concerns in Twitter...')
 
     def count_response(self, con_list):
 
@@ -197,6 +210,7 @@ class gather_concerns:
         respo_loc = []
 
         for con in con_list:
+            print('\tCounting ' + con + '...')
             tso.set_keywords([con])
 
             with open('city_coordinates.json') as loc_json:
@@ -220,10 +234,12 @@ class gather_concerns:
                             con_count += 1
 
         with open('response.txt', 'a') as res:
+            print('Total: ' + str(con_count))
             res.write(con_list[0] + ': ' + str(con_count) + '\n')
-            for i in range(len(respo_list)):
+            for i in range(con_count):
                 response = respo_list[i] + ' (' + respo_loc[i] + ')'
                 res.write(response + '\n')
+            res.write('\n')
 
         return con_count
 

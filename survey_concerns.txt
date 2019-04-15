@@ -1,4 +1,4 @@
-inflation, implasyon, inflation
+inflation, implasyon
 salary increase, pagtaas suweldo, pagtaas sweldo
 poverty, kahirapan, kakabos
 create job, lumikha trabaho, paghimo trabaho
@@ -9,7 +9,7 @@ protect environment, protektahan kapaligiran, pagpanalipod palibot
 reduce tax, bawasan buwis, pagpakunhod buhis
 law enforcement, pagpapatupad batas, pagpatuman balaod
 protect ofw, protektahan ofw, pagpanalipod ofw
-population control, kontrol populasyon, kontrol populasyon
-terrorism, terorismo, terorismo
-territory, teritoryo, teritoryo
+population control, kontrol populasyon
+terrorism, terorismo
+territory, teritoryo
 change constitution, baguhin saligang batas, usbon konstitusyon
