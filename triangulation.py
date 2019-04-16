@@ -1,4 +1,5 @@
 from googletrans import Translator
+import textdistance as td
 import json
 import re
 from nltk.corpus import stopwords
@@ -17,6 +18,7 @@ class compare_tweet_rss:
                 with open("final_concerns.txt", "r") as concerns:
                     with open('raw_rss.txt', 'r') as rss_file:
 
+                        trans = Translator()
                         data = json.load(tweet_file)
                         for sen in senators:
                             senator = sen.split('\n')[0]
@@ -25,22 +27,29 @@ class compare_tweet_rss:
 
                                 for i in range(len(data[senator][concern])):
                                     tweet = data[senator][concern][i]['tweet_text2']
-                                    tweet = clean_text().remove_stopwords(tweet)
+                                    tweet = clean_text().remove_stopwords(trans, tweet)
                                     tweet_id = data[senator][concern][i]['tweet_id']
 
                                     for rss in rss_file:
                                         rss = rss.split('\n')[0]
-                                        rss = clean_text().remove_stopwords(rss)
+                                        rss = clean_text().remove_stopwords(trans, rss)
 
-                                        # compare tweet and rss here
-                                        # get 50% threshold
+                                        # insert compare code here
+                                        # get 50% and 70% threshold
+
+                                        # result = td.cosine.normalized_similarity(tweet, rss)
+                                        # if result > 0.7:
+                                        #     with open('similar_text.txt', 'a') as similar:
+                                        #         text = tweet + '\n' + rss + '\n' + str(result) + '\n'
+                                        #         similar.write(text)
+                                        #
+                                        #     print(result)
 
 
 class clean_text:
 
-    def remove_stopwords(self, text):
+    def remove_stopwords(self, trans, text):
 
-        trans = Translator()
         lang = trans.detect(text)
         if lang.lang != 'en':
             temp_text = trans.translate(text)
