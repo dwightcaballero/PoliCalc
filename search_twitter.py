@@ -47,39 +47,37 @@ class gather_tweets:
 
     def __init__(self):
 
-        print('Gathering tweets...')
         with open('senators.txt', 'r') as senators:
 
+            print('Gathering tweets with political context...')
             mt = modify_tweets()
             api = auth_twitter.authenticate().get_api()
             tso = ts.TwitterSearchOrder()
             tso.arguments.update({'tweet_mode': 'extended'})
-            id_list = []
-            tweet_list = []
+            res_list = []
             json_data = {}
 
             for sen in senators:
                 senator = sen.split('\n')[0]
                 json_data[senator] = {}
-                print('[S] ' + senator)
+                print('Gathering tweets mentioning ' + senator + '...')
 
                 with open('final_concerns.txt', 'r') as concerns:
 
                     for con in concerns:
+                        json_data[senator][con] = []
                         con_en = con.split(',')[0]
                         try:
                             con_tl = con.split(', ')[1]
                             con_cb = con.split(', ')[2].split('\n')[0]
                             con_list = [con_en, con_tl, con_cb]
-                            con_label = con_en + ', ' + con_tl + ', ' + con_cb
                         except IndexError:
                             con_tl = con.split(', ')[1].split('\n')[0]
                             con_cb = None
                             con_list = [con_en, con_tl]
-                            con_label = con_en + ', ' + con_tl
 
+                        print('\t' + con + '...')
                         for concern in con_list:
-                            json_data[senator][concern] = []
                             tso.set_keywords([senator, concern])
 
                             with open('city_coordinates.json') as loc_json:
@@ -90,18 +88,16 @@ class gather_tweets:
                                                     loc['location'][i]['long'], 5, False)
 
                                     for tweet in api.search_tweets_iterable(tso, callback=self.avoid_rate_limit):
-                                        if tweet['id_str'] in id_list and tweet['full_text'] in tweet_list:
-                                            pass
-                                        else:
-                                            id_list.append(tweet['id_str'])
-                                            tweet_list.append(tweet['full_text'])
+                                        try:
+                                            tweet_text = tweet['retweeted_status']['full_text']
+                                            is_retweet = True
+                                        except KeyError:
+                                            tweet_text = tweet['full_text']
+                                            is_retweet = False
 
-                                            try:
-                                                tweet_text = tweet['retweeted_status']['full_text']
-                                                is_retweet = True
-                                            except KeyError:
-                                                tweet_text = tweet['full_text']
-                                                is_retweet = False
+                                        res_text = tweet['id_str'] + ': ' + tweet_text
+                                        if res_text not in res_list:
+                                            res_list.append(res_text)
 
                                             if tweet['is_quote_status']:
                                                 if is_retweet:
@@ -123,7 +119,7 @@ class gather_tweets:
                                             else:
                                                 quote_text2 = None
 
-                                            json_data[senator][con_en].append({
+                                            json_data[senator][con].append({
                                                 'tweet_text': tweet_text,
                                                 'tweet_text2': tweet_text2,
                                                 'is_retweet': is_retweet,
@@ -141,8 +137,9 @@ class gather_tweets:
                                                 'user_loc': tweet['user']['location']
                                             })
 
+            print('Saving collected tweets into \"gathered_tweets.json\" file...')
             mt.save_tweet(json_data)
-            print('Finished gathering tweets...')
+            print('Finished gathering tweets with political context...')
 
 
 class gather_concerns:
