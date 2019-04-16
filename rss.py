@@ -1,5 +1,4 @@
 import feedparser
-from googletrans import Translator
 
 
 class gather_rss:
@@ -34,7 +33,7 @@ class gather_rss:
             'interaksyon': 'https://www.feedspot.com/infiniterss.php?q=site:http%3A%2F%2Fwww.interaksyon.com%2Ffeed'
         }
 
-        with open('raw_rss.txt', 'a') as rss_file:
+        with open('raw_rss.txt', 'w') as rss_file:
 
             for key, url in news_urls.items():
                 feed = feedparser.parse(url)
@@ -42,18 +41,3 @@ class gather_rss:
                 for newsitem in feed['items']:
                     title = newsitem['title'].encode('ascii', 'ignore').decode('utf-8')
                     rss_file.write(title + '\n')
-
-
-class clean_rss:
-
-    def __init__(self):
-
-        trans = Translator()
-        with open('raw_rss.txt', 'r') as rss_file:
-            for rss in rss_file:
-                rss_lang = trans.detect(rss)
-                if rss_lang.lang != 'en':
-                    rss_trans = trans.translate(rss)
-                    print(rss_trans.text)
-                else:
-                    print(rss)

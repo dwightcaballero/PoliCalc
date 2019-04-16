@@ -65,7 +65,8 @@ class gather_tweets:
                 with open('final_concerns.txt', 'r') as concerns:
 
                     for con in concerns:
-                        json_data[senator][con] = []
+                        concern = con.split('\n')[0]
+                        json_data[senator][concern] = []
                         con_en = con.split(',')[0]
                         try:
                             con_tl = con.split(', ')[1]
@@ -77,8 +78,8 @@ class gather_tweets:
                             con_list = [con_en, con_tl]
 
                         print('\t' + con + '...')
-                        for concern in con_list:
-                            tso.set_keywords([senator, concern])
+                        for con_item in con_list:
+                            tso.set_keywords([senator, con_item])
 
                             with open('city_coordinates.json') as loc_json:
 
@@ -119,7 +120,7 @@ class gather_tweets:
                                             else:
                                                 quote_text2 = None
 
-                                            json_data[senator][con].append({
+                                            json_data[senator][concern].append({
                                                 'tweet_text': tweet_text,
                                                 'tweet_text2': tweet_text2,
                                                 'is_retweet': is_retweet,
