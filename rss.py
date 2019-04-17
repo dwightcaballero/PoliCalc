@@ -1,4 +1,8 @@
 import feedparser
+from googletrans import Translator
+import re
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
 
 
 class gather_rss:
@@ -33,11 +37,37 @@ class gather_rss:
             'interaksyon': 'https://www.feedspot.com/infiniterss.php?q=site:http%3A%2F%2Fwww.interaksyon.com%2Ffeed'
         }
 
-        with open('raw_rss.txt', 'w') as rss_file:
+        print('Gathering rss feed on news sources...')
+        trans = Translator()
 
-            for key, url in news_urls.items():
-                feed = feedparser.parse(url)
+        with open('raw_rss.txt', 'w') as raw_rss:
+            with open('clean_rss.txt', 'w') as clean_rss:
 
-                for newsitem in feed['items']:
-                    title = newsitem['title'].encode('ascii', 'ignore').decode('utf-8')
-                    rss_file.write(title + '\n')
+                for key, url in news_urls.items():
+                    feed = feedparser.parse(url)
+
+                    for newsitem in feed['items']:
+                        news = newsitem.title.encode('ascii').decode('utf-8')
+                        lang = trans.detect(news)
+                        if lang.lang != 'en':
+                            temp_title = trans.translate(news)
+                            clean_title = temp_title.texttext = re.sub(r'[^\w]', ' ', temp_title)
+                            stop_words = set(stopwords.words('english'))
+                            word_tokens = word_tokenize(clean_title)
+                            filtered_sentence = [word for word in word_tokens if word not in stop_words]
+                            filtered_sentence = []
+
+                            for w in word_tokens:
+                                if w not in stop_words:
+                                    filtered_sentence.append(w)
+
+                            clean_title = ' '.join(filtered_sentence)
+
+                        raw_title = newsitem['title'].encode('ascii', 'ignore').decode('utf-8')
+
+                        raw_rss.write(raw_title + '\n')
+                        clean_rss.write(clean_title + '\n')
+
+        print('Saved raw rss data on \"raw_rss.txt\"...')
+        print('Saved clean rss data on \"clean_rss.txt\"...')
+        print('Finished gathering rss data...')

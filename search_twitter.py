@@ -5,6 +5,9 @@ import json
 import auth_twitter
 import datetime
 import time
+import re
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
 
 
 class modify_tweets:
@@ -41,9 +44,27 @@ class modify_tweets:
 class gather_tweets:
 
     def avoid_rate_limit(self, ts):  # accepts ONE argument: an instance of TwitterSearch
+
         queries, tweets_seen = ts.get_statistics()
         if queries > 0 and (queries % 5) == 0:  # trigger delay every 5th query
             time.sleep(30)  # sleep for 60 seconds
+
+    def remove_stopwords(self, id, tweet):
+
+        tweet = re.sub(r'[^\w]', ' ', tweet)
+        stop_words = set(stopwords.words('english'))
+        word_tokens = word_tokenize(tweet)
+        filtered_sentence = [word for word in word_tokens if word not in stop_words]
+        filtered_sentence = []
+        for w in word_tokens:
+            if w not in stop_words:
+                filtered_sentence.append(w)
+
+        tweet = ' '.join(filtered_sentence)
+        text = tweet + ' --- ' + id
+
+        with open('clean_tweet.txt', 'a') as clean_tweet:
+            clean_tweet.write(text)
 
     def __init__(self):
 
@@ -137,6 +158,8 @@ class gather_tweets:
                                                 'user_total_tweet': tweet['user']['statuses_count'],
                                                 'user_loc': tweet['user']['location']
                                             })
+
+                                            self.remove_stopwords(tweet['id_str'], tweet_text2)
 
             print('Saving collected tweets into \"gathered_tweets.json\" file...')
             mt.save_tweet(json_data)
