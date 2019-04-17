@@ -2,6 +2,176 @@
     "Duterte": {
         "corruption, katiwalian, korapsyon": [
             {
+                "is_retweet": true,
+                "quote_text": null,
+                "quote_text2": null,
+                "rt_count": 3,
+                "tweet_created": "Wed Apr 17 01:07:30 +0000 2019",
+                "tweet_id": 1118320045115887617,
+                "tweet_loc": "quezon",
+                "tweet_text": "In a strongly worded veto message, President Duterte rejected at least 12 spending provisions and over P95B worth of public works projects in the 2019 national budget saying he would not tolerate corruption or attempts to \u201ccircumvent the Constitution.\u201d\n\nhttps://t.co/Bv2oUkWOdb",
+                "tweet_text2": "In a strongly worded veto message, President Duterte rejected at least 12 spending provisions and over P95B worth of public works projects in the 2019 national budget saying he would not tolerate corruption or attempts to circumvent the Constitution.",
+                "user_created": "Thu May 23 10:05:00 +0000 2013",
+                "user_follower": 223,
+                "user_id": 1451052606,
+                "user_loc": " Qld.Australia",
+                "user_total_tweet": 38021,
+                "user_verified": false
+            },
+            {
+                "is_retweet": true,
+                "quote_text": null,
+                "quote_text2": null,
+                "rt_count": 3,
+                "tweet_created": "Wed Apr 17 01:05:05 +0000 2019",
+                "tweet_id": 1118319436799197184,
+                "tweet_loc": "quezon",
+                "tweet_text": "In a strongly worded veto message, President Duterte rejected at least 12 spending provisions and over P95B worth of public works projects in the 2019 national budget saying he would not tolerate corruption or attempts to \u201ccircumvent the Constitution.\u201d\n\nhttps://t.co/Bv2oUkWOdb",
+                "tweet_text2": "In a strongly worded veto message, President Duterte rejected at least 12 spending provisions and over P95B worth of public works projects in the 2019 national budget saying he would not tolerate corruption or attempts to circumvent the Constitution.",
+                "user_created": "Sun Oct 28 01:01:24 +0000 2018",
+                "user_follower": 271,
+                "user_id": 1056350182684721152,
+                "user_loc": "Mandaluyong City",
+                "user_total_tweet": 34404,
+                "user_verified": false
+            },
+            {
+                "is_retweet": true,
+                "quote_text": null,
+                "quote_text2": null,
+                "rt_count": 3,
+                "tweet_created": "Wed Apr 17 01:04:51 +0000 2019",
+                "tweet_id": 1118319375793020929,
+                "tweet_loc": "quezon",
+                "tweet_text": "In a strongly worded veto message, President Duterte rejected at least 12 spending provisions and over P95B worth of public works projects in the 2019 national budget saying he would not tolerate corruption or attempts to \u201ccircumvent the Constitution.\u201d\n\nhttps://t.co/Bv2oUkWOdb",
+                "tweet_text2": "In a strongly worded veto message, President Duterte rejected at least 12 spending provisions and over P95B worth of public works projects in the 2019 national budget saying he would not tolerate corruption or attempts to circumvent the Constitution.",
+                "user_created": "Tue Apr 17 05:13:45 +0000 2012",
+                "user_follower": 4532,
+                "user_id": 555695875,
+                "user_loc": "Philippines",
+                "user_total_tweet": 32505,
+                "user_verified": false
+            },
+            {
+                "is_retweet": false,
+                "quote_text": null,
+                "quote_text2": null,
+                "rt_count": 3,
+                "tweet_created": "Wed Apr 17 01:03:49 +0000 2019",
+                "tweet_id": 1118319117591650304,
+                "tweet_loc": "quezon",
+                "tweet_text": "In a strongly worded veto message, President Duterte rejected at least 12 spending provisions and over P95B worth of public works projects in the 2019 national budget saying he would not tolerate corruption or attempts to \u201ccircumvent the Constitution.\u201d\n\nhttps://t.co/Bv2oUkWOdb",
+                "tweet_text2": "In a strongly worded veto message, President Duterte rejected at least 12 spending provisions and over P95B worth of public works projects in the 2019 national budget saying he would not tolerate corruption or attempts to circumvent the Constitution.",
+                "user_created": "Thu Jul 09 02:48:17 +0000 2009",
+                "user_follower": 381832,
+                "user_id": 55118669,
+                "user_loc": "Manila, Philippines",
+                "user_total_tweet": 222173,
+                "user_verified": true
+            },
+            {
+                "is_retweet": false,
+                "quote_text": "Criminology student na nagpanggap na bumbero para umano mangotong, timbog https://t.co/Q0YycMjjg0",
+                "quote_text2": "Criminology student who has been firing a gun for allegedly being cut off",
+                "rt_count": 0,
+                "tweet_created": "Tue Apr 16 15:53:25 +0000 2019",
+                "tweet_id": 1118180604267249665,
+                "tweet_loc": "quezon",
+                "tweet_text": "She's actually on immersion.\ud83d\ude02\nShe's a criminology student, remember? \nShe thinks she's protected.\nShe'll be worse when she completes his course.\nThis is how Duterte silently encourages corruption. \n#TWBAFumiYam \n#PBB8ggcitingDelivery \n#ILWTG29 https://t.co/3i0qirQFYs",
+                "tweet_text2": "She's actually on immersion. She's a criminology student, remember? She thinks she's protected. She'll be worse when she completes his course. This is how Duterte silently encourages corruption.",
+                "user_created": "Thu Aug 20 15:03:17 +0000 2009",
+                "user_follower": 905,
+                "user_id": 67336505,
+                "user_loc": "Antipolo, Philippines",
+                "user_total_tweet": 26403,
+                "user_verified": false
+            },
+            {
+                "is_retweet": true,
+                "quote_text": null,
+                "quote_text2": null,
+                "rt_count": 3,
+                "tweet_created": "Tue Apr 16 14:08:30 +0000 2019",
+                "tweet_id": 1118154201148854272,
+                "tweet_loc": "quezon",
+                "tweet_text": "Duterte on corruption: Believe me as a President I will reveal it, pinag-aralan ko. Madugo talaga, bilyon. | via @pia_gutierrez",
+                "tweet_text2": "Duterte on corruption: Believe me as a President I will reveal it, I studied. It's bloody, billion. | via",
+                "user_created": "Tue Nov 24 02:03:16 +0000 2009",
+                "user_follower": 1274057,
+                "user_id": 92174767,
+                "user_loc": "ABS-CBN, Diliman, Quezon City",
+                "user_total_tweet": 384482,
+                "user_verified": true
+            },
+            {
+                "is_retweet": true,
+                "quote_text": null,
+                "quote_text2": null,
+                "rt_count": 3,
+                "tweet_created": "Tue Apr 16 14:08:07 +0000 2019",
+                "tweet_id": 1118154104008630273,
+                "tweet_loc": "quezon",
+                "tweet_text": "Duterte on corruption: Believe me as a President I will reveal it, pinag-aralan ko. Madugo talaga, bilyon. | via @pia_gutierrez",
+                "tweet_text2": "Duterte on corruption: Believe me as a President I will reveal it, I studied. It's bloody, billion. | via",
+                "user_created": "Tue Feb 12 23:42:38 +0000 2013",
+                "user_follower": 183,
+                "user_id": 1173373472,
+                "user_loc": "Manila City, National Capital Region",
+                "user_total_tweet": 55939,
+                "user_verified": false
+            },
+            {
+                "is_retweet": false,
+                "quote_text": null,
+                "quote_text2": null,
+                "rt_count": 3,
+                "tweet_created": "Tue Apr 16 14:07:57 +0000 2019",
+                "tweet_id": 1118154062095101952,
+                "tweet_loc": "quezon",
+                "tweet_text": "Duterte on corruption: Believe me as a President I will reveal it, pinag-aralan ko. Madugo talaga, bilyon. | via @pia_gutierrez",
+                "tweet_text2": "Duterte on corruption: Believe me as a President I will reveal it, I studied. It's bloody, billion. | via",
+                "user_created": "Sat Aug 16 10:09:33 +0000 2008",
+                "user_follower": 6100799,
+                "user_id": 15872418,
+                "user_loc": "Manila, Philippines",
+                "user_total_tweet": 675477,
+                "user_verified": true
+            },
+            {
+                "is_retweet": false,
+                "quote_text": null,
+                "quote_text2": null,
+                "rt_count": 0,
+                "tweet_created": "Tue Apr 16 13:50:18 +0000 2019",
+                "tweet_id": 1118149619714682880,
+                "tweet_loc": "quezon",
+                "tweet_text": "Duterte on corruption: Believe me as a President I will reveal it, pinag-aralan ko. Madugo talaga, bilyon.",
+                "tweet_text2": "Duterte on corruption: Believe me as a President I will reveal it, I studied. It's bloody, billion.",
+                "user_created": "Thu May 29 13:10:15 +0000 2008",
+                "user_follower": 31717,
+                "user_id": 14943804,
+                "user_loc": "Quezon City, Philippines",
+                "user_total_tweet": 16122,
+                "user_verified": false
+            },
+            {
+                "is_retweet": false,
+                "quote_text": null,
+                "quote_text2": null,
+                "rt_count": 4,
+                "tweet_created": "Tue Apr 16 09:34:34 +0000 2019",
+                "tweet_id": 1118085262901256199,
+                "tweet_loc": "quezon",
+                "tweet_text": "Pres. Duterte says that the hard-earned money of the Filipino people must be utilized to improve the condition of our country, as he won't tolerate any forms of corruption under his administration @PTVph https://t.co/2WGIJBwOtB",
+                "tweet_text2": "Pres. Duterte says that the hard-earned money of the Filipino people must be utilized to improve the condition of our country, as he won't tolerate any forms of corruption under his administration",
+                "user_created": "Mon Jun 17 04:34:54 +0000 2013",
+                "user_follower": 324,
+                "user_id": 1523938789,
+                "user_loc": "National Capital Region, Repub",
+                "user_total_tweet": 15635,
+                "user_verified": false
+            },
+            {
                 "is_retweet": false,
                 "quote_text": null,
                 "quote_text2": null,
@@ -32,7 +202,7 @@
                 "user_follower": 137,
                 "user_id": 62533658,
                 "user_loc": "Paranaque Philippines",
-                "user_total_tweet": 3607,
+                "user_total_tweet": 3608,
                 "user_verified": false
             },
             {
@@ -46,10 +216,10 @@
                 "tweet_text": "President Duterte has threatened to fire more government officials involved in corruption before he leaves for Beijing later this month to attend the Second Belt and Road Forum. https://t.co/L6uz1QQe96",
                 "tweet_text2": "President Duterte has threatened to fire more government officials involved in corruption before he leaves for Beijing later this month to attend the Second Belt and Road Forum.",
                 "user_created": "Thu Jul 09 02:48:17 +0000 2009",
-                "user_follower": 381702,
+                "user_follower": 381832,
                 "user_id": 55118669,
                 "user_loc": "Manila, Philippines",
-                "user_total_tweet": 222070,
+                "user_total_tweet": 222173,
                 "user_verified": true
             },
             {
@@ -66,7 +236,7 @@
                 "user_follower": 443,
                 "user_id": 3283079864,
                 "user_loc": "Manila City",
-                "user_total_tweet": 11015,
+                "user_total_tweet": 11030,
                 "user_verified": false
             },
             {
@@ -80,10 +250,10 @@
                 "tweet_text": "Duterte to fire corruption-linked officials before China\u00a0trip https://t.co/DhRFcfUIBg https://t.co/HxeU0iUR9y",
                 "tweet_text2": "Duterte to fire corruption-linked officials before China trip",
                 "user_created": "Sun Sep 06 08:29:47 +0000 2009",
-                "user_follower": 1830,
+                "user_follower": 1829,
                 "user_id": 71996980,
                 "user_loc": "Manila",
-                "user_total_tweet": 241940,
+                "user_total_tweet": 242088,
                 "user_verified": false
             },
             {
@@ -97,10 +267,10 @@
                 "tweet_text": "Duterte to fire corruption-linked officials before China trip https://t.co/QWwZMjDGUf",
                 "tweet_text2": "Duterte to fire corruption-linked officials before China trip",
                 "user_created": "Thu Jul 10 07:55:26 +0000 2008",
-                "user_follower": 554393,
+                "user_follower": 554623,
                 "user_id": 15375209,
                 "user_loc": "Manila, Philippines",
-                "user_total_tweet": 563021,
+                "user_total_tweet": 563320,
                 "user_verified": true
             },
             {
@@ -114,10 +284,10 @@
                 "tweet_text": "Duterte: Corruption medyo mabagal na talaga. Next week when I come back to report to work, before I leave for China, I will fire more. | @argyllcyrus_MB",
                 "tweet_text2": "Duterte: Corruption medyo mabagal na talaga. Next week when I come back to report to work, before I leave for China, I will fire more. |",
                 "user_created": "Thu Jul 10 07:55:26 +0000 2008",
-                "user_follower": 554393,
+                "user_follower": 554623,
                 "user_id": 15375209,
                 "user_loc": "Manila, Philippines",
-                "user_total_tweet": 563021,
+                "user_total_tweet": 563320,
                 "user_verified": true
             },
             {
@@ -134,7 +304,7 @@
                 "user_follower": 1181,
                 "user_id": 15718399,
                 "user_loc": "Manila",
-                "user_total_tweet": 18259,
+                "user_total_tweet": 18322,
                 "user_verified": false
             },
             {
@@ -148,10 +318,10 @@
                 "tweet_text": "Duterte: May we all be inspired by our forebears\u2019 shining example as we do our best to triumph against the ills of terrorism, corruption,\nillegal drugs and criminality that have hampered our country\u2019s growth for so long. | via @GenKabiling",
                 "tweet_text2": "Duterte: May we all be inspired by our forebears shining example as we do our best to triumph against the ills of terrorism, corruption, illegal drugs and criminality that have hampered our countrys growth for so long. | via",
                 "user_created": "Thu Jul 10 07:55:26 +0000 2008",
-                "user_follower": 554393,
+                "user_follower": 554623,
                 "user_id": 15375209,
                 "user_loc": "Manila, Philippines",
-                "user_total_tweet": 563021,
+                "user_total_tweet": 563320,
                 "user_verified": true
             },
             {
@@ -165,7 +335,7 @@
                 "tweet_text": "@gabebecerra His ideas aren't feasible. Saying this because duterte has done popular policies exactly like his (medicare, etc) with terrible implementation, and we had to deal with the effects. People think malicious corruption is worse than incompetence. Same results tho.\n\nI like Warren too!",
                 "tweet_text2": "His ideas aren't feasible. Saying this because duterte has done popular policies exactly like his (medicare, etc) with terrible implementation, and we had to deal with the effects. People think malicious corruption is worse than incompetence. Same results tho. I like Warren too!",
                 "user_created": "Thu Nov 26 06:28:06 +0000 2009",
-                "user_follower": 15396,
+                "user_follower": 15401,
                 "user_id": 92699184,
                 "user_loc": "Manila, Philippines",
                 "user_total_tweet": 8270,
@@ -182,10 +352,10 @@
                 "tweet_text": "@dgplacido @mikenavallo Duterte: I hate corruption. Hindi ako nagmamalinis. Marami rin akong ninakaw pero naubos na. Corruption is really out during my term.",
                 "tweet_text2": "Duterte: I hate corruption. I'm not clean. I also had many stolen but gone. Corruption is really out during my term.",
                 "user_created": "Sat Feb 24 10:53:13 +0000 2018",
-                "user_follower": 787,
+                "user_follower": 786,
                 "user_id": 967351703661105153,
                 "user_loc": "",
-                "user_total_tweet": 4039,
+                "user_total_tweet": 4040,
                 "user_verified": false
             },
             {
@@ -199,10 +369,10 @@
                 "tweet_text": "A \u201ctired\u201d President Rodrigo Duterte said Saturday he will step down as the country\u2019s leader once his term ends in 2022.\n\nRead: https://t.co/UOdgfgkvtb https://t.co/2W60JqAVEg",
                 "tweet_text2": "A tired President Rodrigo Duterte said Saturday he will step down as the countrys leader once his term ends in 2022. Read:",
                 "user_created": "Thu Jan 26 12:46:45 +0000 2012",
-                "user_follower": 36683,
+                "user_follower": 36693,
                 "user_id": 474871087,
                 "user_loc": "Manila, Philippines",
-                "user_total_tweet": 64456,
+                "user_total_tweet": 64560,
                 "user_verified": false
             },
             {
@@ -216,10 +386,10 @@
                 "tweet_text": "A \u201ctired\u201d President Rodrigo Duterte said Saturday he will step down as the country\u2019s leader once his term ends in 2022.\n\nRead: https://t.co/UOdgfgC6kJ https://t.co/9z0UD1iCRA",
                 "tweet_text2": "A tired President Rodrigo Duterte said Saturday he will step down as the countrys leader once his term ends in 2022. Read:",
                 "user_created": "Thu Jan 26 12:46:45 +0000 2012",
-                "user_follower": 36683,
+                "user_follower": 36693,
                 "user_id": 474871087,
                 "user_loc": "Manila, Philippines",
-                "user_total_tweet": 64456,
+                "user_total_tweet": 64560,
                 "user_verified": false
             },
             {
@@ -233,10 +403,10 @@
                 "tweet_text": "Dutz, #SignTheWaiver kung wala ka tinatagong drug money at nakaw na yaman. Buong pamilya mo dpat imbestigahan ang bank accounts!  You hate corruption but when it comes to you and your family, untouchable kayo? Why would we believe a liar like Duterte? https://t.co/0p8cooBciX",
                 "tweet_text2": "Dutz, if you have no hidden drug money and money. Your entire family can investigate bank accounts! You hate corruption but when it comes to you and your family, untouchable you? Why would we believe a wild like Duterte?",
                 "user_created": "Sun Mar 24 05:44:40 +0000 2013",
-                "user_follower": 1503,
+                "user_follower": 1501,
                 "user_id": 1293782659,
                 "user_loc": "Republic of the Philippines",
-                "user_total_tweet": 332810,
+                "user_total_tweet": 333254,
                 "user_verified": false
             },
             {
@@ -253,7 +423,7 @@
                 "user_follower": 67,
                 "user_id": 2841639134,
                 "user_loc": "manila, philippines",
-                "user_total_tweet": 2378,
+                "user_total_tweet": 2389,
                 "user_verified": false
             },
             {
@@ -270,7 +440,58 @@
                 "user_follower": 1181,
                 "user_id": 15718399,
                 "user_loc": "Manila",
-                "user_total_tweet": 18259,
+                "user_total_tweet": 18322,
+                "user_verified": false
+            },
+            {
+                "is_retweet": false,
+                "quote_text": null,
+                "quote_text2": null,
+                "rt_count": 0,
+                "tweet_created": "Tue Apr 16 13:44:08 +0000 2019",
+                "tweet_id": 1118148067889381377,
+                "tweet_loc": "manila",
+                "tweet_text": "@JMAurelioINQ Duterte tells audience to report corruption, extortion cases to 8888, the government's hotline. | @JMAurelioINQ \n\nWatch here: https://t.co/KvkOCUp7lr",
+                "tweet_text2": "Duterte tells audience to report corruption, extortion cases to 8888, the government's hotline. | Watch here:",
+                "user_created": "Wed Jul 16 00:36:41 +0000 2008",
+                "user_follower": 2796484,
+                "user_id": 15448383,
+                "user_loc": "Makati City",
+                "user_total_tweet": 761153,
+                "user_verified": true
+            },
+            {
+                "is_retweet": false,
+                "quote_text": null,
+                "quote_text2": null,
+                "rt_count": 0,
+                "tweet_created": "Tue Apr 16 13:43:09 +0000 2019",
+                "tweet_id": 1118147823109906433,
+                "tweet_loc": "manila",
+                "tweet_text": "@JMAurelioINQ Duterte tells public to be assertive vs corruption, extortion attempts and to slap those asking money from them. | @JMAurelioINQ \n\nWatch here: https://t.co/KvkOCUp7lr",
+                "tweet_text2": "Duterte tells public to be assertive vs corruption, extortion attempts and to slap those asking money from them. | Watch here:",
+                "user_created": "Wed Jul 16 00:36:41 +0000 2008",
+                "user_follower": 2796484,
+                "user_id": 15448383,
+                "user_loc": "Makati City",
+                "user_total_tweet": 761153,
+                "user_verified": true
+            },
+            {
+                "is_retweet": true,
+                "quote_text": null,
+                "quote_text2": null,
+                "rt_count": 4,
+                "tweet_created": "Tue Apr 16 09:24:07 +0000 2019",
+                "tweet_id": 1118082633337061377,
+                "tweet_loc": "manila",
+                "tweet_text": "Excerpt from #Duterte's closing statements on his \"veto:\" \n\nI have said this before and I will say it again - I will not tolerate corruption in my Administration. Our positions should never be used for personal gain; otherwise, we are not worthy of the offices we hold.",
+                "tweet_text2": "Excerpt from 's closing statements on his \"veto:\" I have said this before and I will say it again - I will not tolerate corruption in my Administration. Our positions should never be used for personal gain; otherwise, we are not worthy of the offices we hold.",
+                "user_created": "Sat Sep 05 23:06:33 +0000 2009",
+                "user_follower": 59,
+                "user_id": 71913132,
+                "user_loc": "Doha, Qatar",
+                "user_total_tweet": 5220,
                 "user_verified": false
             },
             {
@@ -278,288 +499,33 @@
                 "quote_text": null,
                 "quote_text2": null,
                 "rt_count": 4,
-                "tweet_created": "Sun Apr 07 12:47:48 +0000 2019",
-                "tweet_id": 1114872399432839169,
-                "tweet_loc": "quezon",
-                "tweet_text": "Ulol! Pakitang tao para kunwari totoong anti-corruption siya. Bilib na bilib naman ang bobong 16M na bulag bulagan sa closeness ni Duterte sa mga Marcos, sa pagpapalaya kay Gloria at iba pa, sa pageerecycle ng mga sinesante niyang corrupt officials. https://t.co/pe1lJs3JSp",
-                "tweet_text2": "Ulol! Please see him for his true anti-corruption. The poor 16M is blind in Duterte's closeness to the Marcoses, to release Gloria and others, in the pageerecycle of his corrupt officials.",
-                "user_created": "Tue Sep 02 10:35:06 +0000 2014",
-                "user_follower": 846,
-                "user_id": 2785657326,
-                "user_loc": "jjv\ud83d\udc95",
-                "user_total_tweet": 17531,
-                "user_verified": false
-            },
-            {
-                "is_retweet": true,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 2,
-                "tweet_created": "Sun Apr 07 07:25:18 +0000 2019",
-                "tweet_id": 1114791241269633024,
-                "tweet_loc": "quezon",
-                "tweet_text": "Duterte to fire more officials for corruption https://t.co/shih6sSXvw",
-                "tweet_text2": "Duterte to fire more officials for corruption",
-                "user_created": "Fri Nov 18 17:09:53 +0000 2016",
-                "user_follower": 241,
-                "user_id": 799660913381019648,
-                "user_loc": "",
-                "user_total_tweet": 14215,
-                "user_verified": false
-            },
-            {
-                "is_retweet": false,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 0,
-                "tweet_created": "Sun Apr 07 04:32:32 +0000 2019",
-                "tweet_id": 1114747764787818501,
-                "tweet_loc": "quezon",
-                "tweet_text": "Veto the P75 billion pork barrell in 2019 budget and maybe, just maybe, I'll believe there is no corruption in your cabinet.  #whiffofcorruption https://t.co/rH9MmF3JTV",
-                "tweet_text2": "Veto the P75 billion pork barrell in 2019 budget and maybe, just maybe, I'll believe there is no corruption in your cabinet.",
-                "user_created": "Sun Oct 05 18:32:25 +0000 2014",
-                "user_follower": 67,
-                "user_id": 2841639134,
-                "user_loc": "manila, philippines",
-                "user_total_tweet": 2378,
-                "user_verified": false
-            },
-            {
-                "is_retweet": false,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 0,
-                "tweet_created": "Sun Apr 07 02:45:50 +0000 2019",
-                "tweet_id": 1114720913277190145,
-                "tweet_loc": "quezon",
-                "tweet_text": "Duterte to fire more officials for\u00a0corruption https://t.co/UOO1WI9bzh https://t.co/vpx2MPK7Rk",
-                "tweet_text2": "Duterte to fire more officials for corruption",
-                "user_created": "Sun Sep 06 08:29:47 +0000 2009",
-                "user_follower": 1830,
-                "user_id": 71996980,
+                "tweet_created": "Tue Apr 16 09:16:15 +0000 2019",
+                "tweet_id": 1118080653877055488,
+                "tweet_loc": "manila",
+                "tweet_text": "Excerpt from #Duterte's closing statements on his \"veto:\" \n\nI have said this before and I will say it again - I will not tolerate corruption in my Administration. Our positions should never be used for personal gain; otherwise, we are not worthy of the offices we hold.",
+                "tweet_text2": "Excerpt from 's closing statements on his \"veto:\" I have said this before and I will say it again - I will not tolerate corruption in my Administration. Our positions should never be used for personal gain; otherwise, we are not worthy of the offices we hold.",
+                "user_created": "Thu Jun 24 01:35:11 +0000 2010",
+                "user_follower": 473,
+                "user_id": 158935327,
                 "user_loc": "Manila",
-                "user_total_tweet": 241940,
+                "user_total_tweet": 12031,
                 "user_verified": false
-            },
-            {
-                "is_retweet": false,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 0,
-                "tweet_created": "Sun Apr 07 02:12:52 +0000 2019",
-                "tweet_id": 1114712616981499905,
-                "tweet_loc": "quezon",
-                "tweet_text": "@TrillanesSonny Duterte corruption pinas",
-                "tweet_text2": "Duterte corruption pinas",
-                "user_created": "Thu Apr 04 04:15:29 +0000 2019",
-                "user_follower": 1,
-                "user_id": 1113656308018716672,
-                "user_loc": "Maynila",
-                "user_total_tweet": 6,
-                "user_verified": false
-            },
-            {
-                "is_retweet": false,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 2,
-                "tweet_created": "Sun Apr 07 02:00:00 +0000 2019",
-                "tweet_id": 1114709377502461952,
-                "tweet_loc": "quezon",
-                "tweet_text": "Duterte to fire more officials for corruption https://t.co/shih6sSXvw",
-                "tweet_text2": "Duterte to fire more officials for corruption",
-                "user_created": "Thu Jul 10 07:55:26 +0000 2008",
-                "user_follower": 554393,
-                "user_id": 15375209,
-                "user_loc": "Manila, Philippines",
-                "user_total_tweet": 563021,
-                "user_verified": true
-            },
-            {
-                "is_retweet": true,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 4,
-                "tweet_created": "Sat Apr 06 17:30:47 +0000 2019",
-                "tweet_id": 1114581230035460096,
-                "tweet_loc": "quezon",
-                "tweet_text": "In his speech during the annual motorcycle convention of the NFMCP, Pres. Duterte says he will fire \"a lot of people\" over corruption tomorrow. | via @VivienneGulla",
-                "tweet_text2": "In his speech during the annual motorcycle convention of the NFMCP, Pres. Duterte says he will fire \"a lot of people\" over corruption tomorrow. | via",
-                "user_created": "Sat Mar 30 00:29:35 +0000 2019",
-                "user_follower": 12,
-                "user_id": 1111787520251953152,
-                "user_loc": "",
-                "user_total_tweet": 1644,
-                "user_verified": false
-            },
-            {
-                "is_retweet": true,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 2,
-                "tweet_created": "Sat Apr 06 13:51:47 +0000 2019",
-                "tweet_id": 1114526117149401088,
-                "tweet_loc": "quezon",
-                "tweet_text": "@argyllcyrus_MB Duterte: Any businessman, any Filipino, or foreigners doing business here, or even a tourist, if it involves corruption, let me know. Go to Malaca\u00f1ang at any time, sabihin mo lang sa gwardya, I have to report to the mayor that I was a victim of corruption. | via @argyllcyrus_MB",
-                "tweet_text2": "Duterte: Any businessman, any Filipino, or foreigners doing business here, or even a tourist, if it involves corruption, let me know. Go to Malacaang at any time, sabihin mo lang sa gwardya, I have to report to the mayor that I was a victim of corruption. | via",
-                "user_created": "Sat Oct 14 23:18:27 +0000 2017",
-                "user_follower": 27,
-                "user_id": 919341662035353600,
-                "user_loc": "",
-                "user_total_tweet": 2896,
-                "user_verified": false
-            },
-            {
-                "is_retweet": true,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 1,
-                "tweet_created": "Sat Apr 06 13:51:30 +0000 2019",
-                "tweet_id": 1114526042608168960,
-                "tweet_loc": "quezon",
-                "tweet_text": "@argyllcyrus_MB Duterte: Corruption mahirap tanggalin eh. Hiyain mo tapos saktan mo. The only way to do it is hiyain mo tapos saktan mo. Otherwise, wala. Suspension nandiyan balik. | via @argyllcyrus_MB",
-                "tweet_text2": "Duterte: Corruption is difficult to remove eh. Humiliate you then hurt you. The only way to do it is to shame you after you hurt. Otherwise, nothing. Suspension is back. | via",
-                "user_created": "Sat Oct 14 23:18:27 +0000 2017",
-                "user_follower": 27,
-                "user_id": 919341662035353600,
-                "user_loc": "",
-                "user_total_tweet": 2896,
-                "user_verified": false
-            },
-            {
-                "is_retweet": true,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 2,
-                "tweet_created": "Sat Apr 06 13:42:04 +0000 2019",
-                "tweet_id": 1114523671207403520,
-                "tweet_loc": "quezon",
-                "tweet_text": "@argyllcyrus_MB Duterte: Any businessman, any Filipino, or foreigners doing business here, or even a tourist, if it involves corruption, let me know. Go to Malaca\u00f1ang at any time, sabihin mo lang sa gwardya, I have to report to the mayor that I was a victim of corruption. | via @argyllcyrus_MB",
-                "tweet_text2": "Duterte: Any businessman, any Filipino, or foreigners doing business here, or even a tourist, if it involves corruption, let me know. Go to Malacaang at any time, sabihin mo lang sa gwardya, I have to report to the mayor that I was a victim of corruption. | via",
-                "user_created": "Fri Feb 11 08:14:43 +0000 2011",
-                "user_follower": 653,
-                "user_id": 250529087,
-                "user_loc": "",
-                "user_total_tweet": 410012,
-                "user_verified": false
-            },
-            {
-                "is_retweet": true,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 4,
-                "tweet_created": "Sat Apr 06 12:14:04 +0000 2019",
-                "tweet_id": 1114501523394973697,
-                "tweet_loc": "quezon",
-                "tweet_text": "In his speech during the annual motorcycle convention of the NFMCP, Pres. Duterte says he will fire \"a lot of people\" over corruption tomorrow. | via @VivienneGulla",
-                "tweet_text2": "In his speech during the annual motorcycle convention of the NFMCP, Pres. Duterte says he will fire \"a lot of people\" over corruption tomorrow. | via",
-                "user_created": "Thu Jun 04 21:26:24 +0000 2009",
-                "user_follower": 4705837,
-                "user_id": 44728980,
-                "user_loc": "Philippines",
-                "user_total_tweet": 627573,
-                "user_verified": true
-            },
-            {
-                "is_retweet": true,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 4,
-                "tweet_created": "Sat Apr 06 11:54:05 +0000 2019",
-                "tweet_id": 1114496497419210752,
-                "tweet_loc": "quezon",
-                "tweet_text": "In his speech during the annual motorcycle convention of the NFMCP, Pres. Duterte says he will fire \"a lot of people\" over corruption tomorrow. | via @VivienneGulla",
-                "tweet_text2": "In his speech during the annual motorcycle convention of the NFMCP, Pres. Duterte says he will fire \"a lot of people\" over corruption tomorrow. | via",
-                "user_created": "Tue Nov 24 02:03:16 +0000 2009",
-                "user_follower": 1273819,
-                "user_id": 92174767,
-                "user_loc": "ABS-CBN, Diliman, Quezon City",
-                "user_total_tweet": 384241,
-                "user_verified": true
             },
             {
                 "is_retweet": false,
                 "quote_text": null,
                 "quote_text2": null,
                 "rt_count": 4,
-                "tweet_created": "Sat Apr 06 11:53:54 +0000 2019",
-                "tweet_id": 1114496451315417089,
-                "tweet_loc": "quezon",
-                "tweet_text": "In his speech during the annual motorcycle convention of the NFMCP, Pres. Duterte says he will fire \"a lot of people\" over corruption tomorrow. | via @VivienneGulla",
-                "tweet_text2": "In his speech during the annual motorcycle convention of the NFMCP, Pres. Duterte says he will fire \"a lot of people\" over corruption tomorrow. | via",
-                "user_created": "Sat Aug 16 10:09:33 +0000 2008",
-                "user_follower": 6098302,
-                "user_id": 15872418,
-                "user_loc": "Manila, Philippines",
-                "user_total_tweet": 675151,
-                "user_verified": true
-            },
-            {
-                "is_retweet": false,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 1,
-                "tweet_created": "Sat Apr 06 11:41:56 +0000 2019",
-                "tweet_id": 1114493439448498176,
-                "tweet_loc": "quezon",
-                "tweet_text": "@argyllcyrus_MB Duterte: Corruption mahirap tanggalin eh. Hiyain mo tapos saktan mo. The only way to do it is hiyain mo tapos saktan mo. Otherwise, wala. Suspension nandiyan balik. | via @argyllcyrus_MB",
-                "tweet_text2": "Duterte: Corruption is difficult to remove eh. Humiliate you then hurt you. The only way to do it is to shame you after you hurt. Otherwise, nothing. Suspension is back. | via",
-                "user_created": "Thu Jul 10 07:55:26 +0000 2008",
-                "user_follower": 554393,
-                "user_id": 15375209,
-                "user_loc": "Manila, Philippines",
-                "user_total_tweet": 563021,
-                "user_verified": true
-            },
-            {
-                "is_retweet": false,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 2,
-                "tweet_created": "Sat Apr 06 11:41:47 +0000 2019",
-                "tweet_id": 1114493401620082688,
-                "tweet_loc": "quezon",
-                "tweet_text": "@argyllcyrus_MB Duterte: Any businessman, any Filipino, or foreigners doing business here, or even a tourist, if it involves corruption, let me know. Go to Malaca\u00f1ang at any time, sabihin mo lang sa gwardya, I have to report to the mayor that I was a victim of corruption. | via @argyllcyrus_MB",
-                "tweet_text2": "Duterte: Any businessman, any Filipino, or foreigners doing business here, or even a tourist, if it involves corruption, let me know. Go to Malacaang at any time, sabihin mo lang sa gwardya, I have to report to the mayor that I was a victim of corruption. | via",
-                "user_created": "Thu Jul 10 07:55:26 +0000 2008",
-                "user_follower": 554393,
-                "user_id": 15375209,
-                "user_loc": "Manila, Philippines",
-                "user_total_tweet": 563021,
-                "user_verified": true
-            },
-            {
-                "is_retweet": false,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 0,
-                "tweet_created": "Sat Apr 06 11:41:35 +0000 2019",
-                "tweet_id": 1114493348490776576,
-                "tweet_loc": "quezon",
-                "tweet_text": "@argyllcyrus_MB Duterte: Kaya yang authority to convert is given to a certain person tapos pabalik-balikin mo yung tao for two years, to me that is corruption, Nothing else. Ang meaning niyan is you want money so he has to go back and forth. | via @argyllcyrus_MB",
-                "tweet_text2": "Duterte: Kaya yang authority to convert is given to a certain person tapos pabalik-balikin mo yung tao for two years, to me that is corruption, Nothing else. Ang meaning niyan is you want money so he has to go back and forth. | via",
-                "user_created": "Thu Jul 10 07:55:26 +0000 2008",
-                "user_follower": 554393,
-                "user_id": 15375209,
-                "user_loc": "Manila, Philippines",
-                "user_total_tweet": 563021,
-                "user_verified": true
-            },
-            {
-                "is_retweet": true,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 1,
-                "tweet_created": "Sat Apr 06 11:37:24 +0000 2019",
-                "tweet_id": 1114492297742180352,
-                "tweet_loc": "quezon",
-                "tweet_text": "@argyllcyrus_MB Duterte: Kaya ako, pagbalik ko maybe tomorrow, I'll be firing a lot of people simply for corruption. | via @argyllcyrus_MB",
-                "tweet_text2": "Duterte: Kaya ako, pagbalik ko maybe tomorrow, I'll be firing a lot of people simply for corruption. | via",
-                "user_created": "Sat Jan 01 16:56:40 +0000 2011",
-                "user_follower": 171,
-                "user_id": 232887954,
-                "user_loc": "Philippines\ud83c\uddf5\ud83c\udded",
-                "user_total_tweet": 17785,
+                "tweet_created": "Tue Apr 16 09:07:10 +0000 2019",
+                "tweet_id": 1118078366479863808,
+                "tweet_loc": "manila",
+                "tweet_text": "Excerpt from #Duterte's closing statements on his \"veto:\" \n\nI have said this before and I will say it again - I will not tolerate corruption in my Administration. Our positions should never be used for personal gain; otherwise, we are not worthy of the offices we hold.",
+                "tweet_text2": "Excerpt from 's closing statements on his \"veto:\" I have said this before and I will say it again - I will not tolerate corruption in my Administration. Our positions should never be used for personal gain; otherwise, we are not worthy of the offices we hold.",
+                "user_created": "Wed Nov 26 07:21:02 +0000 2008",
+                "user_follower": 25586,
+                "user_id": 17644834,
+                "user_loc": "Makati, Philippines",
+                "user_total_tweet": 45511,
                 "user_verified": false
             },
             {
@@ -573,10 +539,10 @@
                 "tweet_text": "@CMarquezINQ @JMAurelioINQ Duterte tells crowd to directly report corruption cases to him or to call government hotline 8888. | @JMAurelioINQ",
                 "tweet_text2": "Duterte tells crowd to directly report corruption cases to him or to call government hotline 8888. |",
                 "user_created": "Tue Feb 12 23:42:38 +0000 2013",
-                "user_follower": 182,
+                "user_follower": 183,
                 "user_id": 1173373472,
                 "user_loc": "Manila City, National Capital Region",
-                "user_total_tweet": 55655,
+                "user_total_tweet": 55939,
                 "user_verified": false
             },
             {
@@ -590,10 +556,10 @@
                 "tweet_text": "@CMarquezINQ @JMAurelioINQ Duterte says corruption still persists in the BIR. | @JMAurelioINQ",
                 "tweet_text2": "Duterte says corruption still persists in the BIR. |",
                 "user_created": "Tue Feb 12 23:42:38 +0000 2013",
-                "user_follower": 182,
+                "user_follower": 183,
                 "user_id": 1173373472,
                 "user_loc": "Manila City, National Capital Region",
-                "user_total_tweet": 55655,
+                "user_total_tweet": 55939,
                 "user_verified": false
             },
             {
@@ -607,10 +573,10 @@
                 "tweet_text": "@CMarquezINQ @JMAurelioINQ Duterte tells crowd to directly report corruption cases to him or to call government hotline 8888. | @JMAurelioINQ",
                 "tweet_text2": "Duterte tells crowd to directly report corruption cases to him or to call government hotline 8888. |",
                 "user_created": "Wed Jul 16 00:36:41 +0000 2008",
-                "user_follower": 2795895,
+                "user_follower": 2796484,
                 "user_id": 15448383,
                 "user_loc": "Makati City",
-                "user_total_tweet": 760632,
+                "user_total_tweet": 761153,
                 "user_verified": true
             },
             {
@@ -624,10 +590,10 @@
                 "tweet_text": "@CMarquezINQ @JMAurelioINQ Duterte says corruption still persists in the BIR. | @JMAurelioINQ",
                 "tweet_text2": "Duterte says corruption still persists in the BIR. |",
                 "user_created": "Wed Jul 16 00:36:41 +0000 2008",
-                "user_follower": 2795895,
+                "user_follower": 2796484,
                 "user_id": 15448383,
                 "user_loc": "Makati City",
-                "user_total_tweet": 760632,
+                "user_total_tweet": 761153,
                 "user_verified": true
             },
             {
@@ -641,10 +607,10 @@
                 "tweet_text": "@JMAurelioINQ Palace: President Duterte is racing against time to fulfill his campaign promise of slaying the dragon of illegal drugs, criminality, corruption and rebellion, as well as providing the people with a comfortable life under a reign of peace during his term.  | @JMAurelioINQ",
                 "tweet_text2": "Palace: President Duterte is racing against time to fulfill his campaign promise of slaying the dragon of illegal drugs, criminality, corruption and rebellion, as well as providing the people with a comfortable life under a reign of peace during his term. |",
                 "user_created": "Wed Jul 16 00:36:41 +0000 2008",
-                "user_follower": 2795895,
+                "user_follower": 2796484,
                 "user_id": 15448383,
                 "user_loc": "Makati City",
-                "user_total_tweet": 760632,
+                "user_total_tweet": 761153,
                 "user_verified": true
             },
             {
@@ -658,61 +624,10 @@
                 "tweet_text": "President Duterte said he is set to fire another Cabinet official as well as other government officials for corruption when he returns to Manila today after spending the... https://t.co/oEdmEJ4cAE",
                 "tweet_text2": "President Duterte said he is set to fire another Cabinet official as well as other government officials for corruption when he returns to Manila today after spending the...",
                 "user_created": "Sat Nov 03 09:20:48 +0000 2018",
-                "user_follower": 280,
+                "user_follower": 281,
                 "user_id": 1058650188397432832,
                 "user_loc": "Makati City",
-                "user_total_tweet": 2455,
-                "user_verified": false
-            },
-            {
-                "is_retweet": false,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 0,
-                "tweet_created": "Sun Apr 07 15:07:47 +0000 2019",
-                "tweet_id": 1114907628805611520,
-                "tweet_loc": "manila",
-                "tweet_text": "Duterte learns about the extent of corruption in the gov\u2019t AFTER he became president?! Wants to give up.\n\nSadly ayaw siyang payagan ni BongBong. https://t.co/HD8eNKInVq",
-                "tweet_text2": "Duterte learns about the extent of corruption in the govt AFTER he became president?! Wants to give up. Sadly ayaw siyang payagan ni BongBong.",
-                "user_created": "Fri Jun 20 06:07:35 +0000 2008",
-                "user_follower": 326,
-                "user_id": 15177125,
-                "user_loc": "Makati, Philippines",
-                "user_total_tweet": 5813,
-                "user_verified": false
-            },
-            {
-                "is_retweet": true,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 6,
-                "tweet_created": "Sun Apr 07 09:38:42 +0000 2019",
-                "tweet_id": 1114824813128835072,
-                "tweet_loc": "manila",
-                "tweet_text": "Malaca\u00f1ang takes \u201creal or imagined\u201d threats to President Duterte seriously because he has made many enemies in his stance against crime, corruption and illegal drugs, Panelo said. | @JMAurelioINQ https://t.co/R0URbAzsPU",
-                "tweet_text2": "Malacaang takes real or imagined threats to President Duterte seriously because he has made many enemies in his stance against crime, corruption and illegal drugs, Panelo said. |",
-                "user_created": "Tue Apr 18 10:53:11 +0000 2017",
-                "user_follower": 69,
-                "user_id": 854286682593427456,
-                "user_loc": "Republic of the Philippines",
-                "user_total_tweet": 47544,
-                "user_verified": false
-            },
-            {
-                "is_retweet": false,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 0,
-                "tweet_created": "Sat Apr 06 11:03:35 +0000 2019",
-                "tweet_id": 1114483787444912128,
-                "tweet_loc": "manila",
-                "tweet_text": "The DoTr chief also emphasized the agency's commitment to deliver projects and programs without any taint of corruption in line with President Rodrigo Duterte's campaign for good governance. https://t.co/UE5Q0HKwAn",
-                "tweet_text2": "The DoTr chief also emphasized the agency's commitment to deliver projects and programs without any taint of corruption in line with President Rodrigo Duterte's campaign for good governance.",
-                "user_created": "Sun Jun 10 09:07:17 +0000 2018",
-                "user_follower": 918,
-                "user_id": 1005738156665106433,
-                "user_loc": "Makati City",
-                "user_total_tweet": 12339,
+                "user_total_tweet": 2482,
                 "user_verified": false
             },
             {
@@ -726,10 +641,27 @@
                 "tweet_text": "Change is coming! Cronyism and corruption, Dirty Duterte's M.O.! Eew!\nhttps://t.co/ATqQemAH56",
                 "tweet_text2": "Change is coming! Cronyism and corruption, Dirty Duterte's M.O.! Eew!",
                 "user_created": "Fri Sep 02 10:26:01 +0000 2011",
-                "user_follower": 1684,
+                "user_follower": 1686,
                 "user_id": 366530149,
                 "user_loc": "Cebu, Philippines",
-                "user_total_tweet": 15185,
+                "user_total_tweet": 15190,
+                "user_verified": false
+            },
+            {
+                "is_retweet": false,
+                "quote_text": null,
+                "quote_text2": null,
+                "rt_count": 0,
+                "tweet_created": "Tue Apr 16 12:46:48 +0000 2019",
+                "tweet_id": 1118133641039814657,
+                "tweet_loc": "dazmarinas",
+                "tweet_text": "Pres. Duterte says that the hard-earned money of the Filipino people must be utilized to improve the condition of our country, as he won't tolerate any forms of corruption under his administration @PTVph https://t.co/yKnkj25IiG https://t.co/I4DrCqPxOe",
+                "tweet_text2": "Pres. Duterte says that the hard-earned money of the Filipino people must be utilized to improve the condition of our country, as he won't tolerate any forms of corruption under his administration",
+                "user_created": "Fri May 08 12:54:10 +0000 2009",
+                "user_follower": 829,
+                "user_id": 38659844,
+                "user_loc": "Imus, Calabarzon",
+                "user_total_tweet": 86750,
                 "user_verified": false
             },
             {
@@ -743,78 +675,27 @@
                 "tweet_text": "Ang katiwalian nasa baba lang: Duterte says his Cabinet is clean, only elected officials 'below' are corrupt https://t.co/AhOxTq44AR",
                 "tweet_text2": "Corruption lies just below: Duterte says his Cabinet is clean, only elected officials 'below' are corrupt",
                 "user_created": "Wed Mar 06 19:50:41 +0000 2019",
-                "user_follower": 127,
+                "user_follower": 129,
                 "user_id": 1103382412736819201,
                 "user_loc": "",
-                "user_total_tweet": 7449,
-                "user_verified": false
-            },
-            {
-                "is_retweet": true,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 10,
-                "tweet_created": "Sun Apr 07 08:31:22 +0000 2019",
-                "tweet_id": 1114807869101228032,
-                "tweet_loc": "quezon",
-                "tweet_text": "Ang katiwalian nasa baba lang: Duterte says his Cabinet is clean, only elected officials 'below' are corrupt https://t.co/AhOxTq44AR",
-                "tweet_text2": "Corruption lies just below: Duterte says his Cabinet is clean, only elected officials 'below' are corrupt",
-                "user_created": "Fri Sep 09 05:12:35 +0000 2011",
-                "user_follower": 1994,
-                "user_id": 370524875,
-                "user_loc": "",
-                "user_total_tweet": 128493,
-                "user_verified": false
-            },
-            {
-                "is_retweet": true,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 10,
-                "tweet_created": "Sun Apr 07 02:59:48 +0000 2019",
-                "tweet_id": 1114724424429768706,
-                "tweet_loc": "quezon",
-                "tweet_text": "Ang katiwalian nasa baba lang: Duterte says his Cabinet is clean, only elected officials 'below' are corrupt https://t.co/AhOxTq44AR",
-                "tweet_text2": "Corruption lies just below: Duterte says his Cabinet is clean, only elected officials 'below' are corrupt",
-                "user_created": "Tue Feb 05 20:42:02 +0000 2013",
-                "user_follower": 10,
-                "user_id": 1152011503,
-                "user_loc": "...",
-                "user_total_tweet": 710,
-                "user_verified": false
-            },
-            {
-                "is_retweet": true,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 10,
-                "tweet_created": "Sun Apr 07 00:22:56 +0000 2019",
-                "tweet_id": 1114684948638605312,
-                "tweet_loc": "quezon",
-                "tweet_text": "Ang katiwalian nasa baba lang: Duterte says his Cabinet is clean, only elected officials 'below' are corrupt https://t.co/AhOxTq44AR",
-                "tweet_text2": "Corruption lies just below: Duterte says his Cabinet is clean, only elected officials 'below' are corrupt",
-                "user_created": "Thu Jan 21 01:50:55 +0000 2016",
-                "user_follower": 573,
-                "user_id": 4831357881,
-                "user_loc": "National Capital Region, Republic of the Philippines",
-                "user_total_tweet": 29513,
+                "user_total_tweet": 7690,
                 "user_verified": false
             },
             {
                 "is_retweet": false,
                 "quote_text": null,
                 "quote_text2": null,
-                "rt_count": 10,
-                "tweet_created": "Sat Apr 06 13:05:42 +0000 2019",
-                "tweet_id": 1114514518170906624,
+                "rt_count": 0,
+                "tweet_created": "Tue Apr 16 23:09:42 +0000 2019",
+                "tweet_id": 1118290397262827524,
                 "tweet_loc": "quezon",
-                "tweet_text": "Ang katiwalian nasa baba lang: Duterte says his Cabinet is clean, only elected officials 'below' are corrupt https://t.co/AhOxTq44AR",
-                "tweet_text2": "Corruption lies just below: Duterte says his Cabinet is clean, only elected officials 'below' are corrupt",
-                "user_created": "Sat May 01 03:43:17 +0000 2010",
-                "user_follower": 10850,
-                "user_id": 138956259,
-                "user_loc": "Manila",
-                "user_total_tweet": 448,
+                "tweet_text": "@ante1010 @FuertesRommel @pbaconnect @dost_pagasa @DOHgov @TeamAFP @SCPh_PIO @pnppio @iampinglacson Korapsyon, hindi kukunsintihin ni Pangulong Duterte kaya vineto ang ilang items sa 2019 national budget #PangunahingBalita #DZRHat80",
+                "tweet_text2": "Korapsion, President Duterte will not tolerate their items in 2019 national budget",
+                "user_created": "Thu Sep 17 00:35:08 +0000 2009",
+                "user_follower": 54152,
+                "user_id": 74886399,
+                "user_loc": "Manila, Philippines",
+                "user_total_tweet": 384865,
                 "user_verified": false
             }
         ],
@@ -833,7 +714,7 @@
                 "user_follower": 253,
                 "user_id": 3769547178,
                 "user_loc": "Manila, PH",
-                "user_total_tweet": 14205,
+                "user_total_tweet": 14216,
                 "user_verified": false
             }
         ],
@@ -852,7 +733,7 @@
                 "user_follower": 47,
                 "user_id": 3501003253,
                 "user_loc": "",
-                "user_total_tweet": 996,
+                "user_total_tweet": 997,
                 "user_verified": false
             },
             {
@@ -866,7 +747,7 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Mon Feb 25 06:00:57 +0000 2019",
-                "user_follower": 91,
+                "user_follower": 92,
                 "user_id": 1099912111470215169,
                 "user_loc": "",
                 "user_total_tweet": 160,
@@ -883,10 +764,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Wed Mar 08 05:18:02 +0000 2017",
-                "user_follower": 445,
+                "user_follower": 448,
                 "user_id": 839344437427740672,
                 "user_loc": "United States",
-                "user_total_tweet": 34953,
+                "user_total_tweet": 35104,
                 "user_verified": false
             },
             {
@@ -900,10 +781,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Sun Jan 25 06:20:19 +0000 2015",
-                "user_follower": 544,
+                "user_follower": 545,
                 "user_id": 2995435182,
                 "user_loc": "Navotas city",
-                "user_total_tweet": 12725,
+                "user_total_tweet": 12739,
                 "user_verified": false
             },
             {
@@ -917,10 +798,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Wed Mar 07 12:52:05 +0000 2012",
-                "user_follower": 237,
+                "user_follower": 239,
                 "user_id": 517555209,
                 "user_loc": "MNL",
-                "user_total_tweet": 5268,
+                "user_total_tweet": 5306,
                 "user_verified": false
             },
             {
@@ -934,10 +815,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Sun Sep 08 03:25:54 +0000 2013",
-                "user_follower": 1677,
+                "user_follower": 1674,
                 "user_id": 1799062069,
                 "user_loc": "\u24c2\ufe0f\ud83c\udd7f\ufe0f",
-                "user_total_tweet": 94685,
+                "user_total_tweet": 94757,
                 "user_verified": false
             },
             {
@@ -951,10 +832,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Thu Apr 03 09:29:24 +0000 2014",
-                "user_follower": 434,
+                "user_follower": 438,
                 "user_id": 2425347416,
                 "user_loc": "",
-                "user_total_tweet": 36509,
+                "user_total_tweet": 36538,
                 "user_verified": false
             },
             {
@@ -971,7 +852,7 @@
                 "user_follower": 5,
                 "user_id": 1714363790,
                 "user_loc": "",
-                "user_total_tweet": 3830,
+                "user_total_tweet": 3838,
                 "user_verified": false
             },
             {
@@ -985,10 +866,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Tue Jul 07 13:10:21 +0000 2015",
-                "user_follower": 20,
+                "user_follower": 19,
                 "user_id": 3271027465,
                 "user_loc": "",
-                "user_total_tweet": 655,
+                "user_total_tweet": 660,
                 "user_verified": false
             },
             {
@@ -1002,10 +883,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Sat Sep 29 10:34:45 +0000 2018",
-                "user_follower": 156,
+                "user_follower": 157,
                 "user_id": 1045985224729944064,
                 "user_loc": "Lungsod ng Tuguegarao, Rehiyon",
-                "user_total_tweet": 1705,
+                "user_total_tweet": 1729,
                 "user_verified": false
             },
             {
@@ -1022,7 +903,7 @@
                 "user_follower": 1127,
                 "user_id": 306824940,
                 "user_loc": "Republic of the Philippines",
-                "user_total_tweet": 750,
+                "user_total_tweet": 629,
                 "user_verified": false
             },
             {
@@ -1036,10 +917,10 @@
                 "tweet_text": "It should be appreciated by all that HATING DUTERTE OR HIS MINIONS is not why people support OTSODIRETSO. The appeal of these 8 gallant senatorial candidates is in their commitment to RULE OF LAW, to POVERTY ALLEVIATION, to TRUE JUSTICE, to RESPECT FOR WOMEN and LIFE's SANCTITY. https://t.co/flkMkUVdRf",
                 "tweet_text2": "It should be appreciated by all that HATING DUTERTE OR HIS MINIONS is not why people support OTSODIRETSO. The appeal of these 8 gallant senatorial candidates is in their commitment to RULE OF LAW, to POVERTY ALLEVIATION, to TRUE JUSTICE, to RESPECT FOR WOMEN and LIFE's SANCTITY.",
                 "user_created": "Wed Jun 02 04:22:55 +0000 2010",
-                "user_follower": 182,
+                "user_follower": 183,
                 "user_id": 150918764,
                 "user_loc": "Manila, Philippines",
-                "user_total_tweet": 6412,
+                "user_total_tweet": 6476,
                 "user_verified": false
             },
             {
@@ -1053,10 +934,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Sat Oct 04 01:27:14 +0000 2014",
-                "user_follower": 385,
+                "user_follower": 384,
                 "user_id": 2803440460,
                 "user_loc": "",
-                "user_total_tweet": 6291,
+                "user_total_tweet": 6336,
                 "user_verified": false
             },
             {
@@ -1070,10 +951,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Wed Dec 02 14:18:39 +0000 2015",
-                "user_follower": 767,
+                "user_follower": 768,
                 "user_id": 4431946094,
                 "user_loc": "#42 Kabataan Partylist at #22 Neri Colmenares",
-                "user_total_tweet": 9778,
+                "user_total_tweet": 9794,
                 "user_verified": false
             },
             {
@@ -1090,7 +971,7 @@
                 "user_follower": 123,
                 "user_id": 200478522,
                 "user_loc": "ceb \u00d7 mnl",
-                "user_total_tweet": 9745,
+                "user_total_tweet": 9752,
                 "user_verified": false
             },
             {
@@ -1104,10 +985,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Sat Apr 10 11:06:03 +0000 2010",
-                "user_follower": 300,
+                "user_follower": 301,
                 "user_id": 131473050,
                 "user_loc": "",
-                "user_total_tweet": 6834,
+                "user_total_tweet": 6839,
                 "user_verified": false
             },
             {
@@ -1121,10 +1002,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Wed Mar 09 11:17:44 +0000 2016",
-                "user_follower": 796,
+                "user_follower": 833,
                 "user_id": 707525774983634944,
                 "user_loc": "",
-                "user_total_tweet": 5911,
+                "user_total_tweet": 5956,
                 "user_verified": false
             },
             {
@@ -1138,10 +1019,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Sat Sep 26 09:10:29 +0000 2009",
-                "user_follower": 930,
+                "user_follower": 928,
                 "user_id": 77435620,
                 "user_loc": "venus",
-                "user_total_tweet": 9947,
+                "user_total_tweet": 9948,
                 "user_verified": false
             },
             {
@@ -1155,10 +1036,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Wed Apr 10 10:12:11 +0000 2019",
-                "user_follower": 27,
+                "user_follower": 28,
                 "user_id": 1115920401354252288,
                 "user_loc": "",
-                "user_total_tweet": 37,
+                "user_total_tweet": 38,
                 "user_verified": false
             },
             {
@@ -1172,7 +1053,7 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Fri Sep 23 00:34:32 +0000 2016",
-                "user_follower": 64,
+                "user_follower": 67,
                 "user_id": 779116706710982657,
                 "user_loc": "\ud83c\udf34\u2668\ufe0f | \ud83c\udf19\ud83c\udf15\ud83c\udf1f\ud83c\udf0c\u2600\ufe0f\u2614",
                 "user_total_tweet": 9325,
@@ -1192,7 +1073,7 @@
                 "user_follower": 12,
                 "user_id": 1080743861956145153,
                 "user_loc": "",
-                "user_total_tweet": 1222,
+                "user_total_tweet": 1223,
                 "user_verified": false
             },
             {
@@ -1206,10 +1087,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Fri Apr 20 03:58:15 +0000 2012",
-                "user_follower": 231,
+                "user_follower": 233,
                 "user_id": 558303436,
                 "user_loc": "Caloocan City, Philippines",
-                "user_total_tweet": 7987,
+                "user_total_tweet": 8022,
                 "user_verified": false
             },
             {
@@ -1226,7 +1107,7 @@
                 "user_follower": 623,
                 "user_id": 122943361,
                 "user_loc": "Lispenard Street",
-                "user_total_tweet": 15065,
+                "user_total_tweet": 15074,
                 "user_verified": false
             },
             {
@@ -1240,10 +1121,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Wed Jan 16 12:18:03 +0000 2013",
-                "user_follower": 658,
+                "user_follower": 657,
                 "user_id": 1095042391,
                 "user_loc": "",
-                "user_total_tweet": 12147,
+                "user_total_tweet": 12149,
                 "user_verified": false
             },
             {
@@ -1257,10 +1138,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Thu Jan 28 20:16:13 +0000 2010",
-                "user_follower": 354,
+                "user_follower": 360,
                 "user_id": 109359747,
                 "user_loc": "",
-                "user_total_tweet": 5238,
+                "user_total_tweet": 5320,
                 "user_verified": false
             },
             {
@@ -1274,10 +1155,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Sat May 21 08:35:12 +0000 2016",
-                "user_follower": 476,
+                "user_follower": 477,
                 "user_id": 733939186277847040,
                 "user_loc": "Republic of the Philippines",
-                "user_total_tweet": 55459,
+                "user_total_tweet": 55514,
                 "user_verified": false
             },
             {
@@ -1291,10 +1172,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Sun May 05 16:45:31 +0000 2013",
-                "user_follower": 3840,
+                "user_follower": 3950,
                 "user_id": 1405515950,
                 "user_loc": "",
-                "user_total_tweet": 10921,
+                "user_total_tweet": 10946,
                 "user_verified": false
             },
             {
@@ -1308,10 +1189,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Mon Oct 26 07:53:50 +0000 2009",
-                "user_follower": 4748,
+                "user_follower": 4750,
                 "user_id": 85264360,
                 "user_loc": "-",
-                "user_total_tweet": 3865,
+                "user_total_tweet": 3871,
                 "user_verified": false
             },
             {
@@ -1328,7 +1209,7 @@
                 "user_follower": 419,
                 "user_id": 227864596,
                 "user_loc": "Up Town Antips. \ud83c\uddf5\ud83c\udded",
-                "user_total_tweet": 31109,
+                "user_total_tweet": 31126,
                 "user_verified": false
             },
             {
@@ -1342,10 +1223,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Sun Aug 15 13:53:52 +0000 2010",
-                "user_follower": 575,
+                "user_follower": 574,
                 "user_id": 178711670,
                 "user_loc": "Iloilo",
-                "user_total_tweet": 7383,
+                "user_total_tweet": 7404,
                 "user_verified": false
             },
             {
@@ -1362,7 +1243,7 @@
                 "user_follower": 38,
                 "user_id": 1012028308161204224,
                 "user_loc": "",
-                "user_total_tweet": 3745,
+                "user_total_tweet": 3767,
                 "user_verified": false
             },
             {
@@ -1413,7 +1294,7 @@
                 "user_follower": 44,
                 "user_id": 820315954869600258,
                 "user_loc": "Doha, Qatar",
-                "user_total_tweet": 4962,
+                "user_total_tweet": 4964,
                 "user_verified": false
             },
             {
@@ -1430,7 +1311,7 @@
                 "user_follower": 223,
                 "user_id": 292191653,
                 "user_loc": "Republic of the Philippines",
-                "user_total_tweet": 6447,
+                "user_total_tweet": 6449,
                 "user_verified": false
             },
             {
@@ -1444,10 +1325,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Thu May 24 01:50:10 +0000 2018",
-                "user_follower": 62,
+                "user_follower": 63,
                 "user_id": 999467559182262272,
                 "user_loc": "",
-                "user_total_tweet": 14124,
+                "user_total_tweet": 14131,
                 "user_verified": false
             },
             {
@@ -1464,7 +1345,7 @@
                 "user_follower": 879,
                 "user_id": 270861505,
                 "user_loc": "",
-                "user_total_tweet": 22929,
+                "user_total_tweet": 22936,
                 "user_verified": false
             },
             {
@@ -1478,10 +1359,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Tue Nov 07 03:57:03 +0000 2017",
-                "user_follower": 131,
+                "user_follower": 132,
                 "user_id": 927746694925533184,
                 "user_loc": "s a n t a",
-                "user_total_tweet": 9382,
+                "user_total_tweet": 9389,
                 "user_verified": false
             },
             {
@@ -1498,7 +1379,7 @@
                 "user_follower": 169,
                 "user_id": 4137351,
                 "user_loc": "Pinas, yo.",
-                "user_total_tweet": 9022,
+                "user_total_tweet": 9038,
                 "user_verified": false
             },
             {
@@ -1512,10 +1393,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Wed Aug 09 02:30:47 +0000 2017",
-                "user_follower": 882,
+                "user_follower": 883,
                 "user_id": 895110077434036224,
                 "user_loc": "Republic of the Philippines",
-                "user_total_tweet": 18768,
+                "user_total_tweet": 18813,
                 "user_verified": false
             },
             {
@@ -1532,7 +1413,7 @@
                 "user_follower": 1988,
                 "user_id": 15014717,
                 "user_loc": "Southeast Asia",
-                "user_total_tweet": 24843,
+                "user_total_tweet": 24847,
                 "user_verified": false
             },
             {
@@ -1549,7 +1430,7 @@
                 "user_follower": 117,
                 "user_id": 755739270996910080,
                 "user_loc": "Earth",
-                "user_total_tweet": 2553,
+                "user_total_tweet": 2556,
                 "user_verified": false
             },
             {
@@ -1563,10 +1444,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Tue Jul 21 06:05:53 +0000 2009",
-                "user_follower": 1215,
+                "user_follower": 1218,
                 "user_id": 58721033,
                 "user_loc": "cupboard under the stairs",
-                "user_total_tweet": 33635,
+                "user_total_tweet": 33648,
                 "user_verified": false
             },
             {
@@ -1583,7 +1464,7 @@
                 "user_follower": 172,
                 "user_id": 2224609273,
                 "user_loc": "",
-                "user_total_tweet": 21471,
+                "user_total_tweet": 21481,
                 "user_verified": false
             },
             {
@@ -1597,10 +1478,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Wed May 09 14:31:06 +0000 2018",
-                "user_follower": 43,
+                "user_follower": 44,
                 "user_id": 994223238677913600,
                 "user_loc": "i use this to reply to mutuals",
-                "user_total_tweet": 5017,
+                "user_total_tweet": 5117,
                 "user_verified": false
             },
             {
@@ -1614,10 +1495,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Fri May 15 06:52:30 +0000 2009",
-                "user_follower": 592,
+                "user_follower": 593,
                 "user_id": 40193105,
                 "user_loc": "",
-                "user_total_tweet": 4656,
+                "user_total_tweet": 4657,
                 "user_verified": false
             },
             {
@@ -1631,10 +1512,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Thu Dec 20 15:44:49 +0000 2018",
-                "user_follower": 245,
+                "user_follower": 247,
                 "user_id": 1075779059500634112,
                 "user_loc": "",
-                "user_total_tweet": 679,
+                "user_total_tweet": 706,
                 "user_verified": false
             },
             {
@@ -1648,10 +1529,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Sat Oct 13 12:53:27 +0000 2012",
-                "user_follower": 769,
+                "user_follower": 771,
                 "user_id": 877755444,
                 "user_loc": "North Caloocan",
-                "user_total_tweet": 25315,
+                "user_total_tweet": 25353,
                 "user_verified": false
             },
             {
@@ -1665,10 +1546,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Thu Jun 04 12:49:36 +0000 2009",
-                "user_follower": 3064,
+                "user_follower": 3061,
                 "user_id": 44607786,
                 "user_loc": "Hollow Bastion",
-                "user_total_tweet": 155692,
+                "user_total_tweet": 155730,
                 "user_verified": false
             },
             {
@@ -1682,10 +1563,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Wed Mar 28 07:39:34 +0000 2012",
-                "user_follower": 5706,
+                "user_follower": 5725,
                 "user_id": 538817552,
                 "user_loc": "",
-                "user_total_tweet": 34926,
+                "user_total_tweet": 34960,
                 "user_verified": false
             },
             {
@@ -1699,10 +1580,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Wed Jun 11 14:27:49 +0000 2014",
-                "user_follower": 32,
+                "user_follower": 31,
                 "user_id": 2561451512,
                 "user_loc": "",
-                "user_total_tweet": 8715,
+                "user_total_tweet": 8764,
                 "user_verified": false
             },
             {
@@ -1716,10 +1597,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Mon Oct 17 17:11:35 +0000 2011",
-                "user_follower": 737,
+                "user_follower": 739,
                 "user_id": 392846293,
                 "user_loc": "",
-                "user_total_tweet": 26229,
+                "user_total_tweet": 26235,
                 "user_verified": false
             },
             {
@@ -1736,7 +1617,7 @@
                 "user_follower": 979,
                 "user_id": 984473834,
                 "user_loc": "Quezon City",
-                "user_total_tweet": 4766,
+                "user_total_tweet": 4768,
                 "user_verified": false
             },
             {
@@ -1750,10 +1631,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Wed Mar 02 06:22:52 +0000 2011",
-                "user_follower": 679,
+                "user_follower": 681,
                 "user_id": 259603678,
                 "user_loc": "quezon city",
-                "user_total_tweet": 26569,
+                "user_total_tweet": 26589,
                 "user_verified": false
             },
             {
@@ -1767,10 +1648,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Sun Feb 26 12:12:54 +0000 2012",
-                "user_follower": 542,
+                "user_follower": 543,
                 "user_id": 504424486,
                 "user_loc": "UP Manila",
-                "user_total_tweet": 31557,
+                "user_total_tweet": 31558,
                 "user_verified": false
             },
             {
@@ -1787,7 +1668,7 @@
                 "user_follower": 530,
                 "user_id": 952859784071401472,
                 "user_loc": "North",
-                "user_total_tweet": 30326,
+                "user_total_tweet": 30381,
                 "user_verified": false
             },
             {
@@ -1804,7 +1685,7 @@
                 "user_follower": 352,
                 "user_id": 2402466164,
                 "user_loc": "",
-                "user_total_tweet": 2967,
+                "user_total_tweet": 2980,
                 "user_verified": false
             },
             {
@@ -1818,10 +1699,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Mon Apr 17 17:33:24 +0000 2017",
-                "user_follower": 2171,
+                "user_follower": 2196,
                 "user_id": 854025009639038976,
                 "user_loc": "",
-                "user_total_tweet": 2382,
+                "user_total_tweet": 2409,
                 "user_verified": false
             },
             {
@@ -1835,10 +1716,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Wed Oct 12 19:42:21 +0000 2011",
-                "user_follower": 2127,
+                "user_follower": 2131,
                 "user_id": 389651078,
                 "user_loc": "\ud83c\uddf5\ud83c\udded\ud83c\udff3\ufe0f\u200d\ud83c\udf08",
-                "user_total_tweet": 42166,
+                "user_total_tweet": 42186,
                 "user_verified": false
             },
             {
@@ -1852,10 +1733,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Wed Aug 31 09:43:34 +0000 2011",
-                "user_follower": 1631,
+                "user_follower": 1633,
                 "user_id": 365365367,
                 "user_loc": "manila, philippines",
-                "user_total_tweet": 7320,
+                "user_total_tweet": 7326,
                 "user_verified": false
             },
             {
@@ -1872,7 +1753,7 @@
                 "user_follower": 222,
                 "user_id": 472001730,
                 "user_loc": "",
-                "user_total_tweet": 1585,
+                "user_total_tweet": 1598,
                 "user_verified": false
             },
             {
@@ -1889,7 +1770,7 @@
                 "user_follower": 58,
                 "user_id": 1047505986037006338,
                 "user_loc": "National Capital Region, Repub",
-                "user_total_tweet": 568,
+                "user_total_tweet": 575,
                 "user_verified": false
             },
             {
@@ -1903,10 +1784,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Mon Aug 24 16:29:55 +0000 2015",
-                "user_follower": 221,
+                "user_follower": 222,
                 "user_id": 3329034979,
                 "user_loc": "",
-                "user_total_tweet": 21517,
+                "user_total_tweet": 21537,
                 "user_verified": false
             },
             {
@@ -1920,10 +1801,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Sat Mar 05 17:50:56 +0000 2016",
-                "user_follower": 741,
+                "user_follower": 740,
                 "user_id": 706175172571627521,
                 "user_loc": "",
-                "user_total_tweet": 12921,
+                "user_total_tweet": 12943,
                 "user_verified": false
             },
             {
@@ -1937,10 +1818,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Thu Oct 11 13:59:39 +0000 2012",
-                "user_follower": 510,
+                "user_follower": 513,
                 "user_id": 873669786,
                 "user_loc": "Quezon City, Philippines",
-                "user_total_tweet": 19328,
+                "user_total_tweet": 19395,
                 "user_verified": false
             },
             {
@@ -1974,7 +1855,7 @@
                 "user_follower": 90,
                 "user_id": 131137800,
                 "user_loc": "Philippines",
-                "user_total_tweet": 5024,
+                "user_total_tweet": 5065,
                 "user_verified": false
             },
             {
@@ -1988,10 +1869,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Sat Jan 28 08:17:37 +0000 2012",
-                "user_follower": 492,
+                "user_follower": 494,
                 "user_id": 476568920,
                 "user_loc": "Rivendell",
-                "user_total_tweet": 22772,
+                "user_total_tweet": 22786,
                 "user_verified": false
             },
             {
@@ -2008,7 +1889,7 @@
                 "user_follower": 35,
                 "user_id": 846350547116421120,
                 "user_loc": "Marikina City, National Capital Region",
-                "user_total_tweet": 612,
+                "user_total_tweet": 619,
                 "user_verified": false
             },
             {
@@ -2022,10 +1903,10 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Thu Nov 03 10:57:09 +0000 2011",
-                "user_follower": 1397,
+                "user_follower": 1399,
                 "user_id": 404040942,
                 "user_loc": "Quezon City",
-                "user_total_tweet": 26033,
+                "user_total_tweet": 26052,
                 "user_verified": false
             },
             {
@@ -2039,7 +1920,7 @@
                 "tweet_text": "Senators, congress reps &amp; cabinet members got a pay hike 7 times the P10,481 poverty line this year \u2014 their monthly salaries increased by P71,601 to P295,191.\n\nPres. Duterte\u2019s was 10 times the poverty line \u2014 increasing by P101,656 to P399,739.\n\nSo, yay, PH poverty is going down.",
                 "tweet_text2": "Senators, congress reps ; cabinet members got a pay hike 7 times the P10,481 poverty line this year  their monthly salaries increased by P71,601 to P295,191. Pres. Dutertes was 10 times the poverty line  increasing by P101,656 to P399,739. So, yay, PH poverty is going down.",
                 "user_created": "Sat Jul 11 14:37:04 +0000 2009",
-                "user_follower": 940,
+                "user_follower": 945,
                 "user_id": 55843124,
                 "user_loc": "Quezon City, Philippines",
                 "user_total_tweet": 286,
@@ -2056,10 +1937,10 @@
                 "tweet_text": "Malaca\u00f1ang on Wednesday said the decline in #poverty incidence is a proof of the accomplishments of President Duterte's administration, as the recent figures showed a decline both in Filipino individuals and families. | By EJ Roque\n\nRead Full Story: https://t.co/zLCCey4tlG https://t.co/UoNOwG2UXM",
                 "tweet_text2": "Malacaang on Wednesday said the decline in incidence is a proof of the accomplishments of President Duterte's administration, as the recent figures showed a decline both in Filipino individuals and families. | By EJ Roque Read Full Story:",
                 "user_created": "Wed Mar 08 05:18:02 +0000 2017",
-                "user_follower": 445,
+                "user_follower": 448,
                 "user_id": 839344437427740672,
                 "user_loc": "United States",
-                "user_total_tweet": 34953,
+                "user_total_tweet": 35104,
                 "user_verified": false
             },
             {
@@ -2076,7 +1957,7 @@
                 "user_follower": 187,
                 "user_id": 1044158190277943296,
                 "user_loc": "Cagayan De Oro City, Northern ",
-                "user_total_tweet": 22350,
+                "user_total_tweet": 22554,
                 "user_verified": false
             },
             {
@@ -2090,10 +1971,10 @@
                 "tweet_text": "Pahirap, papet, at pasista ang rehimeng Duterte, at walang desperadong spin-off--pagbaba ng poverty threshold--ang makapagtatago nito.\n\nBarefaced na ang bulok na estado kaya tigil-tigilan niyo mga kalokohan niyo https://t.co/OJxeLwJAWi",
                 "tweet_text2": "The Duterte regime is a torture, puppet, and fascist, and without desperate spin-offs - lowering the poverty threshold - can save it. The rotten state is so barefaced that you stave off your bugs",
                 "user_created": "Sat May 09 14:46:44 +0000 2009",
-                "user_follower": 2478,
+                "user_follower": 2486,
                 "user_id": 38863882,
                 "user_loc": "Manila City",
-                "user_total_tweet": 20097,
+                "user_total_tweet": 20131,
                 "user_verified": false
             },
             {
@@ -2107,10 +1988,10 @@
                 "tweet_text": "Malaca\u00f1ang on Wednesday said the decline in #poverty incidence is a proof of the accomplishments of President Duterte's administration, as the recent figures showed a decline both in Filipino individuals and families. | By EJ Roque\n\nRead Full Story: https://t.co/zLCCey4tlG https://t.co/UoNOwG2UXM",
                 "tweet_text2": "Malacaang on Wednesday said the decline in incidence is a proof of the accomplishments of President Duterte's administration, as the recent figures showed a decline both in Filipino individuals and families. | By EJ Roque Read Full Story:",
                 "user_created": "Mon Jan 23 02:00:10 +0000 2017",
-                "user_follower": 3646,
+                "user_follower": 3671,
                 "user_id": 823349574739734528,
                 "user_loc": "Quezon City",
-                "user_total_tweet": 27591,
+                "user_total_tweet": 27690,
                 "user_verified": true
             },
             {
@@ -2124,10 +2005,10 @@
                 "tweet_text": "Panelo: These figures highlight that the Duterte administration has made significant strides and reflect how it seriously deals with the long-standing national issue of poverty @pnagovph",
                 "tweet_text2": "Panelo: These figures highlight that the Duterte administration has made significant strides and reflect how it seriously deals with the long-standing national issue of poverty",
                 "user_created": "Mon Jan 23 02:00:10 +0000 2017",
-                "user_follower": 3646,
+                "user_follower": 3671,
                 "user_id": 823349574739734528,
                 "user_loc": "Quezon City",
-                "user_total_tweet": 27591,
+                "user_total_tweet": 27690,
                 "user_verified": true
             },
             {
@@ -2141,10 +2022,10 @@
                 "tweet_text": "Panelo: These figures highlight that the Duterte administration has made significant strides and reflect how it seriously deals with the long-standing national issue of poverty @pnagovph",
                 "tweet_text2": "Panelo: These figures highlight that the Duterte administration has made significant strides and reflect how it seriously deals with the long-standing national issue of poverty",
                 "user_created": "Wed Sep 30 07:23:44 +0000 2009",
-                "user_follower": 325,
+                "user_follower": 326,
                 "user_id": 78540202,
                 "user_loc": "Manila, Philippines",
-                "user_total_tweet": 4613,
+                "user_total_tweet": 4630,
                 "user_verified": false
             },
             {
@@ -2158,10 +2039,10 @@
                 "tweet_text": "Panelo:\u201dThese figures highlight that the Duterte administration has made significant strides and reflect how it seriously deals with the long-standing national issue of poverty through broadening access to free education, free medicine and improved healthcare facilities,..\u201d",
                 "tweet_text2": "Panelo:These figures highlight that the Duterte administration has made significant strides and reflect how it seriously deals with the long-standing national issue of poverty through broadening access to free education, free medicine and improved healthcare facilities,..",
                 "user_created": "Wed Jul 16 00:36:41 +0000 2008",
-                "user_follower": 2795892,
+                "user_follower": 2796474,
                 "user_id": 15448383,
                 "user_loc": "Makati City",
-                "user_total_tweet": 760630,
+                "user_total_tweet": 761152,
                 "user_verified": true
             },
             {
@@ -2195,7 +2076,7 @@
                 "user_follower": 641,
                 "user_id": 1085568780,
                 "user_loc": "Makati City",
-                "user_total_tweet": 60267,
+                "user_total_tweet": 60323,
                 "user_verified": false
             },
             {
@@ -2212,7 +2093,7 @@
                 "user_follower": 176,
                 "user_id": 39965372,
                 "user_loc": "Bulacan, Philippines",
-                "user_total_tweet": 3922,
+                "user_total_tweet": 3921,
                 "user_verified": false
             },
             {
@@ -2229,7 +2110,7 @@
                 "user_follower": 641,
                 "user_id": 1085568780,
                 "user_loc": "Makati City",
-                "user_total_tweet": 60267,
+                "user_total_tweet": 60323,
                 "user_verified": false
             },
             {
@@ -2246,7 +2127,7 @@
                 "user_follower": 653,
                 "user_id": 250529087,
                 "user_loc": "",
-                "user_total_tweet": 410012,
+                "user_total_tweet": 410230,
                 "user_verified": false
             },
             {
@@ -2260,10 +2141,10 @@
                 "tweet_text": "Panelo noted that the figures highlighted how the Duterte administration is seriously dealing with the long-standing national issue of poverty. | @DJEsguerraINQ https://t.co/XednveeKKK",
                 "tweet_text2": "Panelo noted that the figures highlighted how the Duterte administration is seriously dealing with the long-standing national issue of poverty. |",
                 "user_created": "Wed Jul 16 00:36:41 +0000 2008",
-                "user_follower": 2795893,
+                "user_follower": 2796481,
                 "user_id": 15448383,
                 "user_loc": "Makati City",
-                "user_total_tweet": 760630,
+                "user_total_tweet": 761152,
                 "user_verified": true
             },
             {
@@ -2280,7 +2161,7 @@
                 "user_follower": 714,
                 "user_id": 64349495,
                 "user_loc": "Makati City, Philippines",
-                "user_total_tweet": 124550,
+                "user_total_tweet": 124577,
                 "user_verified": false
             },
             {
@@ -2294,10 +2175,10 @@
                 "tweet_text": "@MissmaeAnn @boydura @Gakitsukai19 @ogie_rosa Lol higit 3 dekada na tayong nasadlak sa dusa ngaun pa lang ba kayo nagising aba be thankful kay President Duterte kung di pala dahil sa kanya till now tulog ka pa!kami pa palang 16M ang magsasadlak sa kahirapan,kami pa pala ang uto uto aba hiyang hiya kami sa mga dilawang tae",
                 "tweet_text2": "Lol more than 3 decades we've been down to the end of the day just waking up thank you to President Duterte if it's not for you until now you're asleep! We're still 16M going to poverty, we're still in the mood we are shy of dyes",
                 "user_created": "Sat Apr 22 02:30:03 +0000 2017",
-                "user_follower": 1839,
+                "user_follower": 1843,
                 "user_id": 855609615798734849,
                 "user_loc": "",
-                "user_total_tweet": 83696,
+                "user_total_tweet": 83930,
                 "user_verified": false
             },
             {
@@ -2311,10 +2192,10 @@
                 "tweet_text": "@MissmaeAnn @boydura @Gakitsukai19 @ogie_rosa Lol higit 3 dekada na tayong nasadlak sa dusa ngaun pa lang ba kayo nagising aba be thankful kay President Duterte kung di pala dahil sa kanya till now tulog ka pa!kami pa palang 16M ang magsasadlak sa kahirapan,kami pa pala ang uto uto aba hiyang hiya kami sa mga dilawang tae",
                 "tweet_text2": "Lol more than 3 decades we've been down to the end of the day just waking up thank you to President Duterte if it's not for you until now you're asleep! We're still 16M going to poverty, we're still in the mood we are shy of dyes",
                 "user_created": "Fri Apr 05 15:06:38 +0000 2019",
-                "user_follower": 34,
+                "user_follower": 36,
                 "user_id": 1114182564355297280,
                 "user_loc": "",
-                "user_total_tweet": 366,
+                "user_total_tweet": 387,
                 "user_verified": false
             },
             {
@@ -2348,10 +2229,10 @@
                 "tweet_text": "@jojo_castaneda It boggles the mind. Whether it's pro or anti-Duterte, we ALL should rally against Chinese incursion of our territories. We ALL live here. We need to protect our territory because no one else will do it for us.",
                 "tweet_text2": "It boggles the mind. Whether it's pro or anti-Duterte, we ALL should rally against Chinese incursion of our territories. We ALL live here. We need to protect our territory because no one else will do it for us.",
                 "user_created": "Thu Feb 11 02:23:03 +0000 2016",
-                "user_follower": 627,
+                "user_follower": 634,
                 "user_id": 4890583092,
                 "user_loc": "Manila",
-                "user_total_tweet": 19661,
+                "user_total_tweet": 20094,
                 "user_verified": false
             },
             {
@@ -2368,7 +2249,7 @@
                 "user_follower": 14,
                 "user_id": 719342982873255936,
                 "user_loc": "",
-                "user_total_tweet": 1519,
+                "user_total_tweet": 1524,
                 "user_verified": false
             },
             {
@@ -2385,7 +2266,7 @@
                 "user_follower": 20,
                 "user_id": 1474172124,
                 "user_loc": "",
-                "user_total_tweet": 3980,
+                "user_total_tweet": 3983,
                 "user_verified": false
             },
             {
@@ -2402,7 +2283,7 @@
                 "user_follower": 202,
                 "user_id": 2512449107,
                 "user_loc": "simulated world ",
-                "user_total_tweet": 4954,
+                "user_total_tweet": 4963,
                 "user_verified": false
             },
             {
@@ -2419,7 +2300,7 @@
                 "user_follower": 24,
                 "user_id": 1113803384862023688,
                 "user_loc": "omelas ; persona \u2661",
-                "user_total_tweet": 683,
+                "user_total_tweet": 785,
                 "user_verified": false
             },
             {
@@ -2436,7 +2317,7 @@
                 "user_follower": 122,
                 "user_id": 54128141,
                 "user_loc": "",
-                "user_total_tweet": 23623,
+                "user_total_tweet": 23631,
                 "user_verified": false
             },
             {
@@ -2453,7 +2334,7 @@
                 "user_follower": 66,
                 "user_id": 295027543,
                 "user_loc": "Makati City, National Capital Region",
-                "user_total_tweet": 13675,
+                "user_total_tweet": 13706,
                 "user_verified": false
             },
             {
@@ -2470,7 +2351,7 @@
                 "user_follower": 165,
                 "user_id": 780741755046027264,
                 "user_loc": "island of misfit toys",
-                "user_total_tweet": 3895,
+                "user_total_tweet": 3912,
                 "user_verified": false
             },
             {
@@ -2484,10 +2365,10 @@
                 "tweet_text": "\u201cDuterte\u2019s claims to having big dick energy only highlights his serious erectile dysfunction with regard to China\u2019s rape of PH territory. A million doses of China-made Viagra can\u2019t cure his feigned impotence in defending sovereignty. He is a harlot of China.\u201d #AtinAngPinas",
                 "tweet_text2": "Dutertes claims to having big dick energy only highlights his serious erectile dysfunction with regard to Chinas rape of PH territory. A million doses of China-made Viagra cant cure his feigned impotence in defending sovereignty. He is a harlot of China.",
                 "user_created": "Thu Jun 10 10:07:38 +0000 2010",
-                "user_follower": 1474,
+                "user_follower": 1472,
                 "user_id": 154089460,
                 "user_loc": "A23",
-                "user_total_tweet": 37332,
+                "user_total_tweet": 37353,
                 "user_verified": false
             },
             {
@@ -2501,10 +2382,10 @@
                 "tweet_text": "\u201cDuterte\u2019s claims to having big dick energy only highlights his serious erectile dysfunction with regard to China\u2019s rape of PH territory. A million doses of China-made Viagra can\u2019t cure his feigned impotence in defending sovereignty. He is a harlot of China.\u201d #AtinAngPinas",
                 "tweet_text2": "Dutertes claims to having big dick energy only highlights his serious erectile dysfunction with regard to Chinas rape of PH territory. A million doses of China-made Viagra cant cure his feigned impotence in defending sovereignty. He is a harlot of China.",
                 "user_created": "Fri Apr 13 17:55:15 +0000 2007",
-                "user_follower": 21167,
+                "user_follower": 21169,
                 "user_id": 4524501,
                 "user_loc": "Manila, Philippines",
-                "user_total_tweet": 148653,
+                "user_total_tweet": 148664,
                 "user_verified": true
             },
             {
@@ -2521,7 +2402,7 @@
                 "user_follower": 537,
                 "user_id": 38966908,
                 "user_loc": "Makati, Manila",
-                "user_total_tweet": 14147,
+                "user_total_tweet": 14152,
                 "user_verified": false
             },
             {
@@ -2538,7 +2419,7 @@
                 "user_follower": 165,
                 "user_id": 3177857828,
                 "user_loc": "",
-                "user_total_tweet": 6744,
+                "user_total_tweet": 6758,
                 "user_verified": false
             },
             {
@@ -2555,7 +2436,7 @@
                 "user_follower": 175,
                 "user_id": 970153086982307840,
                 "user_loc": "National Capital Region",
-                "user_total_tweet": 609,
+                "user_total_tweet": 614,
                 "user_verified": false
             },
             {
@@ -2569,10 +2450,10 @@
                 "tweet_text": "\"AMIN ANG PINAS, China layas!' Nagmartsa sa Chinese Embassy ang grupong P1NAS para kundenahin ang tila pagsuko ng Duterte administration sa soberanya ng bansa sa China sa harap ng pag-angkin nito sa teritoryo at patrimonya sa West Philippine Sea. https://t.co/GpVSXZ5LFp",
                 "tweet_text2": "\"AMIN THE PINAS, CHINA OUT! ' The P1NAS group marches on the Chinese Embassy to condemn the seeming surrender of the Duterte administration to China's sovereignty in the face of its claims of territorial and patrimony to the West Philippine Sea.",
                 "user_created": "Wed Nov 04 15:19:52 +0000 2015",
-                "user_follower": 144,
+                "user_follower": 143,
                 "user_id": 4125176174,
                 "user_loc": "National Capital Region",
-                "user_total_tweet": 4047,
+                "user_total_tweet": 4050,
                 "user_verified": false
             },
             {
@@ -2589,7 +2470,7 @@
                 "user_follower": 758,
                 "user_id": 84021595,
                 "user_loc": "Quezon City",
-                "user_total_tweet": 10374,
+                "user_total_tweet": 10378,
                 "user_verified": false
             },
             {
@@ -2603,10 +2484,10 @@
                 "tweet_text": "\"AMIN ANG PINAS, China layas!' Nagmartsa sa Chinese Embassy ang grupong P1NAS para kundenahin ang tila pagsuko ng Duterte administration sa soberanya ng bansa sa China sa harap ng pag-angkin nito sa teritoryo at patrimonya sa West Philippine Sea. https://t.co/GpVSXZ5LFp",
                 "tweet_text2": "\"AMIN THE PINAS, CHINA OUT! ' The P1NAS group marches on the Chinese Embassy to condemn the seeming surrender of the Duterte administration to China's sovereignty in the face of its claims of territorial and patrimony to the West Philippine Sea.",
                 "user_created": "Fri Dec 12 06:51:07 +0000 2014",
-                "user_follower": 3256,
+                "user_follower": 3264,
                 "user_id": 2927430241,
                 "user_loc": "Quezon City",
-                "user_total_tweet": 4645,
+                "user_total_tweet": 4647,
                 "user_verified": false
             },
             {
@@ -2620,10 +2501,10 @@
                 "tweet_text": "Naghanda rin sila ng jetski na maaari raw gamitin ni Pangulong Rodrigo Duterte para ipagtanggol ang mga teritoryo ng Pilipinas sa pinag-aagawang lugar.\n\nhttps://t.co/8bpi1TIyt9",
                 "tweet_text2": "They also set up jetski that President Rodrigo Duterte can use to defend the Philippine territories in the disputed area.",
                 "user_created": "Wed Mar 05 11:02:38 +0000 2008",
-                "user_follower": 598,
+                "user_follower": 599,
                 "user_id": 14082657,
                 "user_loc": "manila",
-                "user_total_tweet": 7098,
+                "user_total_tweet": 7103,
                 "user_verified": false
             },
             {
@@ -2637,27 +2518,27 @@
                 "tweet_text": "Naghanda rin sila ng jetski na maaari raw gamitin ni Pangulong Rodrigo Duterte para ipagtanggol ang mga teritoryo ng Pilipinas sa pinag-aagawang lugar.\n\nhttps://t.co/8bpi1TIyt9",
                 "tweet_text2": "They also set up jetski that President Rodrigo Duterte can use to defend the Philippine territories in the disputed area.",
                 "user_created": "Wed Nov 03 10:23:28 +0000 2010",
-                "user_follower": 9326,
+                "user_follower": 9327,
                 "user_id": 211467212,
                 "user_loc": "Manila, Philippines",
-                "user_total_tweet": 26070,
+                "user_total_tweet": 26074,
                 "user_verified": false
             },
             {
-                "is_retweet": true,
-                "quote_text": null,
-                "quote_text2": null,
-                "rt_count": 3,
-                "tweet_created": "Tue Apr 09 08:56:30 +0000 2019",
-                "tweet_id": 1115538968752168960,
+                "is_retweet": false,
+                "quote_text": "Watch the moment Argentine coast guards opened fire on a Chinese fishing vessel during a tense standoff. https://t.co/9yJgCU2lgo",
+                "quote_text2": "Watch the moment Argentine coast guards opened fire on a Chinese fishing vessel during a tense standoff.",
+                "rt_count": 0,
+                "tweet_created": "Tue Apr 16 22:47:46 +0000 2019",
+                "tweet_id": 1118284876975751173,
                 "tweet_loc": "manila",
-                "tweet_text": "@CMRamosINQ Colmenares: Mr. Duterte, ang kailangan natin ngayon na lider ay hindi macho. Ang kailangan natin isang makabayang leader: matapang na igiit ang ating kasarinlan, ang ating teritoryo sa West PH Sea. | @CMRamosINQ",
-                "tweet_text2": "Colmenares: Mr. Duterte, what we need now leaders is not macho. What we need a patriotic leader: courageously assert our independence, our territory in West PH Sea. |",
-                "user_created": "Sat Apr 07 12:17:43 +0000 2012",
-                "user_follower": 126,
-                "user_id": 547559852,
-                "user_loc": "fontana california",
-                "user_total_tweet": 10804,
+                "tweet_text": "Argentine binubugahan yung mga Chinese kasi nag-iinvade sila ng teritoryo, yung mga mangingisda natin binubugahan ng mga Chinese sa sarili nating teritoryo. Tapos gaguhan lang ang sagot ng gobyerno. Tapos sasabihin nyo, magaling si Duterte? Dyusmiyosantisima. https://t.co/uUvOxWku5Z",
+                "tweet_text2": "Argentine hosts the Chinese because they invaded the territory, the fishermen we are raising on Chinese in our own territory. Then just answer the government's answer. Then you say, Duterte is good? Dyusmiyosantisima.",
+                "user_created": "Mon Jun 06 12:28:52 +0000 2011",
+                "user_follower": 771,
+                "user_id": 311999044,
+                "user_loc": "Malibay, Pasay City",
+                "user_total_tweet": 29207,
                 "user_verified": false
             },
             {
@@ -2674,7 +2555,7 @@
                 "user_follower": 207,
                 "user_id": 3100697610,
                 "user_loc": "user not found",
-                "user_total_tweet": 7741,
+                "user_total_tweet": 7760,
                 "user_verified": false
             },
             {
@@ -2688,10 +2569,10 @@
                 "tweet_text": "@CMRamosINQ Colmenares: Mr. Duterte, ang kailangan natin ngayon na lider ay hindi macho. Ang kailangan natin isang makabayang leader: matapang na igiit ang ating kasarinlan, ang ating teritoryo sa West PH Sea. | @CMRamosINQ",
                 "tweet_text2": "Colmenares: Mr. Duterte, what we need now leaders is not macho. What we need a patriotic leader: courageously assert our independence, our territory in West PH Sea. |",
                 "user_created": "Wed Jul 16 00:36:41 +0000 2008",
-                "user_follower": 2795896,
+                "user_follower": 2796487,
                 "user_id": 15448383,
                 "user_loc": "Makati City",
-                "user_total_tweet": 760633,
+                "user_total_tweet": 761156,
                 "user_verified": true
             }
         ]
@@ -2710,10 +2591,10 @@
                 "tweet_text": "MAR ROXAS  is such an irony when he says pag binoto mo siya aayusin niya ang inflation.\n\ndi na uyyyy!!!! bumaba na kahit wla ka pa.\n\nFinally! Inflation in February 2019 falls within target at 3.8% https://t.co/IJLInEjChQ via @rapplerdotcom",
                 "tweet_text2": "MAR ROXAS is such an irony when he says when you vote he will fix inflation. di na uyyyy !!!! You're even down. Finally! Inflation in February 2019 falls within target at 3.8% via",
                 "user_created": "Wed Sep 13 00:09:19 +0000 2017",
-                "user_follower": 50,
+                "user_follower": 49,
                 "user_id": 907758051746123776,
                 "user_loc": "Quezon City, Ph.",
-                "user_total_tweet": 4539,
+                "user_total_tweet": 4562,
                 "user_verified": false
             },
             {
@@ -2727,10 +2608,10 @@
                 "tweet_text": "paf makabasa ako ng ganito.  isnt MAR ROXAS a big irony pag nagsasabi siyang kailangan ng ekonomista sa senado.\n\ndi na uyyyy!!!!\n\nPhilippines Economy - GDP, Inflation, CPI and Interest Rate https://t.co/BPQzkTUm3G via @FocusEconomics",
                 "tweet_text2": "I can read this. is not MAR ROXAS a big irony when he says he needs an economist in the senate. di na uyyyy !!!! Philippines Economy - GDP, Inflation, CPI and Interest Rate via",
                 "user_created": "Wed Sep 13 00:09:19 +0000 2017",
-                "user_follower": 50,
+                "user_follower": 49,
                 "user_id": 907758051746123776,
                 "user_loc": "Quezon City, Ph.",
-                "user_total_tweet": 4539,
+                "user_total_tweet": 4562,
                 "user_verified": false
             }
         ],

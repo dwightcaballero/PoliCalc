@@ -38,35 +38,41 @@ class gather_rss:
         }
 
         print('Gathering rss feed on news sources...')
-        trans = Translator()
 
-        with open('raw_rss.txt', 'w') as raw_rss:
-            with open('clean_rss.txt', 'w') as clean_rss:
+        for key, url in news_urls.items():
+            feed = feedparser.parse(url)
 
-                for key, url in news_urls.items():
-                    feed = feedparser.parse(url)
+            for newsitem in feed['items']:
+                raw_title = newsitem.title
+                raw_title = raw_title.encode('ascii', 'ignore').decode('utf-8')
+                trans = Translator()
+                lang = trans.detect(raw_title)
+                clean_title = raw_title
 
-                    for newsitem in feed['items']:
-                        news = newsitem.title.encode('ascii').decode('utf-8')
-                        lang = trans.detect(news)
-                        if lang.lang != 'en':
-                            temp_title = trans.translate(news)
-                            clean_title = temp_title.texttext = re.sub(r'[^\w]', ' ', temp_title)
-                            stop_words = set(stopwords.words('english'))
-                            word_tokens = word_tokenize(clean_title)
-                            filtered_sentence = [word for word in word_tokens if word not in stop_words]
-                            filtered_sentence = []
+                if lang.lang != 'en':
+                    temp_title = trans.translate(raw_title)
+                    clean_title = temp_title.text
 
-                            for w in word_tokens:
-                                if w not in stop_words:
-                                    filtered_sentence.append(w)
+                clean_title = re.sub(r'[^\w]', ' ', clean_title)
+                stop_words = set(stopwords.words('english'))
+                word_tokens = word_tokenize(clean_title)
+                filtered_sentence = [word for word in word_tokens if word not in stop_words]
+                filtered_sentence = []
 
-                            clean_title = ' '.join(filtered_sentence)
+                for w in word_tokens:
+                    if w not in stop_words:
+                        filtered_sentence.append(w)
 
-                        raw_title = newsitem['title'].encode('ascii', 'ignore').decode('utf-8')
+                clean_title = ' '.join(filtered_sentence)
 
-                        raw_rss.write(raw_title + '\n')
-                        clean_rss.write(clean_title + '\n')
+                clean_title = clean_title + '\n'
+                raw_title = raw_title + '\n'
+
+                with open('raw_rss.txt', 'a', encoding='utf-8') as raw_rss:
+                    raw_rss.write(raw_title)
+
+                with open('clean_rss.txt', 'a', encoding='utf-8') as clean_rss:
+                    clean_rss.write(clean_title)
 
         print('Saved raw rss data on \"raw_rss.txt\"...')
         print('Saved clean rss data on \"clean_rss.txt\"...')

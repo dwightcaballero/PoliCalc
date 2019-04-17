@@ -61,7 +61,7 @@ class gather_tweets:
                 filtered_sentence.append(w)
 
         tweet = ' '.join(filtered_sentence)
-        text = tweet + ' --- ' + id
+        text = tweet + ' --- ' + id + '\n'
 
         with open('clean_tweet.txt', 'a') as clean_tweet:
             clean_tweet.write(text)
