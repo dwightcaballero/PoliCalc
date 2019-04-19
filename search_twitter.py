@@ -8,7 +8,7 @@ import time
 import re
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-import nltk
+# import nltk
 
 
 class modify_tweets:
@@ -80,8 +80,8 @@ class gather_tweets:
 
     def __init__(self):
 
-        nltk.download('stopwords')
-        nltk.download('punkt')
+        # nltk.download('stopwords')
+        # nltk.download('punkt')
 
         with open('senators.txt', 'r') as senators:
 
