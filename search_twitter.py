@@ -49,22 +49,33 @@ class gather_tweets:
         if queries > 0 and (queries % 5) == 0:  # trigger delay every 5th query
             time.sleep(30)  # sleep for 60 seconds
 
-    def remove_stopwords(self, id, tweet):
+    def initialize_triangulation(self, id, tweet, quote):
 
         tweet = re.sub(r'[^\w]', ' ', tweet)
+        tweet = self.remove_stopwords(tweet)
+        if quote is not None:
+            quote = re.sub(r'[^\w]', ' ', quote)
+            quote = self.remove_stopwords(quote)
+            text = tweet + ' ___ ' + quote + ' --- ' + id + '\n'
+        else:
+            text = tweet + ' --- ' + id + '\n'
+
+        with open('clean_tweet.txt', 'a') as clean_tweet:
+            clean_tweet.write(text)
+
+    def remove_stopwords(self, text):
+
         stop_words = set(stopwords.words('english'))
-        word_tokens = word_tokenize(tweet)
+        word_tokens = word_tokenize(text)
         filtered_sentence = [word for word in word_tokens if word not in stop_words]
         filtered_sentence = []
         for w in word_tokens:
             if w not in stop_words:
                 filtered_sentence.append(w)
 
-        tweet = ' '.join(filtered_sentence)
-        text = tweet + ' --- ' + id + '\n'
+        text = ' '.join(filtered_sentence)
 
-        with open('clean_tweet.txt', 'a') as clean_tweet:
-            clean_tweet.write(text)
+        return text
 
     def __init__(self):
 
@@ -159,7 +170,7 @@ class gather_tweets:
                                                 'user_loc': tweet['user']['location']
                                             })
 
-                                            self.remove_stopwords(tweet['id_str'], tweet_text2)
+                                            self.initialize_triangulation(tweet['id_str'], tweet_text2, quote_text2)
 
             print('Saving collected tweets into \"gathered_tweets.json\" file...')
             mt.save_tweet(json_data)

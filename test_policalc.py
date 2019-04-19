@@ -1,6 +1,5 @@
 # import search_twitter as st
 # import rss
-# import textdistance as td
 import triangulation as tr
 
 

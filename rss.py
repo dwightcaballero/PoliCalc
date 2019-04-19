@@ -43,7 +43,7 @@ class gather_rss:
             feed = feedparser.parse(url)
 
             for newsitem in feed['items']:
-                raw_title = newsitem.title
+                raw_title = newsitem.title + '; ' + newsitem.summary
                 raw_title = raw_title.encode('ascii', 'ignore').decode('utf-8')
                 trans = Translator()
                 lang = trans.detect(raw_title)
