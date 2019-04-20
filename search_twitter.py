@@ -36,10 +36,19 @@ class modify_tweets:
         else:
             return None
 
-    def save_tweet(self, json_data):
+    def save_tweet(self, json_data, res_dict):
 
         with open('gathered_tweets.json', 'w') as json_file:
             json.dump(json_data, json_file, indent=4, sort_keys=True)
+
+        for k, v in res_dict.items():
+            k = k + '\n'
+            if v == 1:
+                with open('clean_tweet.txt', 'a') as ct:
+                    ct.write(k)
+            else:
+                with open('clean_retweet.txt', 'a') as crt:
+                    crt.write(k)
 
 
 class gather_tweets:
@@ -50,19 +59,17 @@ class gather_tweets:
         if queries > 0 and (queries % 5) == 0:  # trigger delay every 5th query
             time.sleep(30)  # sleep for 60 seconds
 
-    def initialize_triangulation(self, id, tweet, quote):
+    def initialize_triangulation(self, res, tweet):
 
         tweet = re.sub(r'[^\w]', ' ', tweet)
         tweet = self.remove_stopwords(tweet)
-        if quote is not None:
-            quote = re.sub(r'[^\w]', ' ', quote)
-            quote = self.remove_stopwords(quote)
-            text = tweet + ' ___ ' + quote + ' --- ' + id + '\n'
-        else:
-            text = tweet + ' --- ' + id + '\n'
 
-        with open('clean_tweet.txt', 'a') as clean_tweet:
-            clean_tweet.write(text)
+        if tweet not in res:
+            res[tweet] = 1
+        else:
+            res[tweet] += 1
+
+        return res
 
     def remove_stopwords(self, text):
 
@@ -91,6 +98,7 @@ class gather_tweets:
             tso = ts.TwitterSearchOrder()
             tso.arguments.update({'tweet_mode': 'extended'})
             res_list = []
+            res_dict = {}
             json_data = {}
 
             for sen in senators:
@@ -174,10 +182,11 @@ class gather_tweets:
                                                 'user_loc': tweet['user']['location']
                                             })
 
-                                            self.initialize_triangulation(tweet['id_str'], tweet_text2, quote_text2)
+                                            res_dict = self.initialize_triangulation(
+                                                res_dict, tweet_text2 + ' --- ' + loc['location'][i]['city'])
 
             print('Saving collected tweets into \"gathered_tweets.json\" file...')
-            mt.save_tweet(json_data)
+            mt.save_tweet(json_data, res_dict)
             print('Finished gathering tweets with political context...')
 
 
