@@ -181,9 +181,12 @@ class gather_tweets:
                                                 'user_total_tweet': tweet['user']['statuses_count'],
                                                 'user_loc': tweet['user']['location']
                                             })
-
-                                            res_dict = self.initialize_triangulation(
-                                                res_dict, tweet_text2 + ' --- ' + loc['location'][i]['city'])
+                                            if quote_text2 is not None:
+                                                res_dict = self.initialize_triangulation(
+                                                    res_dict, tweet_text2 + ' ' + quote_text2 + ' ' + loc['location'][i]['city'])
+                                            else:
+                                                res_dict = self.initialize_triangulation(
+                                                    res_dict, tweet_text2 + ' ' + loc['location'][i]['city'])
 
             print('Saving collected tweets into \"gathered_tweets.json\" file...')
             mt.save_tweet(json_data, res_dict)
