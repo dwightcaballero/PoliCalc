@@ -178,6 +178,7 @@ class gather_tweets:
                                                 'user_total_tweet': tweet['user']['statuses_count'],
                                                 'user_loc': tweet['user']['location']
                                             })
+
                                             if quote_text2 is not None:
                                                 res_dict = self.initialize_triangulation(
                                                     res_dict, tweet_text2 + ' ' + quote_text2 + ' ' + loc['location'][i]['city'])
