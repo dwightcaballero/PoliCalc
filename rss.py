@@ -46,12 +46,9 @@ class gather_rss:
                 raw_title = newsitem.title + '; ' + newsitem.summary
                 raw_title = raw_title.encode('ascii', 'ignore').decode('utf-8')
                 trans = Translator()
-                lang = trans.detect(raw_title)
                 clean_title = raw_title
-
-                if lang.lang != 'en':
-                    temp_title = trans.translate(raw_title)
-                    clean_title = temp_title.text
+                temp_title = trans.translate(raw_title)
+                clean_title = temp_title.text
 
                 clean_title = re.sub(r'[^\w]', ' ', clean_title)
                 stop_words = set(stopwords.words('english'))

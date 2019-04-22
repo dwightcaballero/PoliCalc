@@ -28,11 +28,8 @@ class modify_tweets:
         trans = Translator()
         tweet_lang = trans.detect(tweet)
 
-        if tweet_lang.lang == 'tl' or tweet_lang.lang == 'ceb':
+        if tweet_lang.lang == 'tl' or tweet_lang.lang == 'ceb' or tweet_lang.lang == 'en':
             tweet = trans.translate(tweet)
-            return tweet.text
-        elif tweet_lang.lang == 'en':
-            return tweet
         else:
             return None
 
