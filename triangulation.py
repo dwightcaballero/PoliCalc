@@ -1,9 +1,7 @@
 from similarity.cosine import Cosine
 import json
-import re
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-# import nltk
+import get_data as gd
+import modify_data as md
 
 
 class compare_tweet_rss:
@@ -60,47 +58,30 @@ class compare_tweet_rss:
         print('\tNo matching results found...')
         return False
 
-    def remove_stopwords(self, text):
-
-        stop_words = set(stopwords.words('english'))
-        word_tokens = word_tokenize(text)
-        filtered_sentence = [word for word in word_tokens if word not in stop_words]
-        filtered_sentence = []
-        for w in word_tokens:
-            if w not in stop_words:
-                filtered_sentence.append(w)
-
-        text = ' '.join(filtered_sentence)
-
-        return text
-
     def __init__(self):
 
-        # nltk.download('stopwords')
-        # nltk.download('punkt')
-
         json_data = {}
+        get = gd.get_data()
+        mod = md.modify_data()
         print('Triangulating tweets...')
+        senators = get.senators()
+        concerns = get.concerns()
 
         with open('gathered_tweets.json', 'r') as json_file:
             data = json.load(json_file)
 
-            with open('senators.txt', 'r') as senators:
-                for sen in senators:
-                    sen = sen.split('\n')[0]
-                    json_data[sen] = {}
+            for sen in senators:
+                json_data[sen] = {}
 
-                    with open('final_concerns.txt', 'r') as concerns:
-                        for con in concerns:
-                            con = con.split('\n')[0]
-                            json_data[sen][con] = []
+                for con in concerns:
+                    json_data[sen][con] = []
 
-                            for i in range(len(data[sen][con])):
-                                tweet = data[sen][con][i]['tweet_text2']
-                                tweet = re.sub(r'[^\w]', ' ', tweet)
-                                tweet = self.remove_stopwords(tweet)
-                                if self.triangulate(tweet, data[sen][con][i]['tweet_loc']):
-                                    json_data[sen][con].append(data[sen][con][i])
+                    for i in range(len(data[sen][con])):
+                        tweet = data[sen][con][i]['tweet_text2']
+                        tweet = mod.remove_stopwords(tweet)
+
+                        if self.triangulate(tweet, data[sen][con][i]['tweet_loc']):
+                            json_data[sen][con].append(data[sen][con][i])
 
         with open('final_tweets.json', 'w') as json_file:
             json.dump(json_data, json_file, indent=4, sort_keys=True)

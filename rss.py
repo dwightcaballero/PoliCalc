@@ -1,8 +1,5 @@
 import feedparser
-from googletrans import Translator
-import re
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
+import modify_data as md
 
 
 class gather_rss:
@@ -38,29 +35,15 @@ class gather_rss:
         }
 
         print('Gathering rss feed on news sources...')
+        mod = md.modify_data()
 
         for key, url in news_urls.items():
             feed = feedparser.parse(url)
 
             for newsitem in feed['items']:
-                raw_title = newsitem.title + '; ' + newsitem.summary
-                raw_title = raw_title.encode('ascii', 'ignore').decode('utf-8')
-                trans = Translator()
-                clean_title = raw_title
-                temp_title = trans.translate(raw_title)
-                clean_title = temp_title.text
-
-                clean_title = re.sub(r'[^\w]', ' ', clean_title)
-                stop_words = set(stopwords.words('english'))
-                word_tokens = word_tokenize(clean_title)
-                filtered_sentence = [word for word in word_tokens if word not in stop_words]
-                filtered_sentence = []
-
-                for w in word_tokens:
-                    if w not in stop_words:
-                        filtered_sentence.append(w)
-
-                clean_title = ' '.join(filtered_sentence)
+                raw_title = newsitem.title.encode('ascii', 'ignore').decode('utf-8')
+                clean_title = mod.translate(raw_title)
+                clean_title = mod.remove_stopwords(clean_title)
 
                 clean_title = clean_title + '\n'
                 raw_title = raw_title + '\n'

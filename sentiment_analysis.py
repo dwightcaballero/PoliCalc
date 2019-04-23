@@ -41,22 +41,21 @@ class analyze_tweets:
     def __init__(self):
 
         analyze = SentimentIntensityAnalyzer()
+        get = gd.get_data()
         json_data = {}
 
         with open('final_tweets.json', 'r') as json_file:
             data = json.load(json_file)
 
-            senators = gd.get().senators()
-            concerns = gd.get().concerns()
+            senators = get.senators()
+            concerns = get.concerns()
 
             for sen in senators:
                 json_data[sen] = {}
 
                 for con in concerns:
                     json_data[sen][con] = []
-                    pos = 0
-                    neg = 0
-                    neu = 0
+                    pos = neg = neu = 0
 
                     for i in range(len(data[sen][con])):
 
@@ -66,6 +65,7 @@ class analyze_tweets:
                                                  data[sen][con][i]['user_created'],
                                                  data[sen][con][i]['user_follower'],
                                                  data[sen][con][i]['is_retweet'])
+
                         if result['compound'] >= 0.05:
                             pos += score
                         elif result['compound'] <= -0.05:
@@ -74,6 +74,7 @@ class analyze_tweets:
                             neu += score
 
                     total = pos + neg + neu
+
                     if total != 0:
                         print(sen + ' - ' + con)
                         print('Positive: ' + str(round(pos/total*100, 2)) + '%\nNegative: ' +

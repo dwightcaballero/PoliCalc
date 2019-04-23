@@ -1,37 +1,18 @@
 import TwitterSearch as ts
-import preprocessor as pr
-from googletrans import Translator
 import json
-import auth_twitter
+import get_data as gd
+import modify_data as md
 import datetime
 import time
-import re
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-# import nltk
 
 
-class modify_tweets:
+class gather_tweets:
 
-    def clean_tweet(self, tweet):
+    def avoid_rate_limit(self, ts):  # accepts ONE argument: an instance of TwitterSearch
 
-        pr.set_options(pr.OPT.URL, pr.OPT.MENTION, pr.OPT.HASHTAG,
-                       pr.OPT.EMOJI, pr.OPT.SMILEY, pr.OPT.RESERVED)
-
-        tweet = pr.clean(tweet).replace('&amp', "").strip().encode(
-            'ascii', 'ignore').decode('utf-8')
-
-        return tweet
-
-    def translate_tweet(self, tweet):
-
-        trans = Translator()
-        tweet_lang = trans.detect(tweet)
-
-        if tweet_lang.lang == 'tl' or tweet_lang.lang == 'ceb' or tweet_lang.lang == 'en':
-            tweet = trans.translate(tweet)
-        else:
-            return None
+        queries, tweets_seen = ts.get_statistics()
+        if queries > 0 and (queries % 5) == 0:  # trigger delay every 5th query
+            time.sleep(30)  # sleep for 60 seconds
 
     def save_tweet(self, json_data, res_dict):
 
@@ -47,19 +28,9 @@ class modify_tweets:
                 with open('clean_retweet.txt', 'a') as crt:
                     crt.write(k)
 
+    def initialize_triangulation(self, res, tweet, mod):
 
-class gather_tweets:
-
-    def avoid_rate_limit(self, ts):  # accepts ONE argument: an instance of TwitterSearch
-
-        queries, tweets_seen = ts.get_statistics()
-        if queries > 0 and (queries % 5) == 0:  # trigger delay every 5th query
-            time.sleep(30)  # sleep for 60 seconds
-
-    def initialize_triangulation(self, res, tweet):
-
-        tweet = re.sub(r'[^\w]', ' ', tweet)
-        tweet = self.remove_stopwords(tweet)
+        tweet = mod.remove_stopwords(tweet)
 
         if tweet not in res:
             res[tweet] = 1
@@ -68,126 +39,102 @@ class gather_tweets:
 
         return res
 
-    def remove_stopwords(self, text):
-
-        stop_words = set(stopwords.words('english'))
-        word_tokens = word_tokenize(text)
-        filtered_sentence = [word for word in word_tokens if word not in stop_words]
-        filtered_sentence = []
-        for w in word_tokens:
-            if w not in stop_words:
-                filtered_sentence.append(w)
-
-        text = ' '.join(filtered_sentence)
-
-        return text
-
     def __init__(self):
 
-        # nltk.download('stopwords')
-        # nltk.download('punkt')
+        print('Gathering tweets with political context...')
+        get = gd.get_data()
+        mod = md.modify_data()
+        api = get.api()
+        tso = ts.TwitterSearchOrder()
+        tso.arguments.update({'tweet_mode': 'extended'})
+        res_list = []
+        res_dict = json_data = {}
+        senators = get.senators()
+        concerns = get.concerns()
+        coordinates = get.coordinates()
 
-        with open('senators.txt', 'r') as senators:
+        for senator in senators:
+            json_data[senator] = {}
+            print('Gathering tweets mentioning ' + senator + '...')
 
-            print('Gathering tweets with political context...')
-            mt = modify_tweets()
-            api = auth_twitter.authenticate().get_api()
-            tso = ts.TwitterSearchOrder()
-            tso.arguments.update({'tweet_mode': 'extended'})
-            res_list = []
-            res_dict = {}
-            json_data = {}
+            for concern in concerns:
+                json_data[senator][concern] = []
+                con_en = concern.split(',')[0]
+                try:
+                    con_tl = concern.split(', ')[1]
+                    con_cb = concern.split(', ')[2]
+                    con_list = [con_en, con_tl, con_cb]
+                except IndexError:
+                    con_tl = concern.split(', ')[1]
+                    con_cb = None
+                    con_list = [con_en, con_tl]
+                print('\t' + concern + '...')
 
-            for sen in senators:
-                senator = sen.split('\n')[0]
-                json_data[senator] = {}
-                print('Gathering tweets mentioning ' + senator + '...')
+                for con_item in con_list:
+                    tso.set_keywords([senator, con_item])
 
-                with open('final_concerns.txt', 'r') as concerns:
+                    for coordinate in coordinates:
+                        tso.set_geocode(coordinate['lat'], coordinate['long'], 5, False)
 
-                    for con in concerns:
-                        concern = con.split('\n')[0]
-                        json_data[senator][concern] = []
-                        con_en = con.split(',')[0]
-                        try:
-                            con_tl = con.split(', ')[1]
-                            con_cb = con.split(', ')[2].split('\n')[0]
-                            con_list = [con_en, con_tl, con_cb]
-                        except IndexError:
-                            con_tl = con.split(', ')[1].split('\n')[0]
-                            con_cb = None
-                            con_list = [con_en, con_tl]
+                        for tweet in api.search_tweets_iterable(tso, callback=self.avoid_rate_limit):
+                            try:
+                                tweet_text = tweet['retweeted_status']['full_text']
+                                is_retweet = True
+                            except KeyError:
+                                tweet_text = tweet['full_text']
+                                is_retweet = False
 
-                        print('\t' + con + '...')
-                        for con_item in con_list:
-                            tso.set_keywords([senator, con_item])
+                            res_text = tweet['id_str'] + ': ' + tweet_text
+                            if res_text not in res_list:
+                                res_list.append(res_text)
 
-                            with open('city_coordinates.json') as loc_json:
+                                if tweet['is_quote_status']:
+                                    if is_retweet:
+                                        quote_text = tweet['retweeted_status']['quoted_status']['full_text']
+                                    else:
+                                        quote_text = tweet['quoted_status']['full_text']
+                                else:
+                                    quote_text = None
 
-                                loc = json.load(loc_json)
-                                for i in range(len(loc['location'])):
-                                    tso.set_geocode(loc['location'][i]['lat'],
-                                                    loc['location'][i]['long'], 5, False)
+                                tweet_text2 = mod.clean_tweet(tweet_text)
+                                tweet_text2 = mod.translate(tweet_text2)
 
-                                    for tweet in api.search_tweets_iterable(tso, callback=self.avoid_rate_limit):
-                                        try:
-                                            tweet_text = tweet['retweeted_status']['full_text']
-                                            is_retweet = True
-                                        except KeyError:
-                                            tweet_text = tweet['full_text']
-                                            is_retweet = False
+                                if tweet_text2 is None:
+                                    continue
 
-                                        res_text = tweet['id_str'] + ': ' + tweet_text
-                                        if res_text not in res_list:
-                                            res_list.append(res_text)
+                                if quote_text is not None:
+                                    quote_text2 = mod.clean_tweet(quote_text)
+                                    quote_text2 = mod.translate(quote_text2)
+                                else:
+                                    quote_text2 = None
 
-                                            if tweet['is_quote_status']:
-                                                if is_retweet:
-                                                    quote_text = tweet['retweeted_status']['quoted_status']['full_text']
-                                                else:
-                                                    quote_text = tweet['quoted_status']['full_text']
-                                            else:
-                                                quote_text = None
+                                json_data[senator][concern].append({
+                                    'tweet_text': tweet_text,
+                                    'tweet_text2': tweet_text2,
+                                    'is_retweet': is_retweet,
+                                    'quote_text': quote_text,
+                                    'quote_text2': quote_text2,
+                                    'tweet_id': tweet['id'],
+                                    'rt_count': tweet['retweet_count'],
+                                    'tweet_created': tweet['created_at'],
+                                    'tweet_loc': coordinate['city'],
+                                    'user_id': tweet['user']['id'],
+                                    'user_created': tweet['user']['created_at'],
+                                    'user_verified': tweet['user']['verified'],
+                                    'user_follower': tweet['user']['followers_count'],
+                                    'user_total_tweet': tweet['user']['statuses_count'],
+                                    'user_loc': tweet['user']['location']
+                                })
 
-                                            tweet_text2 = mt.clean_tweet(tweet_text)
-                                            tweet_text2 = mt.translate_tweet(tweet_text2)
-
-                                            if tweet_text2 is None:
-                                                continue
-
-                                            if quote_text is not None:
-                                                quote_text2 = mt.clean_tweet(quote_text)
-                                                quote_text2 = mt.translate_tweet(quote_text2)
-                                            else:
-                                                quote_text2 = None
-
-                                            json_data[senator][concern].append({
-                                                'tweet_text': tweet_text,
-                                                'tweet_text2': tweet_text2,
-                                                'is_retweet': is_retweet,
-                                                'quote_text': quote_text,
-                                                'quote_text2': quote_text2,
-                                                'tweet_id': tweet['id'],
-                                                'rt_count': tweet['retweet_count'],
-                                                'tweet_created': tweet['created_at'],
-                                                'tweet_loc': loc['location'][i]['city'],
-                                                'user_id': tweet['user']['id'],
-                                                'user_created': tweet['user']['created_at'],
-                                                'user_verified': tweet['user']['verified'],
-                                                'user_follower': tweet['user']['followers_count'],
-                                                'user_total_tweet': tweet['user']['statuses_count'],
-                                                'user_loc': tweet['user']['location']
-                                            })
-
-                                            if quote_text2 is not None:
-                                                res_dict = self.initialize_triangulation(
-                                                    res_dict, tweet_text2 + ' ' + quote_text2 + ' ' + loc['location'][i]['city'])
-                                            else:
-                                                res_dict = self.initialize_triangulation(
-                                                    res_dict, tweet_text2 + ' ' + loc['location'][i]['city'])
+                                if quote_text2 is not None:
+                                    res_dict = self.initialize_triangulation(
+                                        res_dict, tweet_text2 + ' ' + quote_text2 + ' ' + coordinate['city'], mod)
+                                else:
+                                    res_dict = self.initialize_triangulation(
+                                        res_dict, tweet_text2 + ' ' + coordinate['city'], mod)
 
             print('Saving collected tweets into \"gathered_tweets.json\" file...')
-            mt.save_tweet(json_data, res_dict)
+            self.save_tweet(json_data, res_dict)
             print('Finished gathering tweets with political context...')
 
 
@@ -254,36 +201,34 @@ class gather_concerns:
 
     def count_response(self, con_list):
 
+        get = gd.get_data()
+        mod = md.modify_data()
         tso = ts.TwitterSearchOrder()
         tso.arguments.update({'tweet_mode': 'extended'})
-        api = auth_twitter.authenticate().get_api()
+        api = get.api()
+        coordinates = get.coordinates()
         con_count = 0
-        respo_list = []
-        respo_loc = []
+        respo_list = respo_loc = []
 
         for con in con_list:
             print('\tCounting ' + con + '...')
             tso.set_keywords([con])
 
-            with open('city_coordinates.json') as loc_json:
+            for coordinate in coordinates:
+                tso.set_geocode(coordinate['lat'], coordinate['long'], 5, False)
 
-                loc = json.load(loc_json)
-                for i in range(len(loc['location'])):
-                    tso.set_geocode(loc['location'][i]['lat'],
-                                    loc['location'][i]['long'], 5, False)
+                for tweet in api.search_tweets_iterable(tso, callback=self.avoid_rate_limit):
+                    try:
+                        tweet_text = tweet['retweeted_status']['full_text']
+                    except KeyError:
+                        tweet_text = tweet['full_text']
 
-                    for tweet in api.search_tweets_iterable(tso, callback=self.avoid_rate_limit):
-                        try:
-                            tweet_text = tweet['retweeted_status']['full_text']
-                        except KeyError:
-                            tweet_text = tweet['full_text']
-
-                        cleaned_tweet = modify_tweets().clean_tweet(tweet_text)
-                        temp_res = cleaned_tweet + ' --- ' + tweet['id_str']
-                        if temp_res not in respo_list:
-                            respo_list.append(temp_res)
-                            respo_loc.append(loc['location'][i]['city'])
-                            con_count += 1
+                    cleaned_tweet = mod.clean_tweet(tweet_text)
+                    temp_res = cleaned_tweet + ' --- ' + tweet['id_str']
+                    if temp_res not in respo_list:
+                        respo_list.append(temp_res)
+                        respo_loc.append(coordinate['city'])
+                        con_count += 1
 
         with open('response.txt', 'a') as res:
             print('Total: ' + str(con_count))
@@ -295,7 +240,8 @@ class gather_concerns:
 
         return con_count
 
-    def avoid_rate_limit(self, ts):  # accepts ONE argument: an instance of TwitterSearch
-        queries, tweets_seen = ts.get_statistics()
-        if queries > 0 and (queries % 5) == 0:  # trigger delay every 5th query
-            time.sleep(30)  # sleep for 60 seconds
+        def avoid_rate_limit(self, ts):  # accepts ONE argument: an instance of TwitterSearch
+
+            queries, tweets_seen = ts.get_statistics()
+            if queries > 0 and (queries % 5) == 0:  # trigger delay every 5th query
+                time.sleep(30)  # sleep for 60 seconds
