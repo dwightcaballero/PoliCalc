@@ -36,23 +36,41 @@ class gather_rss:
 
         print('Gathering rss feed on news sources...')
         mod = md.modify_data()
+        raw_rss = clean_rss = new_raw_rss = []
+
+        try:
+            with open('raw_rss.txt', 'r') as raw_file:
+                for raw in raw_file:
+                    raw = raw.split('\n')
+                    raw_rss.append(raw)
+        except FileNotFoundError:
+            print('No raw_rss.txt found...')
+            pass
 
         for key, url in news_urls.items():
             feed = feedparser.parse(url)
 
             for newsitem in feed['items']:
                 raw_title = newsitem.title.encode('ascii', 'ignore').decode('utf-8')
-                clean_title = mod.translate(raw_title)
-                clean_title = mod.remove_stopwords(clean_title)
+                if raw_title not in raw_rss:
+                    raw_rss.append(raw_title)
+                    clean_title = mod.translate(raw_title)
+                    clean_title = mod.remove_stopwords(clean_title)
 
-                clean_title = clean_title + '\n'
-                raw_title = raw_title + '\n'
+                    clean_title = clean_title + '\n'
+                    raw_title = raw_title + '\n'
 
-                with open('raw/raw_rss.txt', 'a', encoding='utf-8') as raw_rss:
-                    raw_rss.write(raw_title)
+                    clean_rss.append(clean_title)
+                    raw_rss.append(raw_title)
+                    new_raw_rss.append(raw_title)
 
-                with open('clean/clean_rss.txt', 'a', encoding='utf-8') as clean_rss:
-                    clean_rss.write(clean_title)
+        with open('raw/raw_rss.txt', 'a', encoding='utf-8') as raw_file:
+            for raw in new_raw_rss:
+                raw_file.write(raw)
+
+        with open('clean/clean_rss.txt', 'a', encoding='utf-8') as clean_file:
+            for clean in clean_rss:
+                clean_file.write(clean)
 
         print('Saved raw rss data on \"raw_rss.txt\"...')
         print('Saved clean rss data on \"clean_rss.txt\"...')
