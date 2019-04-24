@@ -52,17 +52,24 @@ class gather_rss:
 
             for newsitem in feed['items']:
                 raw_title = newsitem.title.encode('ascii', 'ignore').decode('utf-8')
-                if raw_title not in raw_rss:
-                    raw_rss.append(raw_title)
-                    clean_title = mod.translate(raw_title)
-                    clean_title = mod.remove_stopwords(clean_title)
 
-                    clean_title = clean_title + '\n'
-                    raw_title = raw_title + '\n'
+                if len(raw_rss) != 0:
+                    if raw_title not in raw_rss:
+                        raw_rss.append(raw_title)
+                        clean_title = mod.translate(raw_title)
+                        clean_title = mod.remove_stopwords(clean_title)
+                        clean_rss.append(clean_title + '\n')
+                        new_raw_rss.append(raw_title + '\n')
 
-                    clean_rss.append(clean_title)
-                    raw_rss.append(raw_title)
-                    new_raw_rss.append(raw_title)
+                else:
+                    print('muprint dapat ni.')
+                    if raw_title not in new_raw_rss:
+                        print('muprint sad dapat ni.')
+                        clean_title = mod.translate(raw_title)
+                        clean_title = mod.remove_stopwords(clean_title)
+                        clean_rss.append(clean_title + '\n')
+                        raw_title = raw_title + '\n'
+                        new_raw_rss.append(raw_title)
 
         with open('raw/raw_rss.txt', 'a', encoding='utf-8') as raw_file:
             for raw in new_raw_rss:
