@@ -56,8 +56,9 @@ class analyze_tweets:
                 for con in concerns:
                     json_data[sen][con] = []
                     pos = neg = neu = 0
+                    total_tweets = len(data[sen][con])
 
-                    for i in range(len(data[sen][con])):
+                    for i in range(total_tweets):
 
                         tweet = data[sen][con][i]['tweet_text2']
                         result = analyze.polarity_scores(tweet)
@@ -78,4 +79,5 @@ class analyze_tweets:
                     if total != 0:
                         print(sen + ' - ' + con)
                         print('Positive: ' + str(round(pos/total*100, 2)) + '%\nNegative: ' +
-                              str(round(neg/total*100, 2)) + '%\nNeutral: ' + str(round(neu/total*100, 2)) + '%\n')
+                              str(round(neg/total*100, 2)) + '%\nNeutral: ' + str(round(neu/total*100, 2)) + '%\n' +
+                              'From ' + str(total_tweets) + ' tweets.\n')

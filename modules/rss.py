@@ -36,48 +36,32 @@ class gather_rss:
 
         print('Gathering rss feed on news sources...')
         mod = md.modify_data()
-        raw_rss = clean_rss = new_raw_rss = []
+        raw_rss = []
 
-        try:
-            with open('raw_rss.txt', 'r') as raw_file:
-                for raw in raw_file:
-                    raw = raw.split('\n')
-                    raw_rss.append(raw)
-        except FileNotFoundError:
-            print('No raw_rss.txt found...')
-            pass
+        with open('raw/raw_rss.txt', 'r') as raw_file:
+            for raw in raw_file:
+                raw = raw.split('\n')
+                raw_rss.append(raw)
 
         for key, url in news_urls.items():
             feed = feedparser.parse(url)
 
             for newsitem in feed['items']:
-                raw_title = newsitem.title.encode('ascii', 'ignore').decode('utf-8')
+                news = newsitem.title.encode('ascii', 'ignore').decode('utf-8')
 
-                if len(raw_rss) != 0:
-                    if raw_title not in raw_rss:
-                        raw_rss.append(raw_title)
-                        clean_title = mod.translate(raw_title)
-                        clean_title = mod.remove_stopwords(clean_title)
-                        clean_rss.append(clean_title + '\n')
-                        new_raw_rss.append(raw_title + '\n')
+                if news not in raw_rss:
+                    raw_rss.append(news)
 
-                else:
-                    print('muprint dapat ni.')
-                    if raw_title not in new_raw_rss:
-                        print('muprint sad dapat ni.')
-                        clean_title = mod.translate(raw_title)
-                        clean_title = mod.remove_stopwords(clean_title)
-                        clean_rss.append(clean_title + '\n')
-                        raw_title = raw_title + '\n'
-                        new_raw_rss.append(raw_title)
+                    with open('raw/raw_rss.txt', 'a') as raw_file:
+                        raw = news + '\n'
+                        raw_file.write(raw)
 
-        with open('raw/raw_rss.txt', 'a', encoding='utf-8') as raw_file:
-            for raw in new_raw_rss:
-                raw_file.write(raw)
+                    news2 = mod.translate(news)
+                    news2 = mod.remove_stopwords(news2)
 
-        with open('clean/clean_rss.txt', 'a', encoding='utf-8') as clean_file:
-            for clean in clean_rss:
-                clean_file.write(clean)
+                    with open('clean/clean_rss.txt', 'a') as clean_file:
+                        clean = news2 + '\n'
+                        clean_file.write(clean)
 
         print('Saved raw rss data on \"raw_rss.txt\"...')
         print('Saved clean rss data on \"clean_rss.txt\"...')
