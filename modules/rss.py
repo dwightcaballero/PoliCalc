@@ -1,5 +1,5 @@
 import feedparser
-import modify_data as md
+import modules.modify_data as md
 
 
 class gather_rss:
@@ -48,10 +48,10 @@ class gather_rss:
                 clean_title = clean_title + '\n'
                 raw_title = raw_title + '\n'
 
-                with open('raw_rss.txt', 'a', encoding='utf-8') as raw_rss:
+                with open('raw/raw_rss.txt', 'a', encoding='utf-8') as raw_rss:
                     raw_rss.write(raw_title)
 
-                with open('clean_rss.txt', 'a', encoding='utf-8') as clean_rss:
+                with open('clean/clean_rss.txt', 'a', encoding='utf-8') as clean_rss:
                     clean_rss.write(clean_title)
 
         print('Saved raw rss data on \"raw_rss.txt\"...')

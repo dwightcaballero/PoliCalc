@@ -1,7 +1,7 @@
-# import search_twitter as st
-# import rss
-# import triangulation as tr
-# import sentiment_analysis as sa
+# import modules.search_twitter as st
+# import modules.rss
+# import modules.triangulation as tr
+# import modules.sentiment_analysis as sa
 
 
 # st.gather_concerns()

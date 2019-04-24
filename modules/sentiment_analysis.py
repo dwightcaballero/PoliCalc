@@ -1,5 +1,5 @@
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-import get_data as gd
+import modules.get_data as gd
 import json
 from datetime import datetime, timedelta
 from email.utils import parsedate_tz
@@ -44,7 +44,7 @@ class analyze_tweets:
         get = gd.get_data()
         json_data = {}
 
-        with open('final_tweets.json', 'r') as json_file:
+        with open('clean/final_tweets.json', 'r') as json_file:
             data = json.load(json_file)
 
             senators = get.senators()

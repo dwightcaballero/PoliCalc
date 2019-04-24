@@ -1,7 +1,7 @@
 from similarity.cosine import Cosine
 import json
-import get_data as gd
-import modify_data as md
+import modules.get_data as gd
+import modules.modify_data as md
 
 
 class compare_tweet_rss:
@@ -12,7 +12,7 @@ class compare_tweet_rss:
         cosine = Cosine(2)
         cos_tweet = cosine.get_profile(tweet)
 
-        with open("clean_rss.txt", "r") as clean_rss:
+        with open("clean/clean_rss.txt", "r") as clean_rss:
 
             for rss in clean_rss:
                 rss = rss.split('\n')[0]
@@ -25,7 +25,7 @@ class compare_tweet_rss:
                 else:
                     print('\t[FAIL: ' + str(cos_result) + '] ' + rss)
 
-        with open("clean_retweet.txt", "r") as clean_rt:
+        with open("clean/clean_retweet.txt", "r") as clean_rt:
 
             for rtweet in clean_rt:
                 rt = rtweet.rsplit(' ', 1)[0]
@@ -40,7 +40,7 @@ class compare_tweet_rss:
                     else:
                         print('\t[FAIL: ' + str(cos_result) + '] ' + rt)
 
-        with open('clean_tweet.txt', 'r') as clean_tweet:
+        with open('clean/clean_tweet.txt', 'r') as clean_tweet:
 
             for ctweet in clean_tweet:
                 ct = ctweet.rsplit(' ', 1)[0]
@@ -67,7 +67,7 @@ class compare_tweet_rss:
         senators = get.senators()
         concerns = get.concerns()
 
-        with open('gathered_tweets.json', 'r') as json_file:
+        with open('raw/gathered_tweets.json', 'r') as json_file:
             data = json.load(json_file)
 
             for sen in senators:
@@ -83,5 +83,5 @@ class compare_tweet_rss:
                         if self.triangulate(tweet, data[sen][con][i]['tweet_loc']):
                             json_data[sen][con].append(data[sen][con][i])
 
-        with open('final_tweets.json', 'w') as json_file:
+        with open('clean/final_tweets.json', 'w') as json_file:
             json.dump(json_data, json_file, indent=4, sort_keys=True)

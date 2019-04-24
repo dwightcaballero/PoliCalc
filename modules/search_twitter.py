@@ -1,7 +1,7 @@
 import TwitterSearch as ts
 import json
-import get_data as gd
-import modify_data as md
+import modules.get_data as gd
+import modules.modify_data as md
 import datetime
 import time
 
@@ -16,16 +16,16 @@ class gather_tweets:
 
     def save_tweet(self, json_data, res_dict):
 
-        with open('gathered_tweets.json', 'w') as json_file:
+        with open('raw/gathered_tweets.json', 'w') as json_file:
             json.dump(json_data, json_file, indent=4, sort_keys=True)
 
         for k, v in res_dict.items():
             k = k + '\n'
             if v == 1:
-                with open('clean_tweet.txt', 'a') as ct:
+                with open('clean/clean_tweet.txt', 'a') as ct:
                     ct.write(k)
             else:
-                with open('clean_retweet.txt', 'a') as crt:
+                with open('clean/clean_retweet.txt', 'a') as crt:
                     crt.write(k)
 
     def initialize_triangulation(self, res, tweet, mod):
@@ -146,7 +146,7 @@ class gather_concerns:
         con_total = {}
         final_concerns = []
 
-        with open('survey_concerns.txt', 'r') as concerns:
+        with open('raw/survey_concerns.txt', 'r') as concerns:
 
             limit = 0
             for con in concerns:
@@ -173,7 +173,7 @@ class gather_concerns:
             print('Sorting result to get the top 3 most talked national concern in Twitter...')
             top_list = sorted(con_total.items(), key=lambda kv: kv[1], reverse=True)
 
-            with open('twitter_concerns.txt', 'w') as top:
+            with open('raw/twitter_concerns.txt', 'w') as top:
 
                 print('Saving the result to \"twitter_concerns.txt\" ...')
                 limit = 0
@@ -191,7 +191,7 @@ class gather_concerns:
 
                 top.write(week_ago + ' - ' + gathered_at)
 
-        with open('final_concerns.txt', 'a') as final:
+        with open('clean/final_concerns.txt', 'a') as final:
 
             print('Saving the top 6 final concerns to \"final_concerns.txt\" ...')
             for final_con in final_concerns:
@@ -230,7 +230,7 @@ class gather_concerns:
                         respo_loc.append(coordinate['city'])
                         con_count += 1
 
-        with open('response.txt', 'a') as res:
+        with open('raw/response.txt', 'a') as res:
             print('Total: ' + str(con_count))
             res.write(con_list[0] + ': ' + str(con_count) + '\n')
             for i in range(con_count):

@@ -7,7 +7,7 @@ class get_data:
     def senators(self):
 
         sen_list = []
-        with open('senators.txt', 'r') as senators:
+        with open('raw/senators.txt', 'r') as senators:
             for sen in senators:
                 sen = sen.split('\n')[0]
                 sen_list.append(sen)
@@ -16,7 +16,7 @@ class get_data:
     def concerns(self):
 
         con_list = []
-        with open('final_concerns.txt', 'r') as concerns:
+        with open('clean/final_concerns.txt', 'r') as concerns:
             for con in concerns:
                 con = con.split('\n')[0]
                 con_list.append(con)
@@ -25,7 +25,7 @@ class get_data:
     def coordinates(self):
 
         coordinates = []
-        with open('city_coordinates.json') as loc_json:
+        with open('raw/city_coordinates.json') as loc_json:
 
             loc = json.load(loc_json)
             for i in range(len(loc['location'])):
