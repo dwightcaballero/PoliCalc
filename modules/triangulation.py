@@ -1,7 +1,7 @@
 from similarity.cosine import Cosine
 import json
-import modules.get_data as gd
-import modules.modify_data as md
+from modules import get_data as gd
+from modules import modify_data as md
 
 
 class compare_tweet_rss:

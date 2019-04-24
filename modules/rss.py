@@ -1,5 +1,5 @@
 import feedparser
-import modules.modify_data as md
+from modules import modify_data as md
 
 
 class gather_rss:

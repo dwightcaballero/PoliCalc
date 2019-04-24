@@ -1,5 +1,5 @@
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-import modules.get_data as gd
+from modules import get_data as gd
 import json
 from datetime import datetime, timedelta
 from email.utils import parsedate_tz
