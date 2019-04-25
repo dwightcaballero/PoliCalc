@@ -40,7 +40,7 @@ class gather_rss:
 
         with open('raw/raw_rss.txt', 'r') as raw_file:
             for raw in raw_file:
-                raw = raw.split('\n')
+                raw = raw.split('\n')[0]
                 raw_rss.append(raw)
 
         for key, url in news_urls.items():

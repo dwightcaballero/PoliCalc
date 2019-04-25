@@ -14,10 +14,12 @@ class gather_tweets:
         if queries > 0 and (queries % 5) == 0:  # trigger delay every 5th query
             time.sleep(30)  # sleep for 60 seconds
 
-    def save_tweet(self, json_data, res_dict):
+    def save_tweet(self, json_data):
 
         with open('raw/gathered_tweets.json', 'w') as json_file:
             json.dump(json_data, json_file, indent=4, sort_keys=True)
+
+    def save_cleaned_tweet(self, res_dict):
 
         for k, v in res_dict.items():
             k = k + '\n'
@@ -28,9 +30,7 @@ class gather_tweets:
                 with open('clean/clean_retweet.txt', 'a') as crt:
                     crt.write(k)
 
-    def initialize_triangulation(self, res, tweet, mod):
-
-        tweet = mod.remove_stopwords(tweet)
+    def initialize_triangulation(self, res, tweet):
 
         if tweet not in res:
             res[tweet] = 1
@@ -48,7 +48,8 @@ class gather_tweets:
         tso = ts.TwitterSearchOrder()
         tso.arguments.update({'tweet_mode': 'extended'})
         res_list = []
-        res_dict = json_data = {}
+        res_dict = {}
+        json_data = {}
         senators = get.senators()
         concerns = get.concerns()
         coordinates = get.coordinates()
@@ -126,16 +127,18 @@ class gather_tweets:
                                     'user_loc': tweet['user']['location']
                                 })
 
+                                res_tweet = mod.remove_stopwords(tweet_text2)
                                 if quote_text2 is not None:
                                     res_dict = self.initialize_triangulation(
-                                        res_dict, tweet_text2 + ' ' + quote_text2 + ' ' + coordinate['city'], mod)
+                                        res_dict, res_tweet + ' ' + quote_text2 + ' ' + coordinate['city'])
                                 else:
                                     res_dict = self.initialize_triangulation(
-                                        res_dict, tweet_text2 + ' ' + coordinate['city'], mod)
+                                        res_dict, res_tweet + ' ' + coordinate['city'])
 
-            print('Saving collected tweets into \"gathered_tweets.json\" file...')
-            self.save_tweet(json_data, res_dict)
-            print('Finished gathering tweets with political context...')
+        print('Saving collected tweets into \"gathered_tweets.json\" file...')
+        self.save_tweet(json_data)
+        self.save_cleaned_tweet(res_dict)
+        print('Finished gathering tweets with political context...')
 
 
 class gather_concerns:

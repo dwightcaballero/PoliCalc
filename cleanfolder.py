@@ -57,24 +57,24 @@ conn.commit()
 
 c.execute("SELECT * FROM clean_retweet WHERE id=last_insert_rowid();")
 clean_retweet_items = c.fetchone()
-# c.execute("SELECT * FROM clean_rss WHERE id=:id", {'id': 1})
+# c.execute("SELECT * FROM clean_rss WHERE id=last_insert_rowid();")
 # clean_rss_items = c.fetchone()
-c.execute("SELECT * FROM clean_tweet WHERE id=:id", {'id': 1})
-clean_tweet_items = c.fetchone()
-c.execute("SELECT * FROM final_concerns WHERE id=:id", {'id': 1})
-clean_concerns_items = c.fetchone()
-c.execute("SELECT * FROM final_tweets WHERE id=:id", {'id': 1})
-clean_tweets_items = c.fetchone()
+# c.execute("SELECT * FROM clean_tweet WHERE id=last_insert_rowid();")
+# clean_tweet_items = c.fetchone()
+# c.execute("SELECT * FROM final_concerns WHERE id=last_insert_rowid();")
+# clean_concerns_items = c.fetchone()
+# c.execute("SELECT * FROM final_tweets WHERE id=last_insert_rowid();")
+# clean_tweets_items = c.fetchone()
 
 with open('DB/clean/clean_retweet.txt', 'wb') as file:
     file.write(clean_retweet_items[2])
 # with open('DB/clean/clean_rss.txt', 'wb') as file:
 #     file.write(clean_rss_items[2])
-with open('DB/clean/clean_tweet.txt', 'wb') as file:
-    file.write(clean_tweet_items[2])
-with open('DB/clean/final_concerns.txt', 'wb') as file:
-    file.write(clean_concerns_items[2])
-with open('DB/clean/final_tweets.json', 'wb') as file:
-    file.write(clean_tweets_items[2])
-
+# with open('DB/clean/clean_tweet.txt', 'wb') as file:
+#     file.write(clean_tweet_items[2])
+# with open('DB/clean/final_concerns.txt', 'wb') as file:
+#     file.write(clean_concerns_items[2])
+# with open('DB/clean/final_tweets.json', 'wb') as file:
+#     file.write(clean_tweets_items[2])
+#
 conn.close()
