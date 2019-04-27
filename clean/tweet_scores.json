@@ -1,0 +1,47 @@
+{
+    "Duterte - corruption, katiwalian, korapsyon": [
+        {
+            "neg": 11.2,
+            "neu": 6.6000000000000005,
+            "num_tweets": 33,
+            "pos": 8.099999999999998,
+            "total": 25.9
+        }
+    ],
+    "Duterte - inflation, implasyon": [
+        {
+            "neg": 0.7,
+            "neu": 0,
+            "num_tweets": 1,
+            "pos": 0,
+            "total": 0.7
+        }
+    ],
+    "Duterte - poverty, kahirapan, kakabos": [
+        {
+            "neg": 45.10000000000003,
+            "neu": 2.4,
+            "num_tweets": 78,
+            "pos": 1.4,
+            "total": 48.90000000000003
+        }
+    ],
+    "Duterte - salary increase, pagtaas suweldo, pagtaas sweldo": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 0,
+            "pos": 0,
+            "total": 0
+        }
+    ],
+    "Duterte - territory, teritoryo": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 0,
+            "pos": 0,
+            "total": 0
+        }
+    ]
+}

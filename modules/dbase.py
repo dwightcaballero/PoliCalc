@@ -22,7 +22,7 @@ class access_db:
 
         get = gd.get_data()
         f_name, f_path = get.file_data(True)
-        conn = sqlite3.connect(':memory:')
+        conn = sqlite3.connect('policalc.db')
         db_con = conn.cursor()
 
         for i in range(len(f_path)):
@@ -30,23 +30,24 @@ class access_db:
             with open(f_path[i], 'rb') as file:
                 blob_file = file.read()
 
-            db_con.execute("INSERT INTO {} VALUES (:id, :date, :file)".format(f_name), {'id': None, 'date': dt.now(), 'file': blob_file})
+            db_con.execute("INSERT INTO {} VALUES (:id, :date, :file)".format(f_name[i]), {'id': None, 'date': dt.now(), 'file': blob_file})
             conn.commit()
 
         conn.close()
 
     def get_all_files(self):
 
-        conn = sqlite3.connect(':memory:')
+        conn = sqlite3.connect('policalc.db')
         db_con = conn.cursor()
 
         get = gd.get_data()
         f_name, f_path = get.file_data(False)
 
-        db_con.execute("SELECT * FROM {} WHERE id=last_insert_rowid();".format(f_name))
-        db_data = db_con.fetchone()
+        for name in f_name:
+            db_con.execute("SELECT * FROM {} WHERE id=last_insert_rowid();".format(name))
+            db_data = db_con.fetchone()
 
-        with open(f_path, 'wb') as file:
-            file.write(db_data[2])
+            with open(f_path, 'wb') as file:
+                file.write(db_data[2])
 
         conn.close()

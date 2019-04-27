@@ -58,27 +58,30 @@ class analyze_tweets:
             concerns = get.concerns()
 
             for sen in senators:
-                json_data[sen] = {}
-
                 for con in concerns:
-                    json_data[sen][con] = []
-                    pos = neg = neu = 0
+
+                    json_data[sen + ' - ' + con] = []
+                    pos = 0
+                    neg = 0
+                    neu = 0
                     total_tweets = len(data[sen][con])
 
                     for i in range(total_tweets):
-
                         tweet = data[sen][con][i]['tweet_text2']
                         result = analyze.polarity_scores(tweet)
                         score = self.check_score(data[sen][con][i]['user_verified'],
                                                  data[sen][con][i]['user_created'],
                                                  data[sen][con][i]['user_follower'],
                                                  data[sen][con][i]['is_retweet'])
-
+                        print(tweet)
                         if result['compound'] >= 0.05:
+                            print('Positive:', result['compound'])
                             pos += score
                         elif result['compound'] <= -0.05:
+                            print('Negative:', result['compound'])
                             neg += score
                         else:
+                            print('Neutral:', result['compound'])
                             neu += score
 
                         with open('common_words.txt', 'a') as common_words:
@@ -96,6 +99,8 @@ class analyze_tweets:
 
                     total = pos + neg + neu
 
+                    json_data[sen + ' - ' + con].append({'pos': pos, 'neg': neg, 'neu': neu, 'total': total, 'num_tweets': total_tweets})
+
                     if total != 0:
                         print(sen + ' - ' + con)
                         print('Positive: ' + str(round(pos/total*100, 2)) +
@@ -111,3 +116,6 @@ class analyze_tweets:
                         os.remove("common_words.txt")
 
                         print('From ' + str(total_tweets) + ' tweets.\n')
+
+        with open('clean/tweet_scores.json', 'w') as json_file:
+            json.dump(json_data, json_file, indent=4, sort_keys=True)
