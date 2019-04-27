@@ -143,6 +143,12 @@ class gather_tweets:
 
 class gather_concerns:
 
+    def avoid_rate_limit(self, ts):  # accepts ONE argument: an instance of TwitterSearch
+
+        queries, tweets_seen = ts.get_statistics()
+        if queries > 0 and (queries % 5) == 0:  # trigger delay every 5th query
+            time.sleep(30)  # sleep for 60 seconds
+
     def __init__(self):
 
         print('Gathering National Concerns in Twitter...')
@@ -211,7 +217,8 @@ class gather_concerns:
         api = get.api()
         coordinates = get.coordinates()
         con_count = 0
-        respo_list = respo_loc = []
+        respo_list = []
+        respo_loc = []
 
         for con in con_list:
             print('\tCounting ' + con + '...')
@@ -242,9 +249,3 @@ class gather_concerns:
             res.write('\n')
 
         return con_count
-
-        def avoid_rate_limit(self, ts):  # accepts ONE argument: an instance of TwitterSearch
-
-            queries, tweets_seen = ts.get_statistics()
-            if queries > 0 and (queries % 5) == 0:  # trigger delay every 5th query
-                time.sleep(30)  # sleep for 60 seconds
