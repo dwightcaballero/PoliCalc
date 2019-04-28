@@ -2,226 +2,192 @@
     "Duterte - corruption, katiwalian, korapsyon": [
         {
             "neg": 1.7,
+            "neg_tweets": [
+                "Duterte recalls promises he made in the presidential debates: to end corruption, illegal drugs and crime. |",
+                "Before Duterte, we had a Barabbas who was clothed like Jesus. That Barabbas should go to jail for his mistakes, corruption ; incompetence."
+            ],
             "neu": 7.999999999999999,
+            "neu_tweets": [
+                "Lopez attributes Chinese business confidence to PH economic growth, demographic sweet spot, Duterte policies vs corruption, illegal drugs and criminality. | via",
+                "Duterte: I will never ever allow corruption in my government |",
+                "Duterte said corruption is one of the problems that made him regret running in the 2016 presidential election.",
+                "2 yrs after d Phil Military raze Marawi 2d ground, no infra projs hv startd. Reasons: govt eerimentn on a new procuremnt system (see ) ; of course corruption. Now, Duterte would say something like . Lookn 4 more money to corrupt?",
+                "Duterte says PH won't progress if there is no law and order, if corruption remains unabated. | via",
+                "Duterte discusses campaign promises on fighting corruption, drugs, criminality | via",
+                "Duterte says PH won't progress if there is no law and order, if corruption remains unabated. | via",
+                "Duterte says PH won't progress if there is no law and order, if corruption remains unabated. | via",
+                "Duterte says PH won't progress if there is no law and order, if corruption remains unabated. | via",
+                "Duterte discusses campaign promises on fighting corruption, drugs, criminality | via"
+            ],
             "num_tweets": 23,
             "pos": 8.9,
+            "pos_tweets": [
+                "Duterte to ensure a friendly business climate, vows no corruption",
+                "Duterte, Xi reaffirm ties via D Dog is happy. He got a raise (in corruption benefits) from his master Xi, and his master did not shout at him. All is well again. Arf! Arf!",
+                "inquirerdotnet Philbizwatcher Addressing PH-China businessmen, Pres.Duterte guarantees good governance, ease of doing business, crackdown against corruption | Philbizwatcher",
+                "Duterte, Xi reaffirm ties via D Dog is happy. He got a raise (in corruption benefits) from his master Xi, and his master did not shout at him. All is well again. Arf! Arf!",
+                "Pres. Duterte says he will fire more officials due to corruption before leaving for China",
+                "Duterte: In hindsight, when I think of the moment I decided to run, that I regret. But I'm going to work for the next three years. If you ask me if I'm happy with my job, I am not. So many corruption. | via",
+                "Duterte says he will fire government officials over corruption before leaving for China this week: I will leave for China, and before that I will leave so many letters of dismissal. | via",
+                "Duterte says he will fire government officials over corruption before leaving for China this week: I will leave for China, and before that I will leave so many letters of dismissal. | via",
+                "Duterte says he will fire government officials over corruption before leaving for China this week: I will leave for China, and before that I will leave so many letters of dismissal. | via",
+                "Duterte: In hindsight, when I think of the moment I decided to run, that I regret. But I'm going to work for the next three years. If you ask me if I'm happy with my job, I am not. So many corruption. | via",
+                "Duterte: In hindsight, when I think of the moment I decided to run, that I regret. But I'm going to work for the next three years. If you ask me if I'm happy with my job, I am not. So many corruption. | via"
+            ],
             "total": 18.599999999999998
         }
     ],
     "Duterte - inflation, implasyon": [
         {
             "neg": 0.7,
+            "neg_tweets": [
+                "Even in the concert came the inflation. Duterte's fault is really wrong"
+            ],
             "neu": 0,
+            "neu_tweets": [],
             "num_tweets": 1,
             "pos": 0,
+            "pos_tweets": [],
             "total": 0.7
         }
     ],
     "Duterte - poverty, kahirapan, kakabos": [
         {
             "neg": 0,
+            "neg_tweets": [],
             "neu": 0,
+            "neu_tweets": [],
             "num_tweets": 9,
             "pos": 6.2,
+            "pos_tweets": [
+                "It's partly Duterte's theatrics that made him win the Presidency. Our people love showbusiness. It diverts their attention from, as you suggested, hunger and problems that go with poverty.",
+                "It's partly Duterte's theatrics that made him win the Presidency. Our people love showbusiness. It diverts their attention from, as you suggested, hunger and problems that go with poverty.",
+                "Raising the matter anew is simple politicking, and a means to shun important and pressing issues affecting the Filipinos such as poverty, lack of opportunities, indignation over Chinas aggression, and corruption hounding many of the admin candidates.\"",
+                "Raising the matter anew is simple politicking, and a means to shun important and pressing issues affecting the Filipinos such as poverty, lack of opportunities, indignation over Chinas aggression, and corruption hounding many of the admin candidates.\"",
+                "It's partly Duterte's theatrics that made him win the Presidency. Our people love showbusiness. It diverts their attention from, as you suggested, hunger and problems that go with poverty.",
+                "Raising the matter anew is simple politicking, and a means to shun important and pressing issues affecting the Filipinos such as poverty, lack of opportunities, indignation over Chinas aggression, and corruption hounding many of the admin candidates.\"",
+                "Raising the matter anew is simple politicking, and a means to shun important and pressing issues affecting the Filipinos such as poverty, lack of opportunities, indignation over Chinas aggression, and corruption hounding many of the admin candidates.\"",
+                "Raising the matter anew is simple politicking, and a means to shun important and pressing issues affecting the Filipinos such as poverty, lack of opportunities, indignation over Chinas aggression, and corruption hounding many of the admin candidates.\"",
+                "It is sufficient to resolve the underprivileged, unemployment and poverty of the Philippines. Duterte is really a traitor who has given the West Philippine Sea China, as Scarborough."
+            ],
             "total": 6.2
         }
     ],
     "Duterte - salary increase, pagtaas suweldo, pagtaas sweldo": [
         {
             "neg": 0,
+            "neg_tweets": [],
             "neu": 0,
+            "neu_tweets": [],
             "num_tweets": 0,
             "pos": 0,
+            "pos_tweets": [],
             "total": 0
         }
     ],
     "Duterte - territory, teritoryo": [
         {
             "neg": 1,
+            "neg_tweets": [
+                "But opposition Sen. Francis Pangilinan, twits Duterte's threat to Canada, citing his admin's supposed silence on the activities by China in the Philippines' territory, and the involvement of its locals in illegal drugs. | via"
+            ],
             "neu": 3.7,
+            "neu_tweets": [
+                "President Rodrigo Duterte, has arrived in China; issue of regional rivalry in the South China Sea, is expected to be discussed at the meeting of Chinese President Xi Jinping",
+                "The territorial rivalry between the Philippines and China is one of the possible discussions between President Duterte and Chinese President Xi Jinping at the Belt and Road Forum in China.",
+                "The territorial rivalry between the Philippines and China is one of the possible discussions between President Duterte and Chinese President Xi Jinping at the Belt and Road Forum in China.",
+                "Rubbish can be made, but when it comes to territory we do not.",
+                "Rubbish can be made, but when it comes to territory we do not."
+            ],
             "num_tweets": 7,
             "pos": 0.7,
+            "pos_tweets": [
+                "Teddy Boy Locsin (and Duterte Admin presumably) vs. The 1987 Constitution. Of course I am Constitution. Digong's servant tells that the EEZ or Exclusive Economic Zone is NOT the TERRITORY of the Philippines ...."
+            ],
             "total": 5.4
-        }
-    ],
-    "Pimentel - corruption, katiwalian, korapsyon": [
-        {
-            "neg": 0,
-            "neu": 0,
-            "num_tweets": 0,
-            "pos": 0,
-            "total": 0
-        }
-    ],
-    "Pimentel - inflation, implasyon": [
-        {
-            "neg": 0,
-            "neu": 0,
-            "num_tweets": 0,
-            "pos": 0,
-            "total": 0
-        }
-    ],
-    "Pimentel - poverty, kahirapan, kakabos": [
-        {
-            "neg": 0,
-            "neu": 0,
-            "num_tweets": 0,
-            "pos": 0,
-            "total": 0
-        }
-    ],
-    "Pimentel - salary increase, pagtaas suweldo, pagtaas sweldo": [
-        {
-            "neg": 0,
-            "neu": 0,
-            "num_tweets": 0,
-            "pos": 0,
-            "total": 0
-        }
-    ],
-    "Pimentel - territory, teritoryo": [
-        {
-            "neg": 0,
-            "neu": 0,
-            "num_tweets": 0,
-            "pos": 0,
-            "total": 0
-        }
-    ],
-    "Robredo - corruption, katiwalian, korapsyon": [
-        {
-            "neg": 0,
-            "neu": 0,
-            "num_tweets": 0,
-            "pos": 0,
-            "total": 0
-        }
-    ],
-    "Robredo - inflation, implasyon": [
-        {
-            "neg": 0,
-            "neu": 0,
-            "num_tweets": 0,
-            "pos": 0,
-            "total": 0
-        }
-    ],
-    "Robredo - poverty, kahirapan, kakabos": [
-        {
-            "neg": 0,
-            "neu": 0,
-            "num_tweets": 4,
-            "pos": 2.8,
-            "total": 2.8
-        }
-    ],
-    "Robredo - salary increase, pagtaas suweldo, pagtaas sweldo": [
-        {
-            "neg": 0,
-            "neu": 0,
-            "num_tweets": 0,
-            "pos": 0,
-            "total": 0
-        }
-    ],
-    "Robredo - territory, teritoryo": [
-        {
-            "neg": 0,
-            "neu": 0,
-            "num_tweets": 2,
-            "pos": 1.8,
-            "total": 1.8
         }
     ],
     "Roxas - corruption, katiwalian, korapsyon": [
         {
             "neg": 0,
+            "neg_tweets": [],
             "neu": 0,
+            "neu_tweets": [],
             "num_tweets": 0,
             "pos": 0,
+            "pos_tweets": [],
             "total": 0
         }
     ],
     "Roxas - inflation, implasyon": [
         {
             "neg": 0,
+            "neg_tweets": [],
             "neu": 0.8,
+            "neu_tweets": [
+                "Lower inflation? That's it, Roxas says"
+            ],
             "num_tweets": 1,
             "pos": 0,
+            "pos_tweets": [],
             "total": 0.8
         }
     ],
     "Roxas - poverty, kahirapan, kakabos": [
         {
             "neg": 0,
+            "neg_tweets": [],
             "neu": 7.699999999999999,
+            "neu_tweets": [
+                "Vote for Mar Roxas to end poverty.",
+                "Vote for Mar Roxas to end poverty.",
+                "Vote for Mar Roxas to end poverty.",
+                "Vote for Mar Roxas to end poverty.",
+                "Vote for Mar Roxas to end poverty.",
+                "Vote for Mar Roxas to end poverty.",
+                "Vote for Mar Roxas to end poverty.",
+                "Vote for Mar Roxas to end poverty.",
+                "Vote for Mar Roxas to end poverty.",
+                "Vote for Mar Roxas to end poverty.",
+                "Vote for Mar Roxas to end poverty.",
+                "Vote for Mar Roxas to end poverty.",
+                "Vote for Mar Roxas to end poverty.",
+                "Vote for Mar Roxas to end poverty."
+            ],
             "num_tweets": 14,
             "pos": 0,
+            "pos_tweets": [],
             "total": 7.699999999999999
         }
     ],
     "Roxas - salary increase, pagtaas suweldo, pagtaas sweldo": [
         {
             "neg": 0,
+            "neg_tweets": [],
             "neu": 0,
+            "neu_tweets": [],
             "num_tweets": 0,
             "pos": 0,
+            "pos_tweets": [],
             "total": 0
         }
     ],
     "Roxas - territory, teritoryo": [
         {
             "neg": 0,
+            "neg_tweets": [],
             "neu": 0,
+            "neu_tweets": [],
             "num_tweets": 5,
             "pos": 3.0999999999999996,
+            "pos_tweets": [
+                "For us to become a foreigner in our own territory. Mar Roxas will be the one to defend the rights of fisherfolks, farmers, and ordinary Filipinos against China.",
+                "For us to become a foreigner in our own territory. Mar Roxas will be the one to defend the rights of fisherfolks, farmers, and ordinary Filipinos against China.",
+                "For us to become a foreigner in our own territory. Mar Roxas will be the one to defend the rights of fisherfolks, farmers, and ordinary Filipinos against China.",
+                "For us to become a foreigner in our own territory. Mar Roxas will be the one to defend the rights of fisherfolks, farmers, and ordinary Filipinos against China.",
+                "For us to become a foreigner in our own territory. Mar Roxas will be the one to defend the rights of fisherfolks, farmers, and ordinary Filipinos against China."
+            ],
             "total": 3.0999999999999996
-        }
-    ],
-    "Sotto - corruption, katiwalian, korapsyon": [
-        {
-            "neg": 0,
-            "neu": 0,
-            "num_tweets": 0,
-            "pos": 0,
-            "total": 0
-        }
-    ],
-    "Sotto - inflation, implasyon": [
-        {
-            "neg": 0,
-            "neu": 0,
-            "num_tweets": 0,
-            "pos": 0,
-            "total": 0
-        }
-    ],
-    "Sotto - poverty, kahirapan, kakabos": [
-        {
-            "neg": 0,
-            "neu": 0,
-            "num_tweets": 0,
-            "pos": 0,
-            "total": 0
-        }
-    ],
-    "Sotto - salary increase, pagtaas suweldo, pagtaas sweldo": [
-        {
-            "neg": 0,
-            "neu": 0,
-            "num_tweets": 0,
-            "pos": 0,
-            "total": 0
-        }
-    ],
-    "Sotto - territory, teritoryo": [
-        {
-            "neg": 0,
-            "neu": 0,
-            "num_tweets": 0,
-            "pos": 0,
-            "total": 0
         }
     ]
 }

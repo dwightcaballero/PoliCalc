@@ -44,10 +44,23 @@ class access_db:
         f_name, f_path = get.file_data(False)
 
         for name in f_name:
-            db_con.execute("SELECT * FROM {} WHERE id=last_insert_rowid();".format(name))
+            db_con.execute("SELECT * FROM {} ORDER BY id DESC LIMIT 1;".format(name))
             db_data = db_con.fetchone()
 
             with open(f_path, 'wb') as file:
                 file.write(db_data[2])
+
+        conn.close()
+
+    def get_file(self, name, f_path):
+
+        conn = sqlite3.connect('policalc.db')
+        db_con = conn.cursor()
+
+        db_con.execute("SELECT * FROM {} ORDER BY id DESC LIMIT 1;".format(name))
+        db_data = db_con.fetchone()
+
+        with open(f_path, 'wb') as file:
+            file.write(db_data[2])
 
         conn.close()
