@@ -11,5 +11,4 @@
 # rss.gather_rss()
 # CHANGE IP
 # tr.compare_tweet_rss()
-# CHANGE IP
 # sa.analyze_tweets()

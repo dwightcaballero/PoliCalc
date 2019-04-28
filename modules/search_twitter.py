@@ -2,7 +2,6 @@ import TwitterSearch as ts
 import json
 from modules import get_data as gd
 from modules import modify_data as md
-import datetime
 import time
 
 
@@ -192,13 +191,6 @@ class gather_concerns:
                             final_concerns.append(top_list[i][0])
                         limit += 1
                     top.write(top_list[i][0] + ': ' + str(top_list[i][1]) + '\n')
-
-                gathered_at = datetime.datetime.now()
-                week_ago = gathered_at - datetime.timedelta(days=7)
-                week_ago = week_ago.strftime("%B %d, %Y")
-                gathered_at = gathered_at.strftime("%B %d, %Y | %I:%M %p")
-
-                top.write(week_ago + ' - ' + gathered_at)
 
         with open('clean/final_concerns.txt', 'a') as final:
 

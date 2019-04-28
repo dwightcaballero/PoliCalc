@@ -38,10 +38,13 @@ class gather_rss:
         mod = md.modify_data()
         raw_rss = []
 
-        with open('raw/raw_rss.txt', 'r') as raw_file:
-            for raw in raw_file:
-                raw = raw.split('\n')[0]
-                raw_rss.append(raw)
+        try:
+            with open('raw/raw_rss.txt', 'r') as raw_file:
+                for raw in raw_file:
+                    raw = raw.split('\n')[0]
+                    raw_rss.append(raw)
+        except FileNotFoundError:
+            pass
 
         for key, url in news_urls.items():
             feed = feedparser.parse(url)

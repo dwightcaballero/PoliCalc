@@ -1,11 +1,11 @@
 {
     "Duterte - corruption, katiwalian, korapsyon": [
         {
-            "neg": 11.2,
-            "neu": 6.6000000000000005,
-            "num_tweets": 33,
-            "pos": 8.099999999999998,
-            "total": 25.9
+            "neg": 1.7,
+            "neu": 7.999999999999999,
+            "num_tweets": 23,
+            "pos": 8.9,
+            "total": 18.599999999999998
         }
     ],
     "Duterte - inflation, implasyon": [
@@ -19,11 +19,11 @@
     ],
     "Duterte - poverty, kahirapan, kakabos": [
         {
-            "neg": 45.10000000000003,
-            "neu": 2.4,
-            "num_tweets": 78,
-            "pos": 1.4,
-            "total": 48.90000000000003
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 9,
+            "pos": 6.2,
+            "total": 6.2
         }
     ],
     "Duterte - salary increase, pagtaas suweldo, pagtaas sweldo": [
@@ -36,6 +36,186 @@
         }
     ],
     "Duterte - territory, teritoryo": [
+        {
+            "neg": 1,
+            "neu": 3.7,
+            "num_tweets": 7,
+            "pos": 0.7,
+            "total": 5.4
+        }
+    ],
+    "Pimentel - corruption, katiwalian, korapsyon": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 0,
+            "pos": 0,
+            "total": 0
+        }
+    ],
+    "Pimentel - inflation, implasyon": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 0,
+            "pos": 0,
+            "total": 0
+        }
+    ],
+    "Pimentel - poverty, kahirapan, kakabos": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 0,
+            "pos": 0,
+            "total": 0
+        }
+    ],
+    "Pimentel - salary increase, pagtaas suweldo, pagtaas sweldo": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 0,
+            "pos": 0,
+            "total": 0
+        }
+    ],
+    "Pimentel - territory, teritoryo": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 0,
+            "pos": 0,
+            "total": 0
+        }
+    ],
+    "Robredo - corruption, katiwalian, korapsyon": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 0,
+            "pos": 0,
+            "total": 0
+        }
+    ],
+    "Robredo - inflation, implasyon": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 0,
+            "pos": 0,
+            "total": 0
+        }
+    ],
+    "Robredo - poverty, kahirapan, kakabos": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 4,
+            "pos": 2.8,
+            "total": 2.8
+        }
+    ],
+    "Robredo - salary increase, pagtaas suweldo, pagtaas sweldo": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 0,
+            "pos": 0,
+            "total": 0
+        }
+    ],
+    "Robredo - territory, teritoryo": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 2,
+            "pos": 1.8,
+            "total": 1.8
+        }
+    ],
+    "Roxas - corruption, katiwalian, korapsyon": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 0,
+            "pos": 0,
+            "total": 0
+        }
+    ],
+    "Roxas - inflation, implasyon": [
+        {
+            "neg": 0,
+            "neu": 0.8,
+            "num_tweets": 1,
+            "pos": 0,
+            "total": 0.8
+        }
+    ],
+    "Roxas - poverty, kahirapan, kakabos": [
+        {
+            "neg": 0,
+            "neu": 7.699999999999999,
+            "num_tweets": 14,
+            "pos": 0,
+            "total": 7.699999999999999
+        }
+    ],
+    "Roxas - salary increase, pagtaas suweldo, pagtaas sweldo": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 0,
+            "pos": 0,
+            "total": 0
+        }
+    ],
+    "Roxas - territory, teritoryo": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 5,
+            "pos": 3.0999999999999996,
+            "total": 3.0999999999999996
+        }
+    ],
+    "Sotto - corruption, katiwalian, korapsyon": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 0,
+            "pos": 0,
+            "total": 0
+        }
+    ],
+    "Sotto - inflation, implasyon": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 0,
+            "pos": 0,
+            "total": 0
+        }
+    ],
+    "Sotto - poverty, kahirapan, kakabos": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 0,
+            "pos": 0,
+            "total": 0
+        }
+    ],
+    "Sotto - salary increase, pagtaas suweldo, pagtaas sweldo": [
+        {
+            "neg": 0,
+            "neu": 0,
+            "num_tweets": 0,
+            "pos": 0,
+            "total": 0
+        }
+    ],
+    "Sotto - territory, teritoryo": [
         {
             "neg": 0,
             "neu": 0,

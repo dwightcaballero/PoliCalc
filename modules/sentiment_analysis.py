@@ -1,7 +1,7 @@
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from modules import get_data as gd
 from modules import modify_data as md
 import json
+from textblob import TextBlob
 from datetime import datetime, timedelta
 from email.utils import parsedate_tz
 import nltk
@@ -46,7 +46,6 @@ class analyze_tweets:
 
     def __init__(self):
 
-        analyze = SentimentIntensityAnalyzer()
         get = gd.get_data()
         mod = md.modify_data()
         json_data = {}
@@ -59,30 +58,30 @@ class analyze_tweets:
 
             for sen in senators:
                 for con in concerns:
-
                     json_data[sen + ' - ' + con] = []
+                    total_tweets = len(data[sen][con])
                     pos = 0
                     neg = 0
                     neu = 0
-                    total_tweets = len(data[sen][con])
 
                     for i in range(total_tweets):
                         tweet = data[sen][con][i]['tweet_text2']
-                        result = analyze.polarity_scores(tweet)
+                        text = TextBlob(tweet)
+                        result = text.sentiment.polarity
                         score = self.check_score(data[sen][con][i]['user_verified'],
                                                  data[sen][con][i]['user_created'],
                                                  data[sen][con][i]['user_follower'],
                                                  data[sen][con][i]['is_retweet'])
-                        print(tweet)
-                        if result['compound'] >= 0.05:
-                            print('Positive:', result['compound'])
+
+                        if text.sentiment.polarity >= 0.1:
                             pos += score
-                        elif result['compound'] <= -0.05:
-                            print('Negative:', result['compound'])
+                            print('POSITIVE', text.sentiment.polarity, tweet)
+                        elif text.sentiment.polarity <= -0.1:
                             neg += score
+                            print('NEGATIVE', text.sentiment.polarity, tweet)
                         else:
-                            print('Neutral:', result['compound'])
                             neu += score
+                            print('NEUTRAL', text.sentiment.polarity, tweet)
 
                         with open('common_words.txt', 'a') as common_words:
                             tweet = mod.translate(tweet)
