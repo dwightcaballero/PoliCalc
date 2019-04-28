@@ -107,6 +107,134 @@
             "total": 5.4
         }
     ],
+    "Pimentel - corruption, katiwalian, korapsyon": [
+        {
+            "neg": 0,
+            "neg_tweets": [],
+            "neu": 0,
+            "neu_tweets": [],
+            "num_tweets": 0,
+            "pos": 0,
+            "pos_tweets": [],
+            "total": 0
+        }
+    ],
+    "Pimentel - inflation, implasyon": [
+        {
+            "neg": 0,
+            "neg_tweets": [],
+            "neu": 0,
+            "neu_tweets": [],
+            "num_tweets": 0,
+            "pos": 0,
+            "pos_tweets": [],
+            "total": 0
+        }
+    ],
+    "Pimentel - poverty, kahirapan, kakabos": [
+        {
+            "neg": 0,
+            "neg_tweets": [],
+            "neu": 0,
+            "neu_tweets": [],
+            "num_tweets": 0,
+            "pos": 0,
+            "pos_tweets": [],
+            "total": 0
+        }
+    ],
+    "Pimentel - salary increase, pagtaas suweldo, pagtaas sweldo": [
+        {
+            "neg": 0,
+            "neg_tweets": [],
+            "neu": 0,
+            "neu_tweets": [],
+            "num_tweets": 0,
+            "pos": 0,
+            "pos_tweets": [],
+            "total": 0
+        }
+    ],
+    "Pimentel - territory, teritoryo": [
+        {
+            "neg": 0,
+            "neg_tweets": [],
+            "neu": 0,
+            "neu_tweets": [],
+            "num_tweets": 0,
+            "pos": 0,
+            "pos_tweets": [],
+            "total": 0
+        }
+    ],
+    "Robredo - corruption, katiwalian, korapsyon": [
+        {
+            "neg": 0,
+            "neg_tweets": [],
+            "neu": 0,
+            "neu_tweets": [],
+            "num_tweets": 0,
+            "pos": 0,
+            "pos_tweets": [],
+            "total": 0
+        }
+    ],
+    "Robredo - inflation, implasyon": [
+        {
+            "neg": 0,
+            "neg_tweets": [],
+            "neu": 0,
+            "neu_tweets": [],
+            "num_tweets": 0,
+            "pos": 0,
+            "pos_tweets": [],
+            "total": 0
+        }
+    ],
+    "Robredo - poverty, kahirapan, kakabos": [
+        {
+            "neg": 0,
+            "neg_tweets": [],
+            "neu": 0,
+            "neu_tweets": [],
+            "num_tweets": 4,
+            "pos": 2.8,
+            "pos_tweets": [
+                "VP Leni Robredo: Let's also remind this day to all of us who in the end, despite the darkness and poverty, the good and the love still prevail. \"|",
+                "VP Leni Robredo: Let's also remind this day to all of us who in the end, despite the darkness and poverty, the good and the love still prevail. \"|",
+                "VP Leni Robredo: Let's also remind this day to all of us who in the end, despite the darkness and poverty, the good and the love still prevail. \"|",
+                "VP Leni Robredo: Let's also remind this day to all of us who in the end, despite the darkness and poverty, the good and the love still prevail. \"|"
+            ],
+            "total": 2.8
+        }
+    ],
+    "Robredo - salary increase, pagtaas suweldo, pagtaas sweldo": [
+        {
+            "neg": 0,
+            "neg_tweets": [],
+            "neu": 0,
+            "neu_tweets": [],
+            "num_tweets": 0,
+            "pos": 0,
+            "pos_tweets": [],
+            "total": 0
+        }
+    ],
+    "Robredo - territory, teritoryo": [
+        {
+            "neg": 0,
+            "neg_tweets": [],
+            "neu": 0,
+            "neu_tweets": [],
+            "num_tweets": 2,
+            "pos": 1.8,
+            "pos_tweets": [
+                "Q1 public satisfaction with Robredo, Sotto in positive territory  SWS",
+                "Public satisfaction with Vice President Leni Robredo and Senate President Vicente Sotto III settled in the positive territory in the first quarter of 2019, according to a new opinion poll."
+            ],
+            "total": 1.8
+        }
+    ],
     "Roxas - corruption, katiwalian, korapsyon": [
         {
             "neg": 0,
@@ -188,6 +316,66 @@
                 "For us to become a foreigner in our own territory. Mar Roxas will be the one to defend the rights of fisherfolks, farmers, and ordinary Filipinos against China."
             ],
             "total": 3.0999999999999996
+        }
+    ],
+    "Sotto - corruption, katiwalian, korapsyon": [
+        {
+            "neg": 0,
+            "neg_tweets": [],
+            "neu": 0,
+            "neu_tweets": [],
+            "num_tweets": 0,
+            "pos": 0,
+            "pos_tweets": [],
+            "total": 0
+        }
+    ],
+    "Sotto - inflation, implasyon": [
+        {
+            "neg": 0,
+            "neg_tweets": [],
+            "neu": 0,
+            "neu_tweets": [],
+            "num_tweets": 0,
+            "pos": 0,
+            "pos_tweets": [],
+            "total": 0
+        }
+    ],
+    "Sotto - poverty, kahirapan, kakabos": [
+        {
+            "neg": 0,
+            "neg_tweets": [],
+            "neu": 0,
+            "neu_tweets": [],
+            "num_tweets": 0,
+            "pos": 0,
+            "pos_tweets": [],
+            "total": 0
+        }
+    ],
+    "Sotto - salary increase, pagtaas suweldo, pagtaas sweldo": [
+        {
+            "neg": 0,
+            "neg_tweets": [],
+            "neu": 0,
+            "neu_tweets": [],
+            "num_tweets": 0,
+            "pos": 0,
+            "pos_tweets": [],
+            "total": 0
+        }
+    ],
+    "Sotto - territory, teritoryo": [
+        {
+            "neg": 0,
+            "neg_tweets": [],
+            "neu": 0,
+            "neu_tweets": [],
+            "num_tweets": 0,
+            "pos": 0,
+            "pos_tweets": [],
+            "total": 0
         }
     ]
 }

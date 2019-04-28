@@ -114,17 +114,24 @@ class analyze_tweets:
                         'pos': pos, 'neg': neg, 'neu': neu, 'total': total, 'num_tweets': total_tweets,
                         'pos_tweets': pos_tweets, 'neg_tweets': neg_tweets, 'neu_tweets': neu_tweets
                     })
+                    try:
+                        for pt in pos_tweets:
+                            dbs_data[sen + ' - ' + con][0]['pos_tweets'].append(pt)
+                        for nt in neg_tweets:
+                            dbs_data[sen + ' - ' + con][0]['neg_tweets'].append(nt)
+                        for nt in neu_tweets:
+                            dbs_data[sen + ' - ' + con][0]['neu_tweets'].append(nt)
 
-                    for pt in pos_tweets:
-                        dbs_data[sen + ' - ' + con][0]['pos_tweets'].append(pt)
-                    for nt in neg_tweets:
-                        dbs_data[sen + ' - ' + con][0]['neg_tweets'].append(nt)
-                    for nt in neu_tweets:
-                        dbs_data[sen + ' - ' + con][0]['neu_tweets'].append(nt)
+                        dbs_data[sen + ' - ' + con][0]['pos'] += pos
+                        dbs_data[sen + ' - ' + con][0]['neg'] += neg
+                        dbs_data[sen + ' - ' + con][0]['neu'] += neu
 
-                    dbs_data[sen + ' - ' + con][0]['pos'] += pos
-                    dbs_data[sen + ' - ' + con][0]['neg'] += neg
-                    dbs_data[sen + ' - ' + con][0]['neu'] += neu
+                    except KeyError:
+                        json_data[sen + ' - ' + con] = []
+                        json_data[sen + ' - ' + con].append({
+                            'pos': pos, 'neg': neg, 'neu': neu, 'total': total, 'num_tweets': total_tweets,
+                            'pos_tweets': pos_tweets, 'neg_tweets': neg_tweets, 'neu_tweets': neu_tweets
+                        })
 
                     if total != 0:
                         print(sen + ' - ' + con)

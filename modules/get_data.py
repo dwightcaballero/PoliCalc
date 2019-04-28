@@ -49,18 +49,16 @@ class get_data:
 
     def file_data(self, to_db):
 
-        file_names = ['gathered_tweets', 'raw_rss', 'response', 'senators', 'twitter_concerns', 'clean_retweet', 'clean_rss',
-                      'clean_tweet', 'final_concerns', 'final_tweets', 'tweet_scores', 'tweet_scores_inf']
+        file_names = ['gathered_tweets', 'raw_rss', 'response', 'twitter_concerns', 'clean_retweet', 'clean_rss', 'clean_tweet', 'final_concerns',
+                      'final_tweets', 'tweet_scores', 'tweet_scores_inf']
 
         if to_db:
-            file_paths = ['raw/gathered_tweets.json', 'raw/raw_rss.txt', 'raw/response.txt', 'raw/senators.txt',
-                          'raw/twitter_concerns.txt', 'clean/clean_retweet.txt', 'clean/clean_rss.txt',
-                          'clean/clean_tweet.txt', 'clean/final_concerns.txt', 'clean/final_tweets.json', 'clean/tweet_scores.json',
-                          'clean/tweet_scores_inf.json']
+            file_paths = ['raw/gathered_tweets.json', 'raw/raw_rss.txt', 'raw/response.txt', 'raw/twitter_concerns.txt', 'clean/clean_retweet.txt',
+                          'clean/clean_rss.txt', 'clean/clean_tweet.txt', 'clean/final_concerns.txt', 'clean/final_tweets.json',
+                          'clean/tweet_scores.json', 'clean/tweet_scores_inf.json']
         else:
-            file_paths = ['DB/raw/gathered_tweets.json', 'DB/raw/raw_rss.txt', 'DB/raw/response.txt', 'DB/raw/senators.txt',
-                          'DB/raw/twitter_concerns.txt', 'DB/clean/clean_retweet.txt', 'DB/clean/clean_rss.txt',
-                          'DB/clean/clean_tweet.txt', 'DB/clean/final_concerns.txt', 'DB/clean/final_tweets.json', 'DB/clean/tweet_scores.json',
-                          'DB/clean/tweet_scores_inf.json']
+            file_paths = ['DB/raw/gathered_tweets.json', 'DB/raw/raw_rss.txt', 'DB/raw/response.txt', 'DB/raw/twitter_concerns.txt',
+                          'DB/clean/clean_retweet.txt', 'DB/clean/clean_rss.txt', 'DB/clean/clean_tweet.txt', 'DB/clean/final_concerns.txt',
+                          'DB/clean/final_tweets.json', 'DB/clean/tweet_scores.json', 'DB/clean/tweet_scores_inf.json']
 
         return file_names, file_paths
